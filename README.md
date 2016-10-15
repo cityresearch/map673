@@ -1,2 +1,3 @@
-# map673
-Modules for NMP MAP672 course
+# Pat's map 673 modules
+
+Modules for NMP MAP673 course
