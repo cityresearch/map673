@@ -107,10 +107,7 @@
         }
         
         
-        .line {
-            color: #dddddd;
-            
-        }
+       
         
         
     </style>
@@ -118,8 +115,8 @@
 
 <body>
     <header>
-        <h1>Map Title</h1>
-        <h2>Map Subtitle</h2>
+        <h1>Vacant Housing</h1>
+        <h2>by Kentucky County</h2>
     </header>
 
     <div id='ui-controls'>
@@ -178,18 +175,37 @@
             dataLayer = L.geoJson(data, {
                 style: function (feature) { // style each feature of GeoJson layer
                     return {
-                        color: '#d81c1c', // set stroke color
-                        weight: 2, // set stroke weight
-                        fillOpacity: 1, // override defautl fill opacity
-                        fillColor: '#1f78b4' // set fill color
+                        color: 'grey', // set stroke color
+                        weight: 1, // set stroke weight
+                       fillOpacity: 2, // override defautl fill opacity
+                       fillColor: '#1f78b4' // set fill color
                     };
+                },
+                
+                //Changing the color of the county's stroke from gray to yellow
+                onEachFeature: function (feature, layer) {
+                layer.on('mouseover', function () {
+                    layer.setStyle({
+                        color: 'yellow',
+                        weight: 2
+                       
+                    });
+                });
+                layer.on('mouseout', function () {
+                    layer.setStyle({
+                       color: 'grey',
+                        weight: 1
+                    });
+                });
+                
                 }
+                
             }).addTo(map); // add the Leaflet GeoJson layer to the map
 
             drawLegend(); // call function to draw the legend yo!
             drawMap(); // call function to draw the map
             drawInfo();
-
+            
             buildUI();
 
 
@@ -211,6 +227,8 @@
                 layer.setStyle({
                     fillColor: getColor(props[attribute] /
                         props[norm], breaks)
+               
+                
                 });
 
                 // bind a tooltip to the layer, populated with calculated layer attribtue values
@@ -222,16 +240,20 @@
                 });
             });
 
-
+                // lable pop up on mouseover
             dataLayer.on('mouseover', function () {
-               $(".info").show();
-                
+                $(".info").show();
+               
             });
             dataLayer.on('mouseout', function () {
                 $(".info").hide();
+               
             });
 
 
+                
+                
+                
 
             // call the function to draw the legend, sending the breaks array as arugment
             //drawLegend(breaks);
@@ -239,6 +261,11 @@
         }
 
 
+        function onEachFeature(feature, layer) {
+        
+        }
+        
+        //draw info box
         function drawInfo() {
 
             var info = L.control({
@@ -347,7 +374,7 @@
             legend.addTo(map);
         }
 
-        
+        //update the legend based on selection
         function updateLegend(breaks) {
 
             var legend = $('.legend');
@@ -364,7 +391,9 @@
             }
 
         }
-
+        
+        
+        //updating the info in the box
         function updateInfo(layer) {
 
             var props = layer.feature.properties;
@@ -378,6 +407,9 @@
             $(".info").html(html);
         }
 
+        
+        
+        
         function buildUI() {
 
             // UI code goes here
