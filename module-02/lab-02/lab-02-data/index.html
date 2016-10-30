@@ -182,7 +182,7 @@
                     };
                 },
                 
-                //Changing the color of the county's stroke from gray to yellow
+                //Changing the color of the county's stroke from gray to yellow - there is something a bit weird in the highlighting over some counties, where the yellow draws under the grey
                 onEachFeature: function (feature, layer) {
                 layer.on('mouseover', function () {
                     layer.setStyle({
