@@ -1,6 +1,6 @@
 # Lesson 03: Client-side data processing and UI enhancements
 
-In previous modules, we used an asynchronous HTTP request to load our GeoJSON data into the script at runtime. Within this lesson, we consider a technique for making multiple asynchronous HTTP requests to load geometry and data into the map script as separate requests (i.e., separate files). Once we do this, we use a nested looping structure to bind attribute data to geometries within the client's browser to create a choropleth map. We then build an HTML standards-compliant UI slider widget allowing the user to sequence through temporal data attributes and update the thematic map.
+In previous modules we used an asynchronous HTTP request to load our GeoJSON data into the script at runtime. Within this lesson, we consider a technique for making multiple asynchronous HTTP requests to load geometry and data into the map script as separate requests (i.e., separate files). Once we do this, we use a nested looping structure to bind attribute data to geometries within the client's browser to create a choropleth map. We then build a HTML standards-compliant UI slider widget allowing the user to sequence though temporal data attributes and update the thematic map.
 
 ## TOC
 - [Working files](#working-files)
@@ -16,7 +16,7 @@ To follow along with this lesson, you should use the *index.html* file located i
 
 **Note on this week's assignment:** Completion of the map detailed within this lesson will earn you 80% of the total points. To achieve an A grade, you'll need to repeat the process to produce another map, as detailed in the [Lab 03 instructions](../lab-03/lab-03-data/).
 
-The *index.html* file includes minimal CSS, HTML, and JavaScript within it. However, the JavaScript does provide some comments indicating the functions you should write and their suggested order within the script:
+The *index.html* file includes minimal CSS, HTML, and JavaScript within it. However, the JavaScript does provide some basic comments indicating the functions you should write and their suggested order within the script:
 
 ```javascript
 // instantiate the Leaflet map
@@ -25,19 +25,21 @@ The *index.html* file includes minimal CSS, HTML, and JavaScript within it. Howe
 
 // declare global variables
 
-// AJAX requests to load data files (a GeoJSON and a CSV file)
+// AJAX requests to load data files
 
-// function to process/bind CSV attribute data to geometry data
+// function to process/bind data
 
-// function to draw the geometries to the map
+// function to draw the map
 
-// function to update the map (once for the initial data view and then again to update the map per the user's request)
+// function to update the map
 
-// function gets the class breaks   
+// function get the class breaks   
 
 // function to get the color value
 
 // function to draw the legend
+
+// function to update the legend
 
 // function to create the UI
 ```
@@ -66,11 +68,13 @@ OR
 }
 ```
 
-These techniques are suitable when we want to fix the map within specific dimensions within an overall page layout. But, suppose we want our map to fill the entire browser window? In one sense this is beneficial because we don't necessarily need to make guesses about the user's screen resolution or browser size. The map will expand to the full extent. We would then place other elements (e.g., map titles, legends, interface controls, side panels) on top of the map itself.
+These techniques are good when we want to fix the map within specific dimensions within an overall page layout. But, suppose we want our map to fill the entire browser window? In one sense this is beneficial, because we don't necessarily need to make guesses about the user's screen resolution or browser size. The map will simply expand to the full extent. The implication for the design of the interface and the rest of the page layout, then, is to place other elements on top of the map itself.
 
 How do we accomplish this?
 
-Making a web map go full screen relatively easy to do with a few changes to the CSS rules we are applying to the `div` element that contains our Leaflet map. First, we're going to give it a CSS property of `position` with a value of `absolute`. The `position` CSS property is the key to mastering layout using CSS, and you should read more about [CSS Layout - The Position Property](http://www.w3schools.com/css/css_positioning.asp) and the [position CSS property](https://developer.mozilla.org/en-US/docs/Web/CSS/position).
+It's relatively easy to do with a few changes to the CSS rules we are applying to the `div` element we're using to hold our Leaflet map. First, we're going to give it a CSS property of `position` with a value of `absolute`. The `position` CSS property is the key for mastering layout using CSS, and you should read more about [CSS Layout - The Position Property](http://www.w3schools.com/css/css_positioning.asp) and the [position CSS property](https://developer.mozilla.org/en-US/docs/Web/CSS/position).
+
+In this case, the value of `absolute` will take our `map` element out of the "normal" flow of elements within the document and position it relative to its (non-static) parent element, which is the body. In other words, it positions the div element with its x/y origin point (its top, left corner pixel) in the upper left of the document body. Using CSS we then give it a width of 100%, because we want it to fill the entire width of this body element. Two more declarations ensure that the top of the element is zero pixels from the top of the browser window, as well as zero pixels from the bottom. 
 
 You can apply the following CSS style rule to the `<div id="map"></div>` element to have the Leaflet map fill the entire screen:
 
@@ -84,8 +88,6 @@ You can apply the following CSS style rule to the `<div id="map"></div>` element
 ```
 
 These CSS rules will expand that `div` element holding our Leaflet map to the entire viewport of the browser window. 
-
-In this case, the value of `absolute` will take our `map` element out of the "normal" flow of elements within the document and position it relative to its (non-static) parent element, which is the body. In other words, it positions the div element with its x/y origin point (its top, left corner pixel) in the upper left of the document body. Using CSS, we then give it a width of 100%, because we want it to fill the entire width of this body element. Two more declarations ensure that the top of the element is zero pixels from the top of the browser window, as well as zero pixels from the bottom. 
 
 The following animation demonstrates changing the CSS rules for our `#map` div to allow the map to fill the entire screen of the browser:
 
@@ -114,17 +116,17 @@ h1 {
 }
 ```
 
-While most of those properties are used to achieve the desired aesthetic result (`padding`, `margin`, `color`, `font-size`, `background`, and `border-radius`), the first four are of particular importance for our layout. The `position: absolute` rule removes the h1 from the normal flow (i.e., from top to bottom) of positioning. The **z-index** property ensures that the `h1` element will be higher in the "stacking order" within the DOM than the div element containing our map (here we are assuming our `div` element holding our map has a z-index of less than 100). We use *top* and *left* to position the h1 element relative to the top,left (0,0) corner of its parent element (i.e., the document's `<body>` element).
+While most of those properties are used to achieve the desired aesthetic result (`padding`, `margin`, `color`, `font-size`, `background`, and `border-radius`), the first four are of particular importance for our layout. The `position: absolute` rule removes the h1 from the normal flow (i.e., from top to bottom) of positioning, while the **z-index** property ensures that the h1 element will be higher in the "stacking order" within the DOM than the div element containing our map (here we are assuming our `div` element holding our map has a z-index of less than 100). We use *top* and *left* to position the h1 element relative to the top,left (0,0) corner of its parent element (i.e., the document's `<body>` element).
 
-**Tip:** When laying out elements using absolute position, and there is a problem with the stacking order (i.e., elements on top of each other but shouldn't be), try explicitly setting the z-index values for the elements involved. Also, if it appears that an element isn't being added to the DOM, such as this h1 element in the example, it may be stacked beneath the map and simply not visible.
+**Tip:** When laying out elements using absolute position, and there is a problem with the stacking order (i.e., elements on on top of each other but shouldn't be), try explicitly setting the z-index values for the elements involved. Also, if it appears that an element isn't being added to the DOM, such as this h1 element in the example, it may actually be stacked beneath the map and simply not visible.
 
 ## Making two asynchronous requests to load geometry and attribute data
 
 In Modules 01 and 02, we used an advanced technique known as AJAX to load an external file containing GeoJSON data. These data contained both the geometry information for drawing our SVG elements on the map (e.g., Kentucky counties) and the data attribute data (e.g., vacant housing rates for each county).
 
-This module introduces the idea of keeping our geometry data and data attribute information in separate files and then using multiple AJAX requests to load these files independently. One reason for doing this is that storing information within a comma separated values (CSV) file format is notably concise. Especially when you have many data attributes for each mapped unit (i.e., each county), the overall file sizes of keeping that data in CSV files is smaller than encoding within a GeoJSON file. 
+This module introduces the idea of keeping our geometry data and data attribute information in separate files, and using multiple AJAX requests to load these files independently. One reason for doing this is that storing information within a comma-separated values (CSV) file form is extremely concise. Particularly for when you have many data attributes for each mapped unit (i.e., each county), the overall file sizes of keeping that data in CSV files is smaller than encoding within a GeoJSON file. 
 
-The other reason for doing this is that it will introduce you to the process of programmatically joining data attributes with geometries, a "binding" process that has utility both in front-end client-side mapping (like we're doing), but also for pre-processing data files before they're using in a web mapping project. This technique is also applicable to when you stream live data into your map from a web resource and need to link the new data to geometries you've already drawn on the map.
+The other reason for doing this is that it will introduce you to the process of programmatically joining data attributes with geometries, a "binding" process that has utility both in front-end client-side mapping (like we're doing), but also for pre-processing data files before they're using in a web mapping project. This technique is also applicable to when you may stream in live data into your map from a web resource, and need it to be linked with geometries you've already drawn to the map.
 
 Let's first get those data loaded into the DOM.
 
@@ -139,7 +141,7 @@ $.getJSON("us-states.json", function(states) {
 });
 ```
 
-One quick side note before we continue. What happens if we've been editing our GeoJSON data and we messed up its very precise structure. The `.getJSON()` method would then be unable to parse it correctly. The method's callback function will not execute, but neither will the method by default throw an error or give us any indication that something went wrong. To deal with this, we need to "catch" the error. In the case of this JQuery method, we'll chain another method onto it called *.fail()*, which executes an anonymous function if the AJAX request and parsing of the file was unsuccessful. Its implementation looks like this:
+One quick side note before we continue. What happens if we've been editing our GeoJSON data and we messed up its very precise structure. The `.getJSON()` method would then be unable to parse it correctly. The method's callback function will not execute, but neither will the method by default throw an error or give us any indication that something went wrong. To deal with this, we need to "catch" the error. In the case of this JQuery method, we'll chain another method onto it called *.fail()*, which executes an anonymous function if the AJAX request and parsing of the file was unsuccessful. It's implementation looks like this:
 
 ```javascript
 $.getJSON("us-states.json", function(states) {
@@ -153,16 +155,16 @@ $.getJSON("us-states.json", function(states) {
 });
 ```
 
-Okay, back to the data loading. Assuming JQuery successfully loaded and parsed our `us-states.json` file, within the callback function we want to issue our second AJAX request, this time loading an external CSV file named `states-unemployment.csv`. Because CSV is a text format, just like our GeoJSON data, we can view these data using any text editor such as Brackets. 
+Okay, back to the data loading. Assuming JQuery successfully loaded and parsed our `us-states.json` file, within the callback function we  want to issue our second AJAX request, this time loading an external CSV file named `states-unemployment.csv`. Because CSV is a text format, just like our GeoJSON data, we can view these data using any text editor such as Brackets. 
 
 ![CSV data of state unemployment rates over time](lesson-03-graphics/csv-data.png)  
 **Figure 03.** CSV data of state unemployment rates over time.
 
-We can also open it using a spreadsheet/database program such as OpenOffice Calc or Microsoft Excel. However, be careful when using data containing Federal Information Processing Standards (FIPS) codes, such as we're doing for state and county identifiers. These programs will sometimes inadvertently strip the leading zeros from the identifiers and cause potential problems later in the script (e.g., Alabama's State FIP will be converted from 01 to 1). *It's often a good practice to keep values quoted as text strings within a CSV file for this reason.*
+We can also open it using a spreadsheet/database program such as OpenOffice Calc or Microsoft Excel. However, be careful when using data containing Federal Information Processing Standards (FIPS) codes, such as we're doing for state and county identifiers, because these programs will sometimes inadvertently strip the leading zeros from the identifiers and cause potential problems later in the script (e.g., Alabama's State FIP will be converted from 01 to 1). It's often a good practice to keep values quoted as text strings within a CSV file for this reason.
 
-Thinking ahead for a moment, once we load the CSV data into our script, we ideally want it converted into a JSON format (i.e., an object consisting of key/value properties) within the user's client (browser). We want the first row of the CSV, the "header" row, to be the key names for this object, and the values for each row to be the values associated with those key names. 
+Thinking ahead for a moment, once the CSV data is loaded into our script, we ideally want it converted into a JSON format (i.e., an object consisting of key/value properties) within the user's client (browser). We want the first row of the CSV, the "header" row, to be the key names for this object, and the values for each row to be the values associated with those key names. 
 
-Unfortunately, as awesome as JQuery is at handling AJAX requests, it (currently) lacks adequate support for loading CSV data and converting it to our desired JSON format. JQuery can easily load the CSV file as text, but then we would need to write our own JavaScript to "parse" these data ourselves into our desired JSON format. While this could be a fun programming exercise, we want to get on with our mapping process. What's our solution then? Doing a web search for "Query CSV  or JavaScript CSV request" will turn up various options. Let's consider using an additional JavaScript library to do this for us! 
+Unfortunately, as awesome as JQuery is at handling AJAX requests, it (currently) lacks adequate support for loading CSV data and converting it to our desired JSON format. JQuery can easily load the CSV file as text, but then we would need to write our own JavaScript to "parse" these data ourselves into our desired JSON format. While this could be a fun programming exercise, we really want to get on with our mapping process. What's our solution then? Doing a web search for "Query CSV  or JavaScript CSV request" will turn up various options. Let's consider using an additional JavaScript library to do this for us! 
 
 [Papa Parse](http://papaparse.com/) bills itself as a "powerful, in-browser CSV parser for big boys and girls." Now that's the kind of confidence we want to see in a JavaScript library, right? Seriously, though, it's a good library for this task. To make use of it in our script, we need to load it, again, like we are loading our JQuery and Leaflet JS libraries. Within the head of our document, we'll make use of the `scr`attribute of a `script` tag, referencing Papa Parse's content delivery network (CDN) URL:
 
@@ -170,7 +172,7 @@ Unfortunately, as awesome as JQuery is at handling AJAX requests, it (currently)
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js"></script>
 ```
 
-Of course, we need to consult some of this [library's documentation](http://papaparse.com/docs) to see how to use this library (i.e., what methods are now available to us, what arguments they require, and what options are available). The following configuration appears to do the trick, and we can `console.log()` the parameter `data` that's passed within `Papa.parse()` method's callback function. Note that within that callback function, our GeoJSON `states` data is also available.
+We'll of course need to consult some of this [library's documentation](http://papaparse.com/docs) to see how to use this library (i.e., what methods are now available to us, what arguments they require, and what options are available). The following configuration appears to do the trick, and we can `console.log()` the parameter `data` that's passed within `Papa.parse()` method's callback function. Note that within that callback function, our GeoJSON `states` data is also available.
 
 ```javascript
 $.getJSON("us-states.json", function(states) {
@@ -193,14 +195,14 @@ $.getJSON("us-states.json", function(states) {
 });  // end of $.getJSON()
 ```
 
-Examining the output within the Console, let's understand the data structure returned by the `Papa.parse()` method. We first see that the library encoded 52 rows of data as a JSON object and assigned it to a property named `data`. Papa Parse has successfully converted our 52 US states of CSV tabular data (the data includes Puerto Rico and Washington DC as states) into a JSON object. Furthermore, we should note that it has also encoded the numerical data values for each year as string types (we should remember this later,\ when we're using these data values). 
+Examining the output within the Console, let's closely understand the data structure returned by the `Papa.parse()` method. We first see that a JSON object containing the 52 rows of data has been encoded as the value to a property named `data`. Papa parse has successfully converted our 52 US states of CSV tabular data (the data includes Puerto Rico and Washington DC as states) into a JSON object. Furthermore, we should note that it has also encoded the numerical data values for each year as String types (we should remember this later, when we're using these data values). 
 
 The following animation shows us logging both the `states` and the `data` to the Console and inspecting the output.
 
 ![CSV data has been parsed into a JSON object](lesson-03-graphics/parsed-csv.gif)  
 **Figure 04.** CSV data has been parsed into a JSON object.
 
-Great, now that we have our two data objects in the same place (our GeoJSON geometry data and the CSV attribute data converted to an array of objects), let's figure out a way to attach the attribute data from the CSV file to the GeoJSON geometry data. To do so, let's first get them out of these asynchronous callback functions and into a new function for processing. That's easy enough: we'll call a function and pass them as arguments:
+Great, now that we have our two data objects in the same place (our GeoJSON geometry data and the CSV attribute data converted to an array of objects), let's figure out a way to attach the attribute data from the CSV file to the GeoJSON geometry data. To do so, let's first get them out of these asynchronous callback functions and into a new function for processing. That's easy enough: we'll simply call a function and pass them as arguments:
 
 ```javascript
 $.getJSON("us-states.json", function(states) {
@@ -218,7 +220,7 @@ $.getJSON("us-states.json", function(states) {
 });
 ```
 
-Next, let's create that function and write the code for client side data processing.
+Next let's create that function and write the code for client side data processing.
 
 ## Processing data client-side: binding attribute data to geometries
 
@@ -237,7 +239,7 @@ The following animation shows us creating the new function named `processData()`
 ![Passing data as two arguments to a processData function](lesson-03-graphics/passing-data-to-process.gif)  
 **Figure 05**. Passing data as two arguments to a processData function.
 
-Now we're going to build a nested looping structure. That is, we're going to loop through one of the JSON objects properties, and for each time we do that, we're going to loop through all the properties of the second object. A nested looping structure is a fairly common technique in programming, but a little tricky to get your head around the first time. 
+Now we're going to build a nested looping structure. That is, we're going to loop through one of the JSON objects properties, and for each time we do that, we're going to loop through all the properties in the second object. This is a fairly common technique in programming, but a little tricky to get your head around the first time. 
 
 Let's look a very basic example first, using two arrays and two of our classic `for` looping structures to create an "outer" loop and an "inner" loop:
 
@@ -247,17 +249,17 @@ var numbers = [1, 2, 3, 4, 5];
 
 for (var i = 0; i < letters.length; i++){ 
     for (var j = 0; j < numbers.length; j++) {
-        console.log(letters[i], numbers[j]); // what are these outputs?
+        console.log(letters[i], numbers[j]);
     }
 }
 ```
 
-If we examine the output logged to the console, within the inner loop we can compare each of the first array's values with each of the second array's values. The following animation illustrates this process:
+If we examine the output logged to the console, we see that within the inner loop  we can compare each of the first Array values with each of the second Array. The following animation illustrates this process:
 
 ![Output of a nested for loop shows each combination together](lesson-03-graphics/nested-output-example.gif)  
-**Figure 06.** The output of a nested for loop shows each combination together.
+**Figure 06.** Output of a nested for loop shows each combination together.
 
-In other words, as the two loops iterate through their values, we're able to at some point have every combination of values from the two arrays in the same place at the same time (in this case logging them to Console).
+In other words, as the two loops iterate through their values, we're able to at some point have every combination of values from the two arrays in the same place at the same time (in this case simply logging them to Console).
 
 How then do we apply this concept to our two JSON structures? Remember our goal here is to bind the data within the CSV file with it associated geometries in the GeoJSON file. For this to happen, the elements within the two JSON objects **must share a unique identifier between them**. Without this, we can not bind the data and geometries. 
 
@@ -290,7 +292,7 @@ This animation shows how we access the FIPs codes within both the `states` and t
 ![Nested looping structure through the states GeoJSON and the CSV attribute data](lesson-03-graphics/loop-state-data.gif)  
 **Figure 07**. Nested looping structure through the states GeoJSON and the CSV attribute data.
 
-Within the inner loop, we know that eventually each GeoJSON feature will be associated with its corresponding CSV (now JSON) property, and we can use a conditional statement within that inner loop to determine when this happens. If there is a match, we can replace the GeoJSON's properties with those of the CSV file. We'll replace it here since there's no other information in the GeoJSON beyond the FIP we wish to retain (if there were, we'd have to figure out a way to add or append the CSV data to the GeoJSON's properties).
+Within the inner loop, we know that eventually each GeoJSON feature will be associated with its corresponding CSV (now JSON) property, and we can use a conditional statement within that inner loop to determine when this happens. If there is a match, we can replace the GeoJSON's properties with those of the CSV file. We'll just replace it here, since there's no other information in the GeoJSON beyond the FIP we wish to retain (if there were, we'd have to figure out a way to add or append the CSV data to the GeoJSON's properties).
 
 Finally, since we know there should only be one match for each state, once we've made a match, we can use a `break` statement to break out of the inner loop and continue with the outer loop (this will help speed up the processing).
 
@@ -310,47 +312,31 @@ Finally, since we know there should only be one match for each state, once we've
     console.log(states);
 ```
 
-Once this nested looping structure is complete, our `states` object should contain the data from the CSV within its properties. A trusty console.log() statement is used to verify this.
+Once this nested looping structure is complete, our `states` object should contain the data from the CSV within it's properties. A trusty console.log() statement is used to verify this.
 
 The following animation demonstrates that process:
 
 ![CSV data have now been bound to the GeoJSON features](lesson-03-graphics/binded-data.gif)  
 **Figure 08**. CSV data have now been bound to the GeoJSON features.
 
-We've now attacehd our attribute data to the GeoJSON data, and we're finally ready to create our map!
+The GeoJSON data is now packed with our data attribute information and we're finally ready to create our map!
 
-Of course, you may be thinking "that was a lot of scripting work just to do what I could have first done with a table join in QGIS!" And you're correct. But beyond further JavaScript practice, the technique would prove useful in a variety of scenarios when either you're user may choose to load another data set from an external resource, upload their own data for mapping, or when your map should pull in data automatically from an external resource.
+Of course, you may be thinking "that was a lot of scripting work to just do what I could have first done with a table join in QGIS!" And you're correct. But beyond further JavaScript practice, the technique would prove useful in a variety of scenarios when either you're user may choose to load another data set from an external resource, upload their own data for mapping, or when your map should pull in data automatically from an external resource.
 
 ## Making a classed choropleth map and legend
 
 Now that we have a GeoJSON geometry data object with all our data attribute information bound to the correct geometries, we can go ahead and make a classed choropleth map and accompanying legend using the same procedures from Module 01 and 02. 
 
-This part of the lesson is not going to walk us through all these steps again. Refer to the explanation in Module 01 and 02 and your working code from these lessons to get a working, classed choropleth map with a legend, before moving on to the next section of this module. Similar, but not identical to the solution to Lab 02, your JavaScript code should include independent functions that will: 
+This part of the lesson is not going to walk us through all these steps again. Refer to the explanation in Module 01 and 02 to get a working, classed choropleth map with a legend, before moving on to the next section of this module. Like the solution to Lab 02, your JavaScript code should include 6 independent functions that will: 
 
-1. draw the map's initial geometry features as SVG within the Leaflet map (e.g., a drawMap() function using your GeoJSON data to create a Leaflet GeoJson layer and add it to the map),
-2. determine the class breaks of the entire range of data attributes (note: this is different than lesson 02),
-3. update the map by looping through all the features and assigning a fill color (based on the derived classification breaks),
-4. determine which class break a given value falls within and returns a hexadecimal color value based upon that value (i.e., a "get color" function), and
-5. create a legend based upon the current data attribute.
+1. draw the map's initial geometry features as SVG within the Leaflet map
+2. update the map by looping through all the features and assigning a fill color
+3. determine the class breaks of a range of data attributes
+4. determine which class break a given value falls within and returns a hexidecimal color value based upon that value
+5. draw (i.e., creates) an empty div container to hold the legend information
+6. update that legend container based upon the current data attribute.
 
-**Important:** One notable difference between this map and the interactive choropleth map we built in Module 02 is how (and how many times) we classify the data within the script. As we know, classification methods are often a dicey business and drastically impact the message of the map. 
-
-In Module 02, we reclassified the data each time the user updated the map with a new data attribute (through the dropdown menu). This makes sense, as we don't want to use the same class breaks for symbolizing vacant housing as we do for units with a mortgage (these two datasets have a different range and distribution of values). 
-
-However, the objective of the map we're building in Module 03 is to compare data attributes across time by dragging a slider widget, i.e., to visualize spatiotemporal patterns. In this case, we want to keep the data classification breaks constant to more easily compare map states year to year and include the entire range of data. We'll therefore need to deviate from the Lesson and Lab 02 solutions to **create the classification breaks once within he script using the entire range of data values**.
-
-To do so we can create an array containing **all the data values** for each geographic unit (e.g., use state) for each year, at the beginning of the script. We can then derive the class breaks from this range of data and apply those same breaks universally across the data attributes as they change (i.e., the yearly timestamps).
-
-We therefore must rethink the program we wrote for Module 02, in fact making it simpler:
-
-1. Rather than calling the function to classify the data each time we update a data attribute, we only need to call it once (toward the beginning of the script), and use those breaks to update the map each time. 
-2. Rather than first drawing an empty legend once with one function and updating it with another (as with the map), we only need to call a function once to draw the legend, using the derived classification breaks
-
-You'll need to think carefully about the flow of execution in the program, and again use the commented pseudo-code to guide your process.
-
-Refer to the lesson 03 video (linked from the Module 03 in Canvas) for a demonstration of the solution.
-
-The following are some additional recommendations moving forward with the map.
+A couple suggestions:
 
 * use Colorbrewer ([http://colorbrewer2.org/](http://colorbrewer2.org/)) to select an appropriate **sequential** color scheme with the number of class breaks you're creating with Simple Statistics
 * The ckmeans method we used with Simple Statistics in the last lab may not be appropriate for the relatively small number of observations being made in this map (i.e., 52 states). Therefore, it may be better to use the quantile method. So rather than writing this to derive 5 classifications:
@@ -367,16 +353,16 @@ You may want to write:
 
 This will create 5 categories of values that fall within the designated intervals.
 
-Finally, remember you may want to create at least a couple global variables (toward the top of your script). One should reference the Leaflet GeoJSON layer you create from the `states` GeoJSON data we created above. The other should be a reference to the current data attribute( i.e., the data being represented as the current year's data).
+Finally, remember you'll want to create at least a couple global variables (toward the top of your script). One should reference the Leaflet GeoJSON layer you create from the `states` GeoJSON data we created above. The other should be a reference to the current data attribute( i.e., the data being represented of current year's data).
 
-Note that because the *states-unemployment.csv data* is already a rate (a percentage), there's no need to normalize these data computationally within our JavaScript.
+Note that because the states-unemployment.csv data is already a rate (a percentage), there's no need to normalize these data computationally within our JavaScript.
 
-When this is complete you should have a working map that looks something like this (eek, yes, a choropleth projected in Web Mercator ... LOL kittens are dying):
+When this is complete you should have a working map that looks something like this (eek, yes ... a choropleth projected in Web Mercator ... LOL kittens are dying):
 
 ![A classed choropleth map with legend](lesson-03-graphics/map-pre-slider.png)  
 **Figure 09.** A classed choropleth map with legend. 
 
-You'll want to experiment with the various CSS property values to achieve your own design. However, for reference I used the following CSS rules for this demonstration (again, these are similar to those already employed in the previous modules):
+You'll want to experiment with the various CSS property values to achieve your own design. However, for reference I used the following CSS rules for this demonstration (again, these are similar to those already used in the previous modules):
 
 ```css
 .legend {
@@ -407,12 +393,12 @@ You'll want to experiment with the various CSS property values to achieve your o
 }
 ```
 
-While visual design is one of the harder aspects of cartography and information design (as if the programming wasn't challenging enough!), here's a few design principles you may find useful moving forward:
+While visual design is one of the more difficult aspects of cartography and information design (as if the programming wasn't challenging enough!), here's a few design principles you may find useful moving forward:
 
 * Don't add color just for the sake of it. Start with a greyscale design and slowly add color either to encode information or to provide subtle highlights or to establish figure/ground (data/interface) relationships. Use subtle changes in hue (color) and contrast.
-* Be consistent in how you design elements. If you've made your h1 and legend with an opaque gray background with rounded edges, make other elements containing UI controls or an information panel consistent with this look and feel.
+* Be consistent in how you design elements. If you've made your h1 and legend with an opaque grey background with rounded edges, make other elements containing UI controls or an information panel consistent with this look and feel.
 * Use a single typeface, or at most two different fonts.
-* Consider the visual hierarchy: what is most prominent in the overall design and where is the user's eye drawn first? Is this the entry point you want into exploring the map? I.e., if you make the background a bright, highly saturated red color, this may ascend the visual hierarchy. Do you really want your user looking at the background first?
+* Consider the visual hierarchy: what is most prominent within the overall design and where is the user's eye drawn first? Is this the entry point you want into exploring the map? I.e., if you make the background a bright, highly saturated red color, this may ascend the visual hierarchy. Do you really want your user looking at the background first?
 * Whitespace is your friend. The goal of visual design isn't to crowd as much information into a small space as possible. In the web environment, you can use the *padding* and *margin* properties of elements' CSS rules to create space around elements affording a better visual balance.
 * Show your design to people and elicit design critique. Visual design is an iterative process.
 
@@ -431,15 +417,15 @@ This module introduces you to another convenient HTML element used to build a sl
 ![Slider widget built from the HTML5 input range](lesson-03-graphics/slider-widget.png)  
 **Figure 10.** Slider widget built from the HTML5 input range.
 
-We'll encapsulate the code we write to create this UI element within a single function. We can name this function `createSliderUI()` (or something like that). We'll also need to call this function, obviously. A good place to call this function is where we're calling the functions to draw initially the map and the legend (i.e., to make sure we're only calling this function once).
+We'll encapsulate the code we write to create this UI element within a single function. We can name this function `createSliderUI()` (or something like that). We'll also need to call this function, obviously. A good place to call this function is where we're calling the functions to initially draw the map and the legend (i.e., to make sure we're only calling this function once).
 
-We actually use the same HTML element, the `input` element, as we used for the dropdown ([https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)). Like with the dropdown form element we built in Module 02, we'll create this HTML element within the DOM by directly writing it within the HTML (rather than creating the element dynamically with the JavaScript). 
+We actually use the same HTML element, the `input` element, as we used for the dropdown ([https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)). Like with the dropdown form element we built in Module 02, we'll begin by creating this HTML element within the DOM by directly writing it within the HTML (rather than creating the element dynamically with the JavaScript). 
 
 We're going to give it a different type attribute value though, a recent additional to the HTML5 specification known as `range` (see the section under [Sliders](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/The_native_form_widgets) here). 
 
-We also write several other attributes into the input element when we write it with the HTML. In this example, we're essentially hard-coding these values in so they correspond with our data. We know, looking at our CSV data, that we want to slide from an initial minimum value of 2001 to a maximum value of 2013. We also know we have data attributes for every year (i.e., whole integer) between these years, so we want the increment level to be one. We encode these values into the input element using the attributes `min`, `max`, `value` (which sets the initial slider widget position when the element loads in the DOM), and `step`. 
+We also write several other attributes into this this input element when we write it with the HTML. In this example, we're essentially hard-coding these values in so they correspond with our data. We know, looking at our CSV data, that we want to slide from an initial minimum value of 2001 to a maximum value of 2013. We also know we have data attributes for every year (i.e., whole integer) between these years, so we want the increment level to be one. We encode these values into the input element using the attributes `min`, `max`, `value` (which sets the initial slider widget position when the element loads in the DOM), and `step`. 
 
-Note that if our data were, say decennially census data, we could make the `step` attribute value 10 and the slider would register changes in values of 10 with each step. We want to place this HTML code up within the `<body>` tags, either above or beneath our `<div id="map"></div>` element (since we'll be dynamically placing it on the map, it doesn't really matter where in relation to this element the code is written within the HTML).
+Note that if our data were, say decennially census data, we could make the `step` attribute value 10 and the slider would register change in values of 10 with each step. We want to place this HTML code up within the `<body>` tags, either above or beneath our `<div id="map"></div>` element (since we'll be dynamically placing it on the map, it doesn't really matter where in relation to this element the code is written within the HTML).
 
 ```html
 <div id="map"></div>
@@ -449,7 +435,7 @@ Note that if our data were, say decennially census data, we could make the `step
 </div>
 ```
 
-We'll also give our input element a class named `year-slider` and wrap it within a div element with an id attribute of `ui-controls`. We use these class and id attributes for both styling elements with CSS rules and selecting them with the JavaScript. 
+We'll also give our input element a class named `year-slider` and wrap it within a div element with an id attribute of `ui-controls`. We use these class and id attributes for both styling with CSS rules and selection with the JavaScript. 
 
 ```css
     #ui-controls {
@@ -493,9 +479,9 @@ sliderControl.onAdd = function(map) {
 sliderControl.addTo(map);
 ```
 
-Note the curious event listener that's listening for a `mousedown` on the slider, and then invoking the method *stopPropagation()* within the callback. What is that doing? Without that, when the user uses the range slider, the slippy map panning functionality also occurs, annoyingly moving the map when the user drags the slider widget across the track. Stopping propagation prevents the event target's parent element (i.e., the map) from detecting the click event. In programming terms, stopping propagation prevents the event from "bubbling up" the DOM tree.
+Note the curious event listener that's listening for a `mousedown` on the slider, and then invoking the method *stopPropagation()* within the callback. What is that doing? Without that, when the user uses the range slider, the slippy map panning functionality also occurs, annoyingly moving the map when the slider widget is dragged across the track. Stopping propagation prevents the event target's parent element (i.e., the map) from detecting the click event. In programming terms, stopping propagation prevents the event from "bubbling up" the DOM tree.
 
-We also want to provide the user with some visual labels of the range slider's min and max values, which will display the current value of the slider. To do this, we can wrap our `input` element within a `label` element and manually hard-code our min and max values between two `span` tags:
+We also want to provide the user with some visual labels of the range slider's min and max values (the currently value of the slider is updated within the legend). To do this, we can wrap our `input` element within a `label` element and manually hard-code our min and max values between two `span` tags:
 
 ```html
     <label><span class="min">2001</span><span class="max">2013</span>
@@ -554,6 +540,11 @@ Note how I first logged the selection to the Console, and then the values return
         });
 ```
 
-The `on()` method remains listening to any changes to the input range slider and continues to update the `attribute` variable's value and update the map with the user drags the widget.  Also note that once the user clicks the widget, the user can use arrow keys to move the slider up and down the track).
+The `on()` method remains listening to any changes to the input range slider and continues to update the `attribute` variable's value and update the map with the user drags the widget (also note that once the widget has been clicked, the user can use arrow keys to move the slider up and down the track).
 
 This section demonstrated how to implement a slider widget. This specific implementation used the slider to change the currently mapped data attribute to redraw the map. However, a slider widget could be used for various other UI changes such as adjusting the transparency of a drawn data layer or universally adjusting the size of proportional symbols. 
+
+
+
+
+
