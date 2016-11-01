@@ -146,9 +146,7 @@
             , zoomControl: true
         }
         var map = L.map('map', options);
-
         // load map tiles and add to map
-
         var tiles = L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
             , subdomains: 'abcd'
@@ -156,60 +154,38 @@
             , maxZoom: 20
             , ext: 'png'
         });
-
         map.addLayer(tiles);
-
         var dataLayer; // us state geoJson
         
-
         // declare global variables
-
         $.getJSON("ky-counties.json", function (states) {
-
             Papa.parse('ky-unemployment-data.csv', {
-
                     download: true
                     , header: true
                     , complete: function (data) {
-
                             processData(states, data);
-
                         }
                         //    })
-
                 }) // end of Papa.parse() 
-
             function processData(states, data) {
                 //function to process/bind CSV attribute data to geometry data
                 for (var state in states.features) {
-
                     for (var d in data.data) {
-
                         var stateFIP = states.features[state].properties.COUNTY_FIP
                             , dataFIP = data.data[d].CNTY;
-
                         if (stateFIP === dataFIP) {
-
                             states.features[state].properties = data.data[d];
                             //     console.log(states.features[state]);
                         }
                     }
-
                 }
-
                 drawMap(states);
             }
-
         });
-
         // AJAX requests to load data files
-
         // function to process/bind data
-
         // function to draw the map
-
         function drawMap(states) {
-
             dataLayer = L.geoJson(states, {
                 style: function (feature) { // style each feature of GeoJson layer
                     return {
@@ -219,7 +195,6 @@
                         fillColor: '#1f78b4' // set fill color
                     };
                 },
-
                                onEachFeature: function (feature, layer) {
                 layer.on('mouseover', function () {
                     layer.setStyle({
@@ -236,17 +211,13 @@
                 });
                 
                 } 
-
                 
                 
                 
             }).addTo(map);
-
             var breaks = getClassBreaks();
             
             var rates = getRates();
-
-
             
             
             
@@ -257,32 +228,20 @@
             createSliderUI(breaks);
             
         }
-
         
                
         
-
         function updateMap(breaks, attribute) {
             dataLayer.eachLayer(function (layer) {
-
                 layer.setStyle({
                     fillColor: getColor(Number(layer.feature.properties[attribute]), breaks)
                 });
-
                 
             })
         
-
         }
-
-
-
-
-
         // function to update the map
-
         // function get the class breaks   
-
        
       
         
@@ -290,59 +249,36 @@
         
         
         function getClassBreaks() {
-
             var values = [];
-
             dataLayer.eachLayer(function (layer) {
-
                 for (var i = 2001; i <= 2013; i++) {
-
                     var value = layer.feature.properties[String(i)];
                     values.push(Number(value));
                 }
-
-
-
-
             });
             var breaks = ss.quantile(values, [0, 0.2, 0.4, 0.6, 0.8, 1]);
             // console.log(breaks);
-
             return breaks;
-
         }
         
            function getRates() {
-
             var values = [];
-
             dataLayer.eachLayer(function (layer) {
-
                 for (var i = 2001; i <= 2013; i++) {
-
                     var value = layer.feature.properties[String(i)];
                     values.push(Number(value));
                 }
-
-
-
-
             });
             var rates = values;
             // console.log(breaks);
-
             return rates;
-
         }
         
         
         
         
-
         function getColor(d, breaks) {
-
             // function to get the color value
-
             if (d <= breaks[1]) {
                 return '#f2f0f7';
             } else if (d <= breaks[2]) {
@@ -354,72 +290,44 @@
             } else if (d <= breaks[5]) {
                 return '#54278f'
             }
-
-
         }
-
-
-
         // function to draw the legend
-
-
         function drawLegend(breaks) {
-
             var legendControl = L.control({
                 position: 'topright'
             });
-
             legendControl.onAdd = function (map) {
-
                 var div = L.DomUtil.create('div', 'legend');
-
                 return div;
-
             };
-
             legendControl.addTo(map);
-
             var legend = $('.legend').html("<h3><span>2001</span>KY County Unemployment Rates</h3><ul>");
-
             for (var i = 0; i < breaks.length - 1; i++) {
-
                 var color = getColor(breaks[i + 1], breaks);
                 $('.legend ul').append('<li><span style="background:' + color + '"> </span> ' +
-
                     breaks[i] + ' &mdash; ' +
                     breaks[i + 1] + '</li>');
-
             }
             legend.append("</ul>");
-
         }
-
         
       function infoPanel(rates) {
-
             var infoPanelControl = L.control({
                 position: 'bottomright'
             });
-
             infoPanelControl.onAdd = function (map) {
-
                 var div = L.DomUtil.create('div', 'legend');
-
                 return div;
-
             };
-
-            infoPanelControl.addTo(map);
-
+           
+          
+          //obviously getColor is not going to work here... i've been experimenting with a new function, but I keep calling the data incorrectly and it gets mixed up with the breaks panel
+          infoPanelControl.addTo(map);
             var legend = $('.legend').html("<h3><span>2001</span>Info Panel for Annual Rates</h3><ul>");
-
             for (var i = 0; i < rates.length - 1; i++) {
-
                 var color = getColor(rates[i + 1], rates);
                 $('.legend ul').append('<li><span style="background:' + color + '"> </span> ' +
-
                     rates[i]  + '</li>');
-
             }
           
             map.on('mouseover', function () {
@@ -433,7 +341,6 @@
           
           
             legend.append("</ul>");
-
         }
               
         
@@ -463,10 +370,8 @@
                 $('.legend h3 span').html(attribute);
                 
             });
-
         
         }
-
         // function to create the range slider
     </script>
 
