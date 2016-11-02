@@ -217,7 +217,7 @@
 	};
 
             
-            // I need to figure out how to use this to get the data - 'props' is left over from the Leaflet tutoral i stole this from
+            // I need to figure out how to use this to get the data - 'props' is left over from the Leaflet tutoral i stole this 
 	info.update = function (props) {
 		this._div.innerHTML = '<h4>county data window</h4>' +  (props ?
 			'<b>' + props.name + '</b><br />' + props.density + ' people / mi<sup>2</sup>' + '</b><br />' + props.density
@@ -240,8 +240,8 @@
                     };
                 },
 
-                    //           onEachFeature: function (feature, layer) {
-               /* layer.on('mouseover', function () {
+                               onEachFeature: function (feature, layer) {
+                layer.on('mouseover', function () {
                     layer.setStyle({
                         color: 'yellow',
                         weight: 9
@@ -253,9 +253,9 @@
                        color: 'grey',
                         weight: 1
                     });
-                });*/
+                });
                 
-              //  } 
+                } 
 
                 
                 
