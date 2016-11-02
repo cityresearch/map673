@@ -151,7 +151,83 @@
 
         map.addLayer(tiles);
 
+        
+        
+           var info = L.control();
+
+	info.onAdd = function (map) {
+		this._div = L.DomUtil.create('div', 'info');
+		this.update();
+		return this._div;
+	};
+
+            
+            // I need to figure out how to use this to get the data - 'props' is left over from the Leaflet tutoral i stole this 
+	info.update = function (props) {
+		this._div.innerHTML = '<h4>county data window</h4>' +  (props ?
+			'<b>' + props.name + '</b><br />' + props.name + ' data updates here' + '</b><br />' + props.name
+			: 'county data here');
+	};
+
+	info.addTo(map);
+
+        
+        
+        
+       function style(feature) {
+		return {
+			weight: 2,
+			opacity: 1,
+			color: 'white',
+			dashArray: '3',
+			fillOpacity: 0.7,
+			fillColor: getColor(feature.properties.name)
+		};
+	}
+        
+        
+        	function highlightFeature(e) {
+		var layer = e.target;
+
+		/*layer.setStyle({
+			weight: 5,
+			color: '#666',
+			dashArray: '',
+			fillOpacity: 0.7
+		});
+
+		if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+			layer.bringToFront();
+		}*/
+
+		info.update(layer.feature.properties);
+	}
+
+        
+        
         var dataLayer; // us state geoJson
+        
+        
+        
+        function resetHighlight(e) {
+		geojson.resetStyle(e.target);
+		info.update();
+	}
+
+	function zoomToFeature(e) {
+		map.fitBounds(e.target.getBounds());
+	}
+
+	function onEachFeature(feature, layer) {
+		layer.on({
+			mouseover: highlightFeature,
+			mouseout: resetHighlight,
+			click: zoomToFeature
+		});
+	}
+
+	
+        
         
 
         // declare global variables
@@ -208,27 +284,13 @@
         function drawMap(states) {
 
             
-            var info = L.control();
+         
 
-	info.onAdd = function (map) {
-		this._div = L.DomUtil.create('div', 'info');
-		this.update();
-		return this._div;
-	};
+
 
             
-            // I need to figure out how to use this to get the data - 'props' is left over from the Leaflet tutoral i stole this 
-	info.update = function (props) {
-		this._div.innerHTML = '<h4>county data window</h4>' +  (props ?
-			'<b>' + props.name + '</b><br />' + props.density + ' people / mi<sup>2</sup>' + '</b><br />' + props.density
-			: 'county data here');
-	};
-
-	info.addTo(map);
-
-
-
-
+            
+            
             
             dataLayer = L.geoJson(states, {
                 style: function (feature) { // style each feature of GeoJson layer
@@ -240,7 +302,9 @@
                     };
                 },
 
-                               onEachFeature: function (feature, layer) {
+                onEachFeature: onEachFeature
+                
+               /*                onEachFeature: function (feature, layer) {
                 layer.on('mouseover', function () {
                     layer.setStyle({
                         color: 'yellow',
@@ -255,7 +319,7 @@
                     });
                 });
                 
-                } 
+                } */
 
                 
                 
