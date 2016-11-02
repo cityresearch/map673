@@ -56,15 +56,6 @@
             border-radius: 5px;
             width: 180px;
         }
-          .legend2 {
-            padding: 6px 8px;
-            font-size: 1em;
-            background: rgba(75, 75, 75, 0.8);
-            color: whitesmoke;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-            border-radius: 5px;
-            width: 180px;
-        }
         
         .legend h3 {
             font-size: 1.1em;
@@ -119,7 +110,8 @@
             font-weight: bold;
         }
         
-        
+        .info { padding: 6px 8px; font: 14px/16px Arial, Helvetica, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
+.legend2 { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }
         
     </style>
 </head>
@@ -146,7 +138,9 @@
             , zoomControl: true
         }
         var map = L.map('map', options);
+
         // load map tiles and add to map
+
         var tiles = L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
             , subdomains: 'abcd'
@@ -154,38 +148,88 @@
             , maxZoom: 20
             , ext: 'png'
         });
+
         map.addLayer(tiles);
+
         var dataLayer; // us state geoJson
         
+
         // declare global variables
+
         $.getJSON("ky-counties.json", function (states) {
+
             Papa.parse('ky-unemployment-data.csv', {
+
                     download: true
                     , header: true
                     , complete: function (data) {
+
                             processData(states, data);
+
                         }
                         //    })
+
                 }) // end of Papa.parse() 
+
             function processData(states, data) {
                 //function to process/bind CSV attribute data to geometry data
                 for (var state in states.features) {
+
                     for (var d in data.data) {
+
                         var stateFIP = states.features[state].properties.COUNTY_FIP
                             , dataFIP = data.data[d].CNTY;
+
                         if (stateFIP === dataFIP) {
+
                             states.features[state].properties = data.data[d];
                             //     console.log(states.features[state]);
                         }
                     }
+
                 }
+
                 drawMap(states);
             }
+
         });
+        
+        
+        
+        
+        
+
         // AJAX requests to load data files
+
         // function to process/bind data
+
         // function to draw the map
+
         function drawMap(states) {
+
+            
+            var info = L.control();
+
+	info.onAdd = function (map) {
+		this._div = L.DomUtil.create('div', 'info');
+		this.update();
+		return this._div;
+	};
+
+            
+            // I need to figure out how to use this to get the data - 'props' is left over from the Leaflet tutoral i stole this from
+	info.update = function (props) {
+		this._div.innerHTML = '<h4>county data window</h4>' +  (props ?
+			'<b>' + props.name + '</b><br />' + props.density + ' people / mi<sup>2</sup>' + '</b><br />' + props.density
+			: 'county data here');
+	};
+
+	info.addTo(map);
+
+
+
+
+            
             dataLayer = L.geoJson(states, {
                 style: function (feature) { // style each feature of GeoJson layer
                     return {
@@ -195,8 +239,9 @@
                         fillColor: '#1f78b4' // set fill color
                     };
                 },
-                               onEachFeature: function (feature, layer) {
-                layer.on('mouseover', function () {
+
+                    //           onEachFeature: function (feature, layer) {
+               /* layer.on('mouseover', function () {
                     layer.setStyle({
                         color: 'yellow',
                         weight: 9
@@ -208,40 +253,53 @@
                        color: 'grey',
                         weight: 1
                     });
-                });
+                });*/
                 
-                } 
+              //  } 
+
                 
                 
                 
             }).addTo(map);
+
             var breaks = getClassBreaks();
-            
-            var rates = getRates();
-            
+
             
             
             
             updateMap(breaks, '2001');
             drawLegend(breaks);
-            infoPanel(rates);
             createSliderUI(breaks);
             
         }
+
         
                
         
+
         function updateMap(breaks, attribute) {
             dataLayer.eachLayer(function (layer) {
+
                 layer.setStyle({
                     fillColor: getColor(Number(layer.feature.properties[attribute]), breaks)
                 });
+
+                
                 
             })
         
+    
+        
         }
+
+
+
+
+
         // function to update the map
+
         // function get the class breaks   
+
        
       
         
@@ -249,36 +307,32 @@
         
         
         function getClassBreaks() {
+
             var values = [];
+
             dataLayer.eachLayer(function (layer) {
+
                 for (var i = 2001; i <= 2013; i++) {
+
                     var value = layer.feature.properties[String(i)];
                     values.push(Number(value));
                 }
+
+
+
+
             });
             var breaks = ss.quantile(values, [0, 0.2, 0.4, 0.6, 0.8, 1]);
             // console.log(breaks);
+
             return breaks;
+
         }
-        
-           function getRates() {
-            var values = [];
-            dataLayer.eachLayer(function (layer) {
-                for (var i = 2001; i <= 2013; i++) {
-                    var value = layer.feature.properties[String(i)];
-                    values.push(Number(value));
-                }
-            });
-            var rates = values;
-            // console.log(breaks);
-            return rates;
-        }
-        
-        
-        
-        
+
         function getColor(d, breaks) {
+
             // function to get the color value
+
             if (d <= breaks[1]) {
                 return '#f2f0f7';
             } else if (d <= breaks[2]) {
@@ -290,58 +344,48 @@
             } else if (d <= breaks[5]) {
                 return '#54278f'
             }
+
+
         }
+
+
+
         // function to draw the legend
+
+
         function drawLegend(breaks) {
+
             var legendControl = L.control({
                 position: 'topright'
             });
+
             legendControl.onAdd = function (map) {
+
                 var div = L.DomUtil.create('div', 'legend');
+
                 return div;
+
             };
+
             legendControl.addTo(map);
+
             var legend = $('.legend').html("<h3><span>2001</span>KY County Unemployment Rates</h3><ul>");
+
             for (var i = 0; i < breaks.length - 1; i++) {
+
                 var color = getColor(breaks[i + 1], breaks);
                 $('.legend ul').append('<li><span style="background:' + color + '"> </span> ' +
+
                     breaks[i] + ' &mdash; ' +
                     breaks[i + 1] + '</li>');
+
             }
             legend.append("</ul>");
+
         }
+
         
-      function infoPanel(rates) {
-            var infoPanelControl = L.control({
-                position: 'bottomright'
-            });
-            infoPanelControl.onAdd = function (map) {
-                var div = L.DomUtil.create('div', 'legend');
-                return div;
-            };
-           
-          
-          //obviously getColor is not going to work here... i've been experimenting with a new function, but I keep calling the data incorrectly and it gets mixed up with the breaks panel
-          infoPanelControl.addTo(map);
-            var legend = $('.legend').html("<h3><span>2001</span>Info Panel for Annual Rates</h3><ul>");
-            for (var i = 0; i < rates.length - 1; i++) {
-                var color = getColor(rates[i + 1], rates);
-                $('.legend ul').append('<li><span style="background:' + color + '"> </span> ' +
-                    rates[i]  + '</li>');
-            }
-          
-            map.on('mouseover', function () {
-                $(".info").show();
-               
-            });
-           map.on('mouseout', function () {
-                $(".info").hide();
-               
-            });
-          
-          
-            legend.append("</ul>");
-        }
+  
               
         
         function createSliderUI(breaks) {
@@ -370,8 +414,10 @@
                 $('.legend h3 span').html(attribute);
                 
             });
+
         
         }
+
         // function to create the range slider
     </script>
 
