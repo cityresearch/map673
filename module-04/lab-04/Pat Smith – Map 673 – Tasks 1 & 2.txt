@@ -1,0 +1,17 @@
+Pat Smith – Map 673 – Tasks 1 & 2
+
+What do I want to get out of this project?
+•	An easy to use and easy to understand tool that allows user to explore data for natural disasters in Kenya
+What do I want the users to get out of it?
+•	The ability to see the location of all the natural disasters across Kenya
+•	To filter the disaster locations by the year the disaster took place
+•	To visualize specific types of disasters
+•	To access details about each individual disaster
+Content requirements:
+•	A basemap for Kenya using Mapbox
+•	A listing of all the Kenyan natural disasters with lat/long 
+Functional specifications:
+•	The data will be drawn on the basemap
+•	The user will be able to zoom and pan the map
+•	A slider control will filter based on year of the disaster
+•	A selection interface will allow users to turn and off different types of disasters

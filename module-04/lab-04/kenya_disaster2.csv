@@ -1,0 +1,1371 @@
+County,LAT,LON,Event,date,Place,Deaths ,Injured ,Missing ,Houses Destroyed ,Houses Damaged ,Victims ,Affected ,Relocated ,Evacuated ,Damages in crops Ha. ,Comments
+MANDERA,2.857428782,40.91477741,FLOOD,10/28/2009,,,,,300,2000,,10000,1500,,,
+TANA RIVER,-0.421694549,38.98876291,FLOOD,1/6/2008,Tana Delta,,,,,1874,,13500,,,6000,
+TURKANA,3.148692255,35.68342731,FLOOD,12/27/2009,,4,,,15,1000,,,346,,,"great north road destroyed especially at Kakongu, Kalemngorok and Lokichar, irrigation schemes along R. Turkwel badly affected"
+SIAYA,0.217253648,34.24955086,FLOOD,6/12/2011,"West Ugenya, East Ugenya",,,,,500,300,,,,,
+SIAYA,0.087522857,34.13377037,FLOOD,6/12/2011,"Usonga, Nyadorera centre, Rwambwa Health Centre, Police Post",,,,,500,,,,,100,Roads were also cut off and Nyadorera Market was flooded
+ISIOLO,0.547115722,37.78850934,FLOOD,10/26/2006,Isiolo Town,3,,,,354,,1541,,,,
+NAIROBI,-1.366321828,36.81424121,FLOOD,4/20/2010,,,,,,300,,,,,,
+TRANS NZOIA,1.149711342,34.98656525,FLOOD,2/13/2012,Namanjalala village,,,,,200,,3000,,,,
+MIGORI,-0.968971612,34.23950854,FLOOD,9/4/2013,Nyatike,,,,,195,,1572,,,,"125,40,30 houses submerged in Kanyawanga, Konyango and Kobuto villages respectively."
+KISUMU,-0.285337496,34.94779754,FLOOD,6/12/2011,west nyakach,,,,,156,,780,,,,
+KISUMU,-0.285337496,34.94779754,FLOOD,6/12/2011,THUR DIBUORO,,,,,127,,635,,,,
+KISUMU,-0.094690421,34.64642546,FLOOD,4/19/2012,River Awach Tende,,,,,68,,441,,,,
+KILIFI,-2.827745482,39.64577337,FLOOD,3/21/2010,Malindi,,,,97,66,,365,,,,
+KISUMU,-0.285337496,34.94779754,FLOOD,6/12/2011,Rangul,,,,,63,,315,,315,,
+GARISSA,0.119329214,39.15781573,FLOOD,7/11/2008,Gurufa village,,,,,50,,,,,,
+NAIROBI,-1.292816458,36.85588634,FLOOD,12/22/2009,Makadara,,,,,33,,,,,,
+KISUMU,-0.285337496,34.94779754,FLOOD,6/12/2011,Gem Rae,,,,,25,,125,,,,
+LAIKIPIA,0.243690128,37.03386879,FLOOD,4/25/2010,Timau,,,,10,20,,,,,,
+KISII,-0.658290258,34.69555016,FLOOD,5/22/2010,Soneka location,,,,,15,,,,,,water seeping into the houses from underground.
+MOMBASA,-4.071272877,39.62902314,FLOOD,1/6/2008,"Likoni, Miritini, Port Reitz",,,,,13,,585,,,,
+MAKUENI,-2.245442852,37.78452637,FLOOD,12/27/2009,,,,,,5,,180,,,,
+HOMA BAY,-0.577404303,34.48232572,FLOOD,4/1/2010,Wahambala village,,,,,5,,296,296,,275,
+NYERI,-0.451121702,36.75564013,FLOOD,5/13/2012,"Kagumoini village,Ichamara sublocation",,,,,5,,,,,,
+KISUMU,-0.070506973,34.6001277,WINDSTORM,4/15/2010,Otwero Primary School,,,,,5,,,,,,
+KILIFI,-2.827745482,39.64577337,FLOOD,1/6/2008,,,17,,,4,,,,,,Roof of 4 houses blown off and one wall damaged
+KISUMU,-0.073311548,34.7277667,WINDSTORM,4/15/2010,Luanda Magwar Secondary School,,,,,3,,,,,,
+TURKANA,3.148692255,35.68342731,FLOOD,12/27/2009,,5,,,6666,2,,,,,,5 bridges washed away
+MURANG'A,-0.737555204,36.98205783,LANDSLIDE,3/11/2009,"Gathaithi sublocation of Kahuho division, Nyagathia village",1,,,,1,,,,,,Juvenile was buried alive after the family's kitchen was swept off by the mass of earth. The slide was triggered by rapid saturation of the soil[...]
+NYANDARUA,-0.639908835,36.69121948,FLOOD,9/5/2012,Leshau,,,,,1,,,,,,church swept away 
+MURANG'A,-0.638975023,36.9677687,LANDSLIDE,7/11/2008,Mukima,,,,1,1,,4,,,,The drainage system is poor hence the surface runoff water has to look for its own way down the sloppy area posing further dangers to already[...]
+NAKURU,-0.376065919,35.9374692,WINDSTORM,3/3/2011,Njoro Police Lines,,,,,1,,,,,,
+KISUMU,-0.073311548,34.7277667,WINDSTORM,4/15/2010,Mondi Primary School,,,,,1,,,,,,
+NANDI,0.236795213,35.01851381,THUNDERSTORM,6/18/2011,Kapkesengin village,1,3,,,1,,,,,,
+KIRINYAGA,-0.659670962,37.36372604,EXTREME RAINS,6/30/2012,Mwea East,,,,,,57154,,,,,Amount of food required maize-5751.
+NYERI,-0.240643877,36.81151691,EXTREME RAINS,6/30/2012,Kieni west,,,,,,55518,,,,,Amount of food required maize-2500
+MURANG'A,-0.815891304,36.98737235,EXTREME RAINS,6/30/2012,Gatanga,,,,,,50892,,,,,Amount of food maize-3000 and beans -760
+KIAMBU,-1.126057426,37.02810163,EXTREME RAINS,6/30/2012,Ruiru,,,,,,39605,,,,,"Amount of food required maize 11316,beans 4868,rice 500 and oil 48422."
+KIAMBU,-1.142236267,36.62749723,EXTREME RAINS,6/30/2012,Limuru,,,,,,29790,,,,,"Amount of food required maize-19,860 and beans 9757"
+NYANDARUA,-0.555957441,36.56170374,EXTREME RAINS,6/30/2012,Kinangop,,,,,,28783,,,,,
+NYERI,-0.191521298,37.06749258,EXTREME RAINS,6/30/2012,Kieni east,,,,,,27100,,,,,"Amount of food required maize-1400,beans-2100 and oil-3500"
+MURANG'A,-0.751858591,36.86800498,EXTREME RAINS,6/30/2012,Kigumo,,,,,,23443,,,,,
+KIAMBU,-1.234691677,36.62415091,EXTREME RAINS,6/30/2012,kikuyu,,,,,,21900,,,,,A mount of food required maize-560 and beans 74
+KIAMBU,-0.910321607,36.68112779,EXTREME RAINS,6/30/2012,kikuyu,,,,,,21900,,,,,A mount of food required maize-24705 and beans 9757
+NYERI,-0.445877647,37.11625732,EXTREME RAINS,6/30/2012,Mathira west,,,,,,21160,,,,,"Amount of food required maize-11,130."
+KIAMBU,-1.056557964,37.16911028,EXTREME RAINS,6/30/2012,Thika east,,,,,,20069,,,,,Amount of food required maize 18462 and beans 2691.
+MURANG'A,-0.648520917,36.77203041,EXTREME RAINS,6/30/2012,Muranga south,,,,,,16576,,,,,"Amount of food required maize-76186,beans-21517,oil-556 and rice 4020."
+NYERI,-0.416137094,36.96505115,EXTREME RAINS,6/30/2012,Nyeri Central,,,,,,16500,,,,,"Amount of food required oil-16500,maize-9900 and beans-4027"
+KIAMBU,-0.982753903,36.84079276,EXTREME RAINS,6/30/2012,Gatundu north,,,,,,16000,,,,,Amount of food required maize 29000.
+MURANG'A,-0.737555204,36.98205783,EXTREME RAINS,6/30/2012,Kahuro,,,,,,16000,,,,,Amount of food required maize-3895.
+KIAMBU,-1.04794128,36.78517316,EXTREME RAINS,6/30/2012,Githunguri,,,,,,14760,,,,,"Amount of food required maize-1500,beans-600 and oil 200."
+KIAMBU,-1.04794128,36.78517316,EXTREME RAINS,6/30/2012,Githunguri,,,,,,14760,,,,,"A mount of food required maize-1500,beans-600 and oil 200."
+KIRINYAGA,-0.659670962,37.36372604,EXTREME RAINS,6/30/2012,Mwea west,,,,,,14693,,,,,
+NYANDARUA,-0.555957441,36.56170374,EXTREME RAINS,6/30/2012,Mirangine,,,,,,13600,,,,,"A mount of food required maize 1663,beans 529,oil 3816 and rice 254."
+NYANDARUA,-0.555957441,36.56170374,EXTREME RAINS,6/30/2012,Nyandarua west,,,,,,13116,,,,,
+MURANG'A,-0.877816822,36.98958778,EXTREME RAINS,6/30/2012,Kandara,,,,,,12500,,,,,
+KIRINYAGA,-0.511982367,37.30372319,EXTREME RAINS,6/30/2012,Kirinyaga east,,,,,,9550,,,,,"Amount of food required maize-4000,beans-2500 and oil-28830."
+NYERI,-0.577948615,37.07631395,EXTREME RAINS,6/30/2012,Mukurwei ini,,,,,,8700,,,,,"Amount of food required maize-108,500.Expected time of harvest August and September."
+NYANDARUA,-0.555957441,36.56170374,EXTREME RAINS,6/30/2012,Nyandarua,,,,,,8430,,,,,A mount of food required maize 1000.
+NYANDARUA,-0.555957441,36.56170374,EXTREME RAINS,6/30/2012,Nyandarua central,,,,,,7930,,,,,"A mount of food required maize 5664,beans 2832 and rice 672"
+KIAMBU,-0.910321607,36.68112779,FLOOD,7/30/2012,Lari,,,,,,7485,,,,,"A mount of food required maize 11316,beans 4868 and rice 500."
+KIAMBU,-0.838599723,36.86714494,FLOOD,7/30/2012,Lari,,,,,,7485,,,,,A mount of food required maize 560 and beans 74.
+MURANG'A,-0.69627556,37.14219506,EXTREME RAINS,6/30/2012,Kiharu,,,,,,7310,,,,,
+NYANDARUA,-0.555957441,36.56170374,EXTREME RAINS,6/30/2012,Nyandarua north,,,,,,6513,,,,,"A mount of food required maize 2000,beans 400,oil 400 and rice 400."
+MURANG'A,-0.638975023,36.9677687,EXTREME RAINS,6/30/2012,Mathioya,,,,,,6173,,,,,Amount of food required maize-687.
+KIAMBU,-1.162889285,36.80600841,EXTREME RAINS,6/30/2012,Kiambu,,,,,,5075,,,,,Amount of food required maize-30021
+KIAMBU,-1.056557964,37.16911028,EXTREME RAINS,6/30/2012,Thika west,,,,,,3500,,,,,"Amount of food required maize 3888,beans 1458 and oil 200."
+NYANDARUA,-0.402735039,36.50844474,EXTREME RAINS,6/30/2012,Kipipiri,,,,,,3000,,,,,"A mount of food required maize 3000,beans 1200 and rice 1000."
+NYERI,-0.451222501,36.93707257,EXTREME RAINS,6/30/2012,Tetu,,,,,,2750,,,,,"Amount of food required maize-10,000,beans-5,000 and oil-2000.Expected time of harvest August and september."
+KIRINYAGA,-0.511982367,37.30372319,EXTREME RAINS,6/30/2012,Kirinyaga central,,,,,,2621,,,,,"Amount of food required maize-2500,beans-600 and oil-275."
+MURANG'A,-0.691825513,36.96287956,EXTREME RAINS,6/30/2012,Kangema,,,,,,2153,,,,,
+NYERI,-0.416137094,36.96505115,EXTREME RAINS,6/30/2012,Nyeri South,,,,,,1000,,,,,"Amount of food required maize-130,500 and beans-30,400.Expected time of harvest August and september."
+NYERI,-0.445877647,37.11625732,EXTREME RAINS,6/30/2012,Mathira east,,,,,,993,,,,,"Amount of food required maize-63,beans-26,rice-127 and oil-316."
+KIRINYAGA,-0.511982367,37.30372319,EXTREME RAINS,6/30/2012,Kirinyaga west,,,,,,970,,,,,
+HOMA BAY,-0.704324998,34.13735449,FLOOD,4/18/2012,Nyabura village Seka sub-loc,2,,,,,3,,,,,"maize,bananas and cassava plants swept away and roads are impassable"
+NAROK,-0.982478387,35.82108478,FLOOD,2/4/2013,Doroboni river,4,,,,,2,,,,,Two victims were rescued and survived.
+KWALE,-4.408103236,39.11858077,DROUGHT,9/3/2011,,,,,,,,45100,,,,
+KWALE,-4.408103236,39.11858077,FLOOD,1/6/2008,Kinondo,,,,4,,,46,,,,
+KWALE,-4.408103236,39.11858077,EPIDEMIC,2/27/2010,Msambweni,5,,,,,,6,,,,"Local community are using water from stagnant water pans and shallow wells, Low latrine coverage (32%), limited use of the available toilets, open[...]"
+KWALE,-4.408103236,39.11858077,EPIDEMIC,10/16/2009,Msambweni,,,,,,,2,,,,
+KWALE,-4.408103236,39.11858077,FLOOD,10/27/2006,Mwereni,4,,,,,,,,,,
+KWALE,-4.408103236,39.11858077,FLOOD,10/13/2011,Diani Location,,,,,,,,,,,"3 villages, Harmony, Sululu and Lemba were submerged by the floods"
+KWALE,-4.408103236,39.11858077,DROUGHT,2/28/2011,,,,,,,,,,,,
+KWALE,-4.408103236,39.11858077,DROUGHT,1/8/2009,Msambweni,,,,,,,,,,,
+KWALE,-4.245130486,39.3212928,EPIDEMIC,3/19/2010,Kwale,,,,,,,8,,,,
+KWALE,-4.160261825,39.526973,FLOOD,10/27/2006,Tiwi,,,,21,,,67,,,,67 families were rendered homeless
+KWALE,-4.160261825,39.526973,DROUGHT,9/3/2011,,,,,,,,,,,,
+KWALE,-4.160261825,39.526973,DROUGHT,1/8/2009,Matuga,,,,,,,,,,,
+KWALE,-4.112691034,39.01770097,DROUGHT,1/8/2009,Kinango,,,,,,,120000,,,,
+KWALE,-4.112691034,39.01770097,DROUGHT,9/4/2009,,,,,,,,64,,,,
+KWALE,-4.112691034,39.01770097,DROUGHT,2/28/2011,,,,,,,,,,,,
+KWALE,-4.112691034,39.01770097,EPIDEMIC,1/1/2007,,,,,,,,,,,,
+KWALE,-4.112691034,39.01770097,EPIDEMIC,1/1/2007,,,,,,,,,,,,
+MOMBASA,-4.071272877,39.62902314,DROUGHT,9/3/2011,,,,,,,,71653,,,,
+MOMBASA,-4.071272877,39.62902314,DROUGHT,1/8/2009,Likoni,,,,,,,,,,,
+MOMBASA,-4.024685907,39.66429644,DROUGHT,1/8/2009,Kilindini,,,,,,,219546,,,,
+MOMBASA,-4.024685907,39.66429644,DROUGHT,9/3/2011,,,,,,,,30000,,,,
+MOMBASA,-4.024685907,39.66429644,FLOOD,1/6/2008,"Majengo Ya Simba, Sparki A and B, Tudor and Mburukenge",1,,,200,,,300,,,,Person killed as a result of a Nakumatt wall collapsed on him
+MOMBASA,-4.024685907,39.66429644,EPIDEMIC,2/15/2010,Mombasa,,,,,,,15,,,,"Local community was using contaminated water from shallow wells, latrine coverage is lower in the informal settlements, defecation into the ocean is[...]"
+MOMBASA,-4.024685907,39.66429644,EPIDEMIC,2/19/2010,Kilindini,1,,,,,,6,,,,"Shallow wells, collapsed water sewer system seeping underground and resurfacing as a 'spring', poor sanitation standards, poor personal hygiene[...]"
+MOMBASA,-4.024685907,39.66429644,FLOOD,2/18/2011,Makupa,1,4,,,,,,,,,
+MOMBASA,-3.969912452,39.61121446,DROUGHT,2/3/2009,Kilindini,,,,,,,219546,,,,
+MOMBASA,-3.969912452,39.61121446,EPIDEMIC,1/1/2009,Mombasa,3,,,,,,18,,,,Incidences of cholera were reported as from January to June 2009
+MOMBASA,-3.969912452,39.61121446,FLOOD,10/27/2006,Mikombani/ Mikanjuni,,,,5,,,,,,,5 families were left homeless
+MOMBASA,-3.969912452,39.61121446,DROUGHT,1/8/2009,Changamwe,,,,,,,,,,,
+MOMBASA,-3.969912452,39.61121446,FLOOD,1/6/2008,Changamwe and Kisima Cha zamani Areas,,,,,,,,,,,
+MOMBASA,-3.963063661,39.6902308,DROUGHT,2/28/2011,,,,,,,,50000,,,,
+MOMBASA,-3.963063661,39.6902308,FLOOD,10/28/2009,,,,,,,,35000,,,,
+MOMBASA,-3.963063661,39.6902308,FLOOD,10/27/2006,"Mishomoni, Kisauni, Bombolulu",,,,2,,,60,,,,60 families were affected
+MOMBASA,-3.963063661,39.6902308,DROUGHT,1/8/2009,Kisauni,,,,,,,,,,,
+KILIFI,-3.790779303,39.52704529,DROUGHT,1/1/2009,Kaloleni,,,,,,,65500,,,,
+KILIFI,-3.790779303,39.52704529,DROUGHT,1/3/2011,,,,,,,,45100,,,,
+KILIFI,-3.790779303,39.52704529,FLOOD,10/27/2006,"Kombeni, Ribe",,,,15,,,,,,,Learning institutions have been affected
+KILIFI,-3.790779303,39.52704529,FLOOD,10/15/2011,Ngwenzeni river,1,,,,,,,,,,The river was swollen due to heavy rains
+KILIFI,-3.790779303,39.52704529,DROUGHT,2/28/2011,Rabai,,,,,,,,,,,
+KILIFI,-3.790779303,39.52704529,FLOOD,10/27/2006,Jimba,,,,,,,,,,,Tha main bridge linking Mazeras to Kaloleni has been washed away
+KWALE,-3.780351832,39.25333184,DROUGHT,1/3/2011,,,,,,,,45100,,,,
+KWALE,-3.780351832,39.25333184,FLOOD,2/2/2012,Kilibasi,,,,,,,34000,,,,
+KWALE,-3.780351832,39.25333184,DROUGHT,9/4/2009,Matope,,,,,,,2,,,,
+KWALE,-3.780351832,39.25333184,DROUGHT,2/28/2011,,,,,,,,,,,,
+KILIFI,-3.761709161,39.78162122,FLOOD,1/11/2009,Kidutani,2,,,,,,54,,,,River Mbogholo burst and swept away crops. Abridge under construction was swept away and 3 power posts were brought down by the water
+KILIFI,-3.761709161,39.78162122,FLOOD,5/22/2010,Mtwapa Village,,,,354,,,,,,,
+KILIFI,-3.753063173,39.73583711,DROUGHT,9/4/2009,Ziani,,,,,,,3,,,,
+TAITA TAVETA,-3.7292881,38.74984998,DROUGHT,1/3/2011,,,,,,,,12540,,,,
+TAITA TAVETA,-3.7292881,38.74984998,DROUGHT,1/8/2009,Voi,,,,,,,,,,,
+KILIFI,-3.548200024,39.68698005,DROUGHT,1/3/2011,,,,,,,,103631,,,,
+KILIFI,-3.548200024,39.68698005,DROUGHT,1/8/2009,Ganze,,,,,,,,,,,
+TAITA TAVETA,-3.524380301,38.33252949,DROUGHT,1/3/2011,Taita,,,,,,,40530,,,,
+TAITA TAVETA,-3.524380301,38.33252949,DROUGHT,1/3/2011,,,,,,,,12540,,,,
+TAITA TAVETA,-3.524380301,38.33252949,FLOOD,6/1/2010,Bura - Hirimani,,,,,,,5000,,,,
+TAITA TAVETA,-3.524380301,38.33252949,DROUGHT,2/28/2011,,,,,,,,,,,,
+TAITA TAVETA,-3.524380301,38.33252949,DROUGHT,1/8/2009,Bura,,,,,,,,,,,
+TAITA TAVETA,-3.524380301,38.33252949,DROUGHT,1/8/2009,Mwatate,,,,,,,,,,,
+KILIFI,-3.489945669,39.85727307,DROUGHT,1/3/2011,Kilifi,,,,,,,12433,,,,
+KILIFI,-3.489945669,39.85727307,DROUGHT,9/4/2009,Matsangoni,,,,,,,3,,,,
+KILIFI,-3.454136829,39.36724869,DROUGHT,9/10/2009,Bamba,,,,,,,,,,,
+TAITA TAVETA,-3.372415026,37.70861335,DROUGHT,1/8/2009,Taveta,,,,,,,122599,,,,
+TAITA TAVETA,-3.372415026,37.70861335,DROUGHT,2/28/2011,,,,,,,,20562,,,,
+TAITA TAVETA,-3.372415026,37.70861335,DROUGHT,1/3/2011,,,,,,,,11580,,,,
+TAITA TAVETA,-3.372415026,37.70861335,DROUGHT,3/2/2012,,,,,,,,,,,,
+TAITA TAVETA,-3.372415026,37.70861335,FLOOD,1/11/2008,Kimorigo,,,,,,,,,,,
+KILIFI,-3.371716712,39.85368794,DROUGHT,9/3/2011,,,,,,,,45305,,,,
+KILIFI,-3.371716712,39.85368794,DROUGHT,1/3/2011,Magarini,,,,,,,15350,,,,
+KILIFI,-3.371716712,39.85368794,DROUGHT,1/3/2011,Rabai,,,,,,,1893,,,,
+KILIFI,-3.371716712,39.85368794,FLOOD,10/28/2009,,,,,,,,400,,,,
+KILIFI,-3.371716712,39.85368794,EPIDEMIC,1/1/2009,Kilifi,,,,,,,4,,,,Incidences of cholera were reported as from January to June 2009
+KILIFI,-3.355025169,39.68751945,FLOOD,10/13/2011,Rare river,3,6,,,,,,,,,
+TAITA TAVETA,-3.336923645,38.43206498,DROUGHT,2/3/2009,,,,,,,,122599,,,,
+TAITA TAVETA,-3.336923645,38.43206498,FLOOD,7/11/2008,"Kimorigo, Eldoro, Gotini, Lotima",,,,,,,100,,,,runoff water from Mt Kilimanjaro and overflow from River Lumi
+TAITA TAVETA,-3.336923645,38.43206498,DROUGHT,9/4/2009,,,,,,,,28,,,,
+TAITA TAVETA,-3.284490309,38.28508482,LANDSLIDE,11/12/2007,Mbale location,3,,,,,,,,,,"3 members of one family(father, mother, child), one child left destitute"
+TAITA TAVETA,-3.284490309,38.28508482,DROUGHT,1/3/2011,,,,,,,,,,,,
+TAITA TAVETA,-3.284490309,38.28508482,DROUGHT,1/8/2009,Wundanyi,,,,,,,,,,,
+KILIFI,-2.859147262,40.11661037,DROUGHT,1/3/2011,,,,,,,,32850,,,,
+KILIFI,-2.859147262,40.11661037,FLOOD,2/11/2009,Bungale road,,,,,,,8000,,,,
+KILIFI,-2.859147262,40.11661037,FLOOD,1/11/2009,Kanagoni village,2,,,466,,,5000,2330,,,1000 households were affected
+KILIFI,-2.859147262,40.11661037,FLOOD,4/13/2013,Magarini,1,,,,,,2000,,,,One person died while two were rescued after their boat capsized.
+KILIFI,-2.859147262,40.11661037,FLOOD,6/1/2010,"Kipangangeni, Majahazini, Mwangatini villages",,,,,,,419,,,,
+KILIFI,-2.859147262,40.11661037,EPIDEMIC,1/1/2009,Malindi,,,,,,,16,,,,Incidences of cholera were reported as from January to June 2009
+KILIFI,-2.859147262,40.11661037,FLOOD,2/11/2009,Lamu rd,2,,,,,,,,,,
+KILIFI,-2.859147262,40.11661037,FLOOD,2/11/2009,Malindi/Garsen,,,,,,,,,,,
+KILIFI,-2.859147262,40.11661037,FLOOD,12/27/2009,Malindi/Garsen road,,,,,,,,,,,
+KILIFI,-2.859147262,40.11661037,FLOOD,10/28/2009,Lamu/Malindi road,,,,,,,,,,,
+KILIFI,-2.859147262,40.11661037,FLOOD,10/28/2009,,,,,,,,,200,,,
+KILIFI,-2.859147262,40.11661037,DROUGHT,2/28/2011,,,,,,,,,,,,
+KILIFI,-2.859147262,40.11661037,DROUGHT,1/8/2009,Magarini,,,,,,,,,,,
+KILIFI,-2.859147262,40.11661037,DROUGHT,1/4/2010,Magarini,,,,,,,,,,,
+KILIFI,-2.827745482,39.64577337,DROUGHT,1/3/2011,,,,,,,,12433,,,,
+KILIFI,-2.827745482,39.64577337,FLOOD,10/28/2009,,,,,,,,500,,,,
+KILIFI,-2.827745482,39.64577337,FLOOD,6/1/2010,Ganda,,,,,,,200,,,,A big trench was created across the road
+KILIFI,-2.827745482,39.64577337,FLOOD,6/1/2010,,,,,,,,49,,,,9 families were left homeless after houses were submerged in floods
+KILIFI,-2.827745482,39.64577337,FLOOD,4/29/2010,Goshi area - River Sabaki,,,,,,,,,,,
+KILIFI,-2.827745482,39.64577337,DROUGHT,1/8/2009,Malindi,,,,,,,,,,,
+KILIFI,-2.827745482,39.64577337,DROUGHT,9/4/2010,,,,,,,,,,,,
+KILIFI,-2.827745482,39.64577337,FLOOD,1/3/2012,,,,,,,,,,,,
+KILIFI,-2.827745482,39.64577337,DROUGHT,1/4/2010,Langobaya,,,,,,,,,,,
+KILIFI,-2.789251387,39.86693084,FLOOD,6/1/2010,Baricho and Dakacha villages,,,,,,,1200,,,,
+KILIFI,-2.789251387,39.86693084,FLOOD,1/11/2009,Watala village,,,,,,,1160,,,,
+KILIFI,-2.789251387,39.86693084,FLOOD,1/11/2009,Kanyumbuni village,,,,,,,1150,,,,
+KILIFI,-2.789251387,39.86693084,FLOOD,1/11/2009,Chamari Village,,,,,,,1080,,,,
+KILIFI,-2.789251387,39.86693084,FLOOD,1/11/2009,Garashi,,,,,,,180,,,,
+KILIFI,-2.789251387,39.86693084,FLOOD,1/11/2009,Kambicha village,,,,,,,75,,,,
+KILIFI,-2.789251387,39.86693084,FLOOD,1/11/2009,Adu,,,,,,,45,,,,
+KILIFI,-2.789251387,39.86693084,DROUGHT,8/4/2009,,,,,,,,,,,,
+KILIFI,-2.789251387,39.86693084,DROUGHT,1/4/2010,Marafa,,,,,,,,,,,
+KAJIADO,-2.677131981,37.42158333,DROUGHT,1/3/2011,,,,,,,,,,,,
+KAJIADO,-2.677131981,37.42158333,DROUGHT,1/8/2009,,,,,,,,,,,,
+KAJIADO,-2.677131981,37.42158333,FLOOD,4/24/2012,Intilal location,,,,,,,,,,,100 homesteads with all the properties were swept
+MAKUENI,-2.585355836,38.16737924,FLOOD,11/13/2008,Kambu,2,,,,,,,,,,
+MAKUENI,-2.585355836,38.16737924,DROUGHT,1/5/2010,MTITO ANDEI,,,,,,,,,,,
+MAKUENI,-2.585355836,38.16737924,DROUGHT,1/5/2010,KATHEKANI,,,,,,,,,,,
+MAKUENI,-2.585355836,38.16737924,DROUGHT,1/5/2010,KAMBU,,,,,,,,,,,
+MAKUENI,-2.585355836,38.16737924,DROUGHT,1/5/2010,NGWATA,,,,,,,,,,,
+MAKUENI,-2.585355836,38.16737924,DROUGHT,1/5/2010,NTHONGONI,,,,,,,,,,,
+MAKUENI,-2.585355836,38.16737924,DROUGHT,1/5/2010,NZAMBANI,,,,,,,,,,,
+MAKUENI,-2.539046607,37.83701493,EPIDEMIC,9/29/2009,Makueni district,3,,,,,,6,,,,
+MAKUENI,-2.539046607,37.83701493,FLOOD,1/14/2010,,,,,10,,,,,,,
+MAKUENI,-2.539046607,37.83701493,DROUGHT,1/3/2011,,,,,,,,,,,,
+MAKUENI,-2.539046607,37.83701493,DROUGHT,11/3/2011,,,,,,,,,,,,
+MAKUENI,-2.539046607,37.83701493,DROUGHT,1/8/2009,Makueni,,,,,,,,,,,
+MAKUENI,-2.539046607,37.83701493,DROUGHT,1/5/2010,UKIA,,,,,,,,,,,
+KITUI,-2.455895565,38.4842857,DROUGHT,9/4/2009,,,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/25/2010,Baomo,,,,138,,,1051,,,,People affected are located in the relocation camps
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/25/2010,Kiambeni,,,,172,,,915,,,,People affected are located in the relocation camps
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/25/2010,Miyesa,,,,136,,,876,,,,People affected are located in the relocation camps
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/25/2010,Mikameni,,,,86,,,762,,,,People affected are located in the relocation camps
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/25/2010,Umoja/ Minjila,,,,127,,,734,,,,People affected are located in the relocation camps
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/25/2010,Kokan Farm,,,,112,,,711,,,,People affected are located in the relocation camps
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/25/2010,Tawakal,,,,107,,,678,,,,People affected are located in the relocation camps
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/25/2010,Choa,,,,82,,,548,,,,People affected are located in the relocation camps
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/25/2010,Eskedek,,,,60,,,455,,,,People affected are located in the relocation camps
+TANA RIVER,-2.389469196,39.59916346,FLOOD,10/28/2009,Tarasaa,,,,230,,,400,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/25/2010,Ngumo,,,,39,,,212,,,,People affected are located in the relocation camps
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Dobale,,,,193,,,,,,,193 household affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Bilisa-Korlabe C,,,,180,,,,,,,180 household affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Bilisa-Korlabe A,,,,176,,,,,,,176 household affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Bilisa-Korlabe B,,,,165,,,,,,,165 Household affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Mwina (senangu),,,,160,,,,,,,110 household were affected
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Salama (Kiembeni),,,,150,,,,,,,150 household were affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Miyesa,,,,147,,,,,,,147 household affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Konemansa(Mwanja village),,,,142,,,,,,,142 household were affected. 
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Salama (Tawakal),,,,125,,,,,,,125 Household were affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Mwina (Huluba),,,,112,,,,,,,112 house hold affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Mwina (Godhey),,,,110,,,,,,,110 household were affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Mwina (Tulichani),,,,98,,,,,,,98 household affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Galili-Wolkon,,,,91,,,,,,,91 household were affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Mwina (Eskadek),,,,86,,,,,,,86 household affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Salama (peponi),,,,79,,,,,,,79 household were destroyed.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Mwina-Lazima A,,,,70,,,,,,,70 House hold were affected
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Gelwa Marembo,,,,54,,,,,,,54 household affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Mwina (Bora Imani),,,,48,,,,,,,48 household were affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Mwina (Fejji),,,,48,,,,,,,48 household affected
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Galili-Tianaga,,,,41,,,,,,,41 household affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Kiomo Ngumu,,,,35,,,,,,,35 household affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Mwina-Salama B,,,,30,,,,,,,30 household affected.
+TANA RIVER,-2.389469196,39.59916346,FLOOD,1/6/2008,Hola - Garsen Road,,,,,,,,,,,Hola - Garsen road has been destroyed and people and cars stranded
+TANA RIVER,-2.389469196,39.59916346,FLOOD,10/27/2006,Hola - Garsen region,,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,11/11/2008,Ijara-Garsen Road,,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,1/3/2012,,,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Kipao (Ongonyo village),,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Mwina (chelwa),,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Mwina (Hada),,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Mwina-Hakani,,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Ndera-Balatiro,,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Ndera-Bahati A,,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Ndera-Bahati B,,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Ndera-Bahati C,,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Shirikisho-Matomba,,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Shirikisho-Matomba,,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Shirikisho-Matomba,,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Shirikisho-Umoja,,,,,,,,,,,
+TANA RIVER,-2.389469196,39.59916346,FLOOD,5/30/2012,Galili-Ferry,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,DROUGHT,1/3/2011,,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,FLOOD,1/12/2009,Masongaleni-Ndauni road,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,FLOOD,1/12/2009,Kyanginywa-Makutano road,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,FLOOD,1/12/2009,Kibwezi-Kisayani road,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,FLOOD,1/12/2009,Utithi-Ivoleni road,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,FLOOD,1/12/2009,Kinyambu-Metava road,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,FLOOD,1/12/2009,Kambu-Makutano road,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,FLOOD,1/12/2009,Nthogoni-Mtito Andei road,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,FLOOD,1/12/2009,Mtito Andei-Nthuguni-Kathekani road,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,FLOOD,1/12/2009,Mtito Andei-Kyusyani Kamunyu road,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,FLOOD,1/12/2009,Hillside-Kathekani road,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,DROUGHT,9/3/2011,,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,DROUGHT,1/5/2010,KIKUMBULYU,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,DROUGHT,1/5/2010,MASONGALENI,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,DROUGHT,1/5/2010,KINYAMBU,,,,,,,,,,,
+MAKUENI,-2.354236007,38.10320157,DROUGHT,1/5/2010,UTITHI,,,,,,,,,,,
+LAMU,-2.256590331,40.88504998,DROUGHT,9/2/2011,Lamu East,,,,,,,8000,,,,
+LAMU,-2.256590331,40.88504998,FLOOD,1/6/2008,,,,,,,,4000,,,,
+LAMU,-2.256590331,40.88504998,FLOOD,3/1/2010,Lamu West,,,,,,,3959,,,,
+LAMU,-2.256590331,40.88504998,FLOOD,10/28/2009,Kiunga Witu,,,,160,,,800,,,,
+LAMU,-2.256590331,40.88504998,FLOOD,3/1/2010,Lamu East - Faza Island,,,,14,,,420,,,,
+LAMU,-2.256590331,40.88504998,DROUGHT,9/4/2009,,,,,,,,37,,,,
+LAMU,-2.256590331,40.88504998,EPIDEMIC,9/19/2009,Lamu,6,,,,,,8,,,,
+LAMU,-2.256590331,40.88504998,DROUGHT,2/28/2011,Lamu West,,,,,,,,,,,
+LAMU,-2.256590331,40.88504998,DROUGHT,9/3/2011,,,,,,,,,,,,
+LAMU,-2.256590331,40.88504998,DROUGHT,1/8/2009,Lamu West,,,,,,,,,,,
+LAMU,-2.256590331,40.88504998,DROUGHT,1/8/2009,Lamu East,,,,,,,,,,,
+MAKUENI,-2.245442852,37.78452637,DROUGHT,1/3/2011,,,,,,,,70203,,,,
+MAKUENI,-2.245442852,37.78452637,FLOOD,3/1/2010,Mwisuni Village,,,,,,,,,,,River Kiboko burst its banks mashrooning 5 families
+MAKUENI,-2.245442852,37.78452637,FLOOD,3/1/2010,,,,,,,,,,,,
+MAKUENI,-2.245442852,37.78452637,DROUGHT,9/3/2011,,,,,,,,,,,,
+MAKUENI,-2.245442852,37.78452637,DROUGHT,1/8/2009,"Nguumo - Muuni, Ilatu village",,,,,,,,,,,
+MAKUENI,-2.245442852,37.78452637,DROUGHT,1/5/2010,KIBOKO,,,,,,,,,,,
+MAKUENI,-2.245442852,37.78452637,DROUGHT,1/5/2010,MAKINDU,,,,,,,,,,,
+MAKUENI,-2.245442852,37.78452637,DROUGHT,1/5/2010,TWAANDU,,,,,,,,,,,
+MAKUENI,-2.245442852,37.78452637,DROUGHT,1/5/2010,NGUUMO,,,,,,,,,,,
+LAMU,-2.170220259,40.57899461,DROUGHT,1/8/2009,Bahari,,,,,,,,,,,
+KAJIADO,-2.070415331,37.2819277,DROUGHT,1/3/2011,,,,,,,,,,,,
+MAKUENI,-1.993377133,37.47877144,FLOOD,3/1/2010,Emali,,,,,,,,,,,
+MAKUENI,-1.993377133,37.47877144,FLOOD,3/1/2010,Emali,,,,,,,,,,,
+MAKUENI,-1.993377133,37.47877144,FLOOD,1/14/2010,Emali-Ukia road,,,,,,,,,,,
+MAKUENI,-1.993377133,37.47877144,FLOOD,1/14/2010,Masimba-Nguu-Simba road,,,,,,,,,,,
+MAKUENI,-1.949769729,37.81340308,DROUGHT,3/2/2012,,,,,,,,,,,,
+MAKUENI,-1.949769729,37.81340308,DROUGHT,11/3/2011,,,,,,,,,,,,
+MAKUENI,-1.949769729,37.81340308,DROUGHT,1/8/2009,,,,,,,,,,,,
+KAJIADO,-1.903173522,36.25721399,FLOOD,4/5/2012,River Lelempe along Magadi RD,3,,,,,,,,,,
+MAKUENI,-1.882765859,37.55577466,FOREST FIRE,12/31/2008,Makuri Forest in Nzaui District,,,,,,,,,,60,Indigenous forest burned down due to extreme high temperatures and low humidity
+MAKUENI,-1.882765859,37.55577466,DROUGHT,1/3/2011,Nzaui,,,,,,,,,,,
+MAKUENI,-1.882765859,37.55577466,DROUGHT,9/3/2011,Nzaui,,,,,,,,,,,
+MAKUENI,-1.882765859,37.55577466,DROUGHT,1/8/2009,,,,,,,,,,,,
+KAJIADO,-1.873096007,36.66260124,EPIDEMIC,1/1/2009,Kajiado,2,,,,,,7,,,,Incidences of cholera were reported as from January to June 2009
+KAJIADO,-1.873096007,36.66260124,FLOOD,12/28/2009,Kajiado North,3,,,,,,,,,,
+KAJIADO,-1.873096007,36.66260124,FLOOD,3/3/2010,River Isinya,2,,,,,,,,,,
+KAJIADO,-1.873096007,36.66260124,FLOOD,1/4/2013,Ole polos river,1,,,,,,,,,,The deceased bodyn trace 500 metres away.
+KAJIADO,-1.873096007,36.66260124,DROUGHT,1/3/2011,,,,,,,,,,,,
+KAJIADO,-1.873096007,36.66260124,FLOOD,1/3/2012,Kitengela,,,,,,,,,,,
+KAJIADO,-1.873096007,36.66260124,FLOOD,1/7/2010,Kitengela,,,,,,,,,,,
+KAJIADO,-1.873096007,36.66260124,DROUGHT,1/3/2012,Kajiado North,,,,,,,,,,,
+KAJIADO,-1.873096007,36.66260124,DROUGHT,1/8/2009,Kajiado South,,,,,,,,,,,
+KAJIADO,-1.873096007,36.66260124,DROUGHT,1/8/2009,Kajiado North,,,,,,,,,,,
+MAKUENI,-1.830517316,37.26824589,DROUGHT,1/8/2009,Mukaa,,,,,,,,,,,
+MAKUENI,-1.830517316,37.26824589,DROUGHT,9/3/2011,Mukaa,,,,,,,,,,,
+MAKUENI,-1.830517316,37.26824589,DROUGHT,1/4/2010,KILOME,,,,,,,,,,,
+MAKUENI,-1.785934239,37.37865124,DROUGHT,1/3/2011,,,,,,,,29177,,,,
+MAKUENI,-1.785934239,37.37865124,DROUGHT,1/8/2009,,,,,,,,,,,,
+MAKUENI,-1.785934239,37.37865124,DROUGHT,1/5/2010,WATEMA,,,,,,,,,,,
+MAKUENI,-1.785934239,37.37865124,DROUGHT,1/5/2010,KITHEMBE,,,,,,,,,,,
+MAKUENI,-1.785934239,37.37865124,DROUGHT,1/5/2010,KIKOKO,,,,,,,,,,,
+MAKUENI,-1.785934239,37.37865124,DROUGHT,1/5/2010,ILIMA,,,,,,,,,,,
+MAKUENI,-1.758211749,37.47395889,DROUGHT,1/5/2010,IUANI,,,,,,,,,,,
+MAKUENI,-1.758211749,37.47395889,DROUGHT,1/5/2010,KILALA,,,,,,,,,,,
+MAKUENI,-1.758211749,37.47395889,DROUGHT,1/5/2010,KIVANI,,,,,,,,,,,
+MAKUENI,-1.758211749,37.47395889,DROUGHT,1/5/2010,KEE,,,,,,,,,,,
+GARISSA,-1.71672963,40.2855404,DROUGHT,4/26/2009,Dahir- Metahir village,,,,,,,,,,,
+KITUI,-1.713743318,38.47920823,DROUGHT,1/3/2011,,,,,,,,63598,,,,
+KITUI,-1.713743318,38.47920823,EPIDEMIC,9/19/2009,Kitui North,2,,,,,,1,,,,
+KITUI,-1.713743318,38.47920823,FLOOD,6/1/2010,Mutomo,,,,6,,,,,,,
+KITUI,-1.713743318,38.47920823,DROUGHT,1/8/2009,,,,,,,,,,,,
+KITUI,-1.713743318,38.47920823,DROUGHT,8/3/2009,,,,,,,,,,,,
+KITUI,-1.713743318,38.47920823,DROUGHT,1/5/2010,VOO,,,,,,,,,,,
+KITUI,-1.713743318,38.47920823,DROUGHT,1/5/2010,KYAMATU,,,,,,,,,,,
+MAKUENI,-1.663384963,37.4475202,LANDSLIDE,11/30/2010,Kithungo location,1,,,,,,,,,,
+MAKUENI,-1.663384963,37.4475202,DROUGHT,1/3/2011,,,,,,,,,,,,
+MAKUENI,-1.663384963,37.4475202,DROUGHT,11/3/2011,Mbumbuni,,,,,,,,,,,
+MAKUENI,-1.663384963,37.4475202,DROUGHT,11/3/2011,Mbooni west,,,,,,,,,,,
+MAKUENI,-1.663384963,37.4475202,DROUGHT,1/8/2009,,,,,,,,,,,,
+MAKUENI,-1.663384963,37.4475202,DROUGHT,1/4/2010,Mbooni,,,,,,,,,,,
+MACHAKOS,-1.662657689,37.29555,DROUGHT,1/4/2010,Katanga,,,,,,,,,,,
+GARISSA,-1.582067931,40.54081569,DROUGHT,9/3/2011,,,,,,,,,,,,
+GARISSA,-1.582067931,40.54081569,DROUGHT,1/8/2009,Ijara - Bulla-Golol village,,,,,,,,,,,
+GARISSA,-1.582067931,40.54081569,FLOOD,11/11/2008,Ijara-Garsen Road,,,,,,,,,,,
+MACHAKOS,-1.568572799,37.22053819,EPIDEMIC,1/1/2009,Machakos,6,,,,,,6,,,,Incidences of cholera were reported as from January to June 2009
+MACHAKOS,-1.568572799,37.22053819,FLOOD,5/14/2002,,1,,,,,,,,,,
+MACHAKOS,-1.568572799,37.22053819,DROUGHT,1/8/2009,Machakos,,,,,,,,,,,
+TANA RIVER,-1.538862749,39.54273779,FLOOD,4/29/2010,Tana river near Walden,,,,,,,11573,,,,
+KITUI,-1.492775251,38.05972316,DROUGHT,9/3/2011,Kisasi,,,,,,,,,,,
+KITUI,-1.492775251,38.05972316,DROUGHT,1/5/2010,NZANGATHI,,,,,,,,,,,
+KITUI,-1.492775251,38.05972316,DROUGHT,1/5/2010,NZAMBANI,,,,,,,,,,,
+MACHAKOS,-1.482733649,37.04995558,DROUGHT,1/3/2012,Isinya,,,,,,,,,,,
+MACHAKOS,-1.482733649,37.04995558,DROUGHT,3/15/2011,Athi River,,,,,,,,,,,
+MACHAKOS,-1.482733649,37.04995558,DROUGHT,1/8/2009,Athi River,,,,,,,,,,,
+MACHAKOS,-1.482733649,37.04995558,DROUGHT,9/4/2009,,,,,,,,,,,,
+MACHAKOS,-1.482733649,37.04995558,FLOOD,1/3/2012,Athi River,,,,,,,,,,,
+KITUI,-1.474834787,37.82999014,DROUGHT,3/3/2009,,,,,,,,242400,,,,
+KITUI,-1.474834787,37.82999014,DROUGHT,9/3/2011,Lower Yatta,,,,,,,,,,,
+KITUI,-1.474834787,37.82999014,DROUGHT,9/3/2011,"Matuu, Katulani",,,,,,,,,,,
+MACHAKOS,-1.416944348,37.30311412,DROUGHT,1/8/2009,,,,,,,,,,,,
+MACHAKOS,-1.416944348,37.30311412,DROUGHT,1/4/2010,KATHIANI,,,,,,,,,,,
+MACHAKOS,-1.416944348,37.30311412,FLOOD,4/5/2012,Athi River,,,,,,,,,,,"several houses were submerged,four families displaced and thirteen households marooned"
+KITUI,-1.406435397,38.02224537,DROUGHT,1/2/2011,,,,,,,,83334,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/2/2011,Mitinyani,,,,,,,14440,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/2/2011,"Mitinyani, Kithumula",,,,,,,14210,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/2/2011,"Mitinyani, Kwa Mutonga",,,,,,,13666,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/2/2011,"Mitinyani, Kathivo",,,,,,,11490,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/2/2011,"Mitinyani, Kauma",,,,,,,11490,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/2/2011,"Mitinyani, Mutulu",,,,,,,10820,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/2/2011,"Mitinyani, Kalimani",,,,,,,10384,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/1/2011,"Mitinyani, Kithumula",,,,,,,7707,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/1/2011,"Mitinyani, Mitinyani",,,,,,,7287,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/1/2011,"Matinyani, Kwa Mutonga",,,,,,,6832,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/1/2011,"MItinyani, Mutulu",,,,,,,5855,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/1/2011,"Mitinyani, Kauma",,,,,,,5745,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/1/2011,"Mitinyani, Kalimani",,,,,,,5192,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/2/2011,"Mitinyani, Kwa Mulungu",,,,,,,4304,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/1/2011,Kwa Mulungu,,,,,,,2159,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/1/2011,"Mitinyani, Kathivo",,,,,,,2010,,,,
+KITUI,-1.406435397,38.02224537,FLOOD,5/14/2002,,1,,,,,,,,,,
+KITUI,-1.406435397,38.02224537,FLOOD,5/14/2002,,1,,,,,,,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/8/2009,,,,,,,,,,,,
+KITUI,-1.406435397,38.02224537,DROUGHT,1/8/2009,Kitui West,,,,,,,,,,,
+KAJIADO,-1.394813244,36.44526543,FLASH FLOOD,12/25/2009,"Ol Mayana, Esoneruwa",,,,4,,,,,,,"House hold goods, 10 goats, 10 iron sheets at Esoneruwa Trading Centre were swept away, a stream also overflooded"
+KAJIADO,-1.394813244,36.44526543,FLOOD,1/1/2010,Rongai,4,,,,,,,,,,
+KAJIADO,-1.394813244,36.44526543,FLASH FLOOD,12/25/2009,"Ole Moroi in Kajiado North, Sanikeli",4,,,,,,,,,,Waters from the heavy storm of rainfall formed a seasonal river and streamed downhill. 8 people who were crossing a road were swept by the floods and[...]
+KAJIADO,-1.394813244,36.44526543,FLOOD,2/1/2010,Rongai,4,,,,,,,,,,
+KAJIADO,-1.394813244,36.44526543,FLOOD,9/5/2010,"Ngong, Matasia, Kiserian, Kisamis",1,,,,,,,,,,Ngong area recieved heavy pounding from around 2000Hrs on 9th May to 10th May nonstop. Roads were rendered impassable and heavy boulders were[...]
+KAJIADO,-1.394813244,36.44526543,FLOOD,3/29/2013,Ngong Township,1,,,,,,,,,,
+KAJIADO,-1.394813244,36.44526543,FLOOD,7/6/2013,,1,,,,,,,,,,No further clarifications made
+KAJIADO,-1.394813244,36.44526543,FLASH FLOOD,12/25/2009,OL Tepesi,,,,,,,,,,,"The stream damaged the road and overflowed its banks, the road edges , guard rails were swept away and excessive fow of water current from upstream[...]"
+KAJIADO,-1.394813244,36.44526543,FLOOD,1/3/2012,,,,,,,,,,,,
+NAIROBI,-1.366321828,36.81424121,FLOOD,12/22/2009,Kibera,,,,60,,,,,,,
+NAIROBI,-1.366321828,36.81424121,DROUGHT,1/8/2009,,,,,,,,,,,,
+KITUI,-1.35328287,38.2910292,DROUGHT,9/3/2011,,,,,,,,,,,,
+KITUI,-1.35328287,38.2910292,DROUGHT,1/5/2010,THUA,,,,,,,,,,,
+KITUI,-1.35328287,38.2910292,DROUGHT,1/5/2010,ZOMBE,,,,,,,,,,,
+KITUI,-1.35328287,38.2910292,DROUGHT,1/5/2010,MUTITU,,,,,,,,,,,
+KITUI,-1.35328287,38.2910292,DROUGHT,1/5/2010,KALIKU,,,,,,,,,,,
+MACHAKOS,-1.340297849,37.45142118,DROUGHT,1/8/2009,,,,,,,,193302,,,,
+MACHAKOS,-1.340297849,37.45142118,FLOOD,11/13/2008,,10,,,,,,,,,,
+MACHAKOS,-1.340297849,37.45142118,FLOOD,1/1/2010,,2,,,,,,,,,,
+MACHAKOS,-1.340297849,37.45142118,FLOOD,1/1/2010,,,,,,,,,,,,Kisola pri sch 10 toilets Kamba Pri Sch 10 Muthini Pri sch 5
+MACHAKOS,-1.340297849,37.45142118,DROUGHT,1/4/2010,Mwala,,,,,,,,,,,
+MACHAKOS,-1.333257594,37.34576029,DROUGHT,1/8/2009,,,,,,,,,,,,
+KITUI,-1.297056499,38.61716137,DROUGHT,1/5/2010,MALALANI,,,,,,,,,,,
+KITUI,-1.297056499,38.61716137,DROUGHT,1/5/2010,MWITIKA,,,,,,,,,,,
+NAIROBI,-1.292816458,36.85588634,EPIDEMIC,7/10/2009,Nairobi East,12,,,,,,25,,,,
+NAIROBI,-1.292816458,36.85588634,FLOOD,5/14/2002,Buruburu,3,,,,,,,,,,
+NAIROBI,-1.292816458,36.85588634,DROUGHT,1/8/2009,,,,,,,,,,,,
+NAIROBI,-1.282377919,36.75288101,FLOOD,4/4/2013,"Kilimani, Kawangware",1,,,,,,,,,,
+NAIROBI,-1.282377919,36.75288101,FLOOD,3/29/2013,Kilimani kawangare(Nairobi river),1,,,,,,,,,,Body retrieved and taken to Chiromo mortuary.
+NAIROBI,-1.282377919,36.75288101,FLOOD,3/13/2013,Kawangware,1,,,,,,,,,,Body was retrieved and taken to Chiromo mortuary
+NAIROBI,-1.282377919,36.75288101,DROUGHT,1/8/2009,,,,,,,,,,,,
+NAIROBI,-1.282377919,36.75288101,FLOOD,1/7/2010,Kawangware,,,,,,,,,,,
+NAIROBI,-1.282377919,36.75288101,FLOOD,1/7/2010,Uthiru,,,,,,,,,,,
+NAIROBI,-1.282377919,36.75288101,FLOOD,1/7/2010,Ngando,,,,,,,,,,,
+NAIROBI,-1.276685459,36.97258379,FLOOD,4/5/2012,Ruai,,,,,,,100,,,,100 people were marooned with floods
+NAIROBI,-1.276685459,36.97258379,DROUGHT,1/8/2009,,,,,,,,,,,,
+NAIROBI,-1.276685459,36.97258379,DROUGHT,1/8/2009,Njiru,,,,,,,,,,,
+NAIROBI,-1.273206787,36.85492999,EPIDEMIC,10/25/2009,Kamukunji,,,,,,,9,,,,
+NAIROBI,-1.273206787,36.85492999,DROUGHT,1/8/2009,,,,,,,,,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,10/24/2009,Starehe,,,,,,,12,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,4/8/2009,,,,,,,,7,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,1/1/2009,Nairobi West,,,,,,,7,,,,Incidences of cholera were reported as from January to June 2009
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,8/14/2009,,,,,,,,4,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,7/31/2009,,,,,,,,3,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,8/15/2009,,,,,,,,3,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,1/1/2009,Nairobi North,,,,,,,3,,,,Incidences of cholera were reported as from January to June 2009
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,7/8/2009,,,,,,,,2,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,7/29/2009,,,,,,,,2,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,3/8/2009,,,,,,,,2,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,8/8/2009,,,,,,,,2,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,11/8/2009,,,,,,,,2,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,12/8/2009,,,,,,,,2,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,8/13/2009,,,,,,,,2,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,8/18/2009,,,,,,,,2,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,7/30/2009,,,,,,,,1,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,8/17/2009,,,,,,,,1,,,,
+NAIROBI,-1.267622133,36.84605137,EPIDEMIC,1/1/2009,Nairobi East,,,,,,,1,,,,Incidences of cholera were reported as from January to June 2009
+NAIROBI,-1.267622133,36.84605137,FLOOD,3/29/2013,Nairobi CBD,,2,,,,,,,,,
+NAIROBI,-1.267622133,36.84605137,FLOOD,3/13/2013,Nairobi CBD,,2,,,,,,,,,No further clarifications made
+NAIROBI,-1.267622133,36.84605137,FLOOD,3/13/2013,Ngoroi,4,1,,,,,,,,,No further clarifications recorded.
+NAIROBI,-1.267622133,36.84605137,FLOOD,3/29/2013,Ngoro,4,,1,,,,,,,,
+NAIROBI,-1.267622133,36.84605137,FLOOD,12/23/2009,Nairobi,4,,,,,,,,,,
+NAIROBI,-1.267622133,36.84605137,FLOOD,12/23/2009,,4,,,,,,,,,,vehicles were destroyed and roofs of buildings blown away
+NAIROBI,-1.267622133,36.84605137,FLOOD,5/14/2002,Kilimani,1,,,,,,,,,,
+MIGORI,-1.248027436,34.64046895,FLOOD,5/14/2002,,1,,,,,,,,,,
+NAIROBI,-1.241644392,36.78335928,FOREST FIRE,3/24/2009,Karura forest,,,,,,,,,,50,Indigenous forest burned down
+NAIROBI,-1.241644392,36.78335928,DROUGHT,1/8/2009,,,,,,,,,,,,
+NAIROBI,-1.241644392,36.78335928,FLOOD,1/7/2010,Kitisuru,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,DROUGHT,1/8/2009,,,,,,,,229000,,,,
+MACHAKOS,-1.238270452,37.58155011,DROUGHT,2/28/2011,Kithimani,,,,,,,58093,,,,
+MACHAKOS,-1.238270452,37.58155011,FLOOD,1/12/2009,Sunai Primary Sch,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,FLOOD,1/12/2009,Kithimani- Katanga road,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,FLOOD,1/12/2009,Mamba- Ndalani road,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,FLOOD,1/12/2009,Sofia-Ndalani-Kambi Mawe road,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,DROUGHT,2/28/2011,Mavoloni,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,DROUGHT,2/28/2011,Ndalani,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,DROUGHT,2/28/2011,Matuu,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,DROUGHT,2/28/2011,Katangi,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,DROUGHT,1/8/2009,Lower Yatta,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,DROUGHT,1/4/2010,YATTA,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,DROUGHT,1/4/2010,Ikombe,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,DROUGHT,1/4/2010,Kyua,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,DROUGHT,1/4/2010,Kinyaata,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,DROUGHT,1/4/2010,Kithimani,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,DROUGHT,1/4/2010,Mavoloni,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,DROUGHT,1/4/2010,Ndalani,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,DROUGHT,1/4/2010,Matuu,,,,,,,,,,,
+MACHAKOS,-1.238270452,37.58155011,FLOOD,6/5/2012,Lower Yatta District,,,,,,,,,1,,one person marooned by water
+KIAMBU,-1.234691677,36.62415091,DROUGHT,4/3/2011,,,,,,,,36000,,,,
+KIAMBU,-1.234691677,36.62415091,FLOOD,4/30/2013,Shauri Yako village,,,,,,,405,,,,"81 house holds were displaced,crops damaged,toilets submerged roads damaged and shops flooded. Drainage system required unblocking, food and non-food[...]"
+KIAMBU,-1.234691677,36.62415091,DROUGHT,1/3/2011,,,,,,,,,,,,
+KIAMBU,-1.234691677,36.62415091,FLOOD,1/7/2010,Karai,,,,,,,,,,,
+NAIROBI,-1.208094488,36.91934853,EPIDEMIC,9/23/2009,Kasarani,10,,,,,,28,,,,
+NAIROBI,-1.208094488,36.91934853,FLOOD,5/14/2002,,6,,,,,,,,,,
+NAIROBI,-1.208094488,36.91934853,FLOOD,5/13/2012,near Mathare river,1,,,,,,,,,,
+NAIROBI,-1.208094488,36.91934853,DROUGHT,1/8/2009,Kasarani,,,,,,,,,,,
+NAIROBI,-1.208094488,36.91934853,DROUGHT,1/8/2009,Baba Dogo,,,,,,,,,,,
+MACHAKOS,-1.203620017,37.23248451,DROUGHT,1/8/2009,Nzambani,,,,,,,,,,,
+MACHAKOS,-1.203620017,37.23248451,DROUGHT,1/8/2009,,,,,,,,,,,,
+KIAMBU,-1.162889285,36.80600841,DROUGHT,8/3/2009,Municipality,,,,,,,12325,,,,
+KIAMBU,-1.162889285,36.80600841,DROUGHT,1/8/2009,Gathanga,,,,,,,,,,,
+KIAMBU,-1.142236267,36.62749723,DROUGHT,8/3/2009,Ndeiya,,,,,,,14000,,,,
+KIAMBU,-1.142236267,36.62749723,FLOOD,4/30/2013,Limuru,,,,,,,300,300,,,"Residential areas were flooded,there was a threat of land slides and river water pollution. 45 more households were also at risk.Relief food was[...]"
+KIAMBU,-1.126057426,37.02810163,DROUGHT,1/3/2011,,,,,,,,42964,,,,
+KIAMBU,-1.126057426,37.02810163,DROUGHT,1/3/2011,Ruiru,,,,,,,42946,,,,Crop production reduced and there was scarcity for livestock forage
+KIAMBU,-1.126057426,37.02810163,EPIDEMIC,10/11/2009,Ruiru,5,,,,,,4,,,,
+KIAMBU,-1.126057426,37.02810163,FLOOD,4/30/2013,Ruiru,1,,,,,,,,,,"Roads and bridges were damaged, markets were made muddy, health centres were flooded and electricity lines were fell.Repair of damaged infra[...]"
+KIAMBU,-1.126057426,37.02810163,DROUGHT,1/8/2009,,,,,,,,,,,,
+NAROK,-1.088275662,36.11787346,FLOOD,12/28/2009,Suswa area,3,,,,,,385,,,,There was massive destruction of drainage systems
+NAROK,-1.088275662,36.11787346,FLOOD,1/7/2010,Mau,,,,,,,,,,,
+MIGORI,-1.066215874,34.4869989,EPIDEMIC,1/1/2009,Suba,2,,,,,,3,,,,Incidences of cholera were reported as from January to June 2009
+KIAMBU,-1.056557964,37.16911028,DROUGHT,4/3/2011,Thika West,,,,,,,60000,,,,
+KIAMBU,-1.056557964,37.16911028,FLOOD,4/30/2013,near BIDCO,,,,,,,25165,,,1437,"Railway closing was destroyed,potholes were created in the central business district, wide areas were submerged. Digging of trenches to drain the[...]"
+KIAMBU,-1.056557964,37.16911028,DROUGHT,1/3/2011,Thika East,,,,,,,23362,,,,
+KIAMBU,-1.056557964,37.16911028,DROUGHT,1/3/2011,Thika East District,,,,,,,,,,,
+KIAMBU,-1.04794128,36.78517316,DROUGHT,4/3/2011,Kiambu West,,,,,,,45000,,,,
+KIAMBU,-1.04794128,36.78517316,DROUGHT,4/3/2011,,,,,,,,7500,,,,
+KIAMBU,-1.04794128,36.78517316,DROUGHT,4/3/2011,Kiambu East,,,,,,,6000,,,,
+KIAMBU,-1.04794128,36.78517316,FLOOD,4/30/2013,Kiambu Sub-County,,,,,,,1075,1075,,,"215 households,a police and chief post were affected,families living downstream were exposed to risk of waterborne diseases. Families and the police[...]"
+KIAMBU,-1.04794128,36.78517316,FLOOD,5/16/2010,Kwari Village,,,,2,,,,,,,
+KIAMBU,-1.04794128,36.78517316,FLOOD,4/30/2013,Githunguri,290,,,,,,,,,,"Roads were made impasssible, food crops affected, risks of malaria outbreak anticipated and livestock were lost."
+KIAMBU,-1.04794128,36.78517316,FLOOD,5/14/2002,,1,,,,,,,,,,
+NAROK,-1.040413706,34.85247807,FLOOD,4/4/2013,Masurura,1,1,,,,,,,,,One victim by name Mohammed Farah was rescued.
+NAROK,-1.040413706,34.85247807,THUNDERSTORM,3/9/2011,Olalui Farm,1,,,,,,,,,,
+KITUI,-1.023929839,38.55139378,DROUGHT,1/5/2010,MUTYANGOMBE,,,,,,,,,,,
+KITUI,-1.023929839,38.55139378,DROUGHT,1/5/2010,WINGEMI,,,,,,,,,,,
+KITUI,-1.023929839,38.55139378,DROUGHT,5/1/2010,NUU,,,,,,,,,,,
+KITUI,-1.023929839,38.55139378,DROUGHT,1/5/2010,MUI,,,,,,,,,,,
+KITUI,-1.023929839,38.55139378,DROUGHT,1/5/2010,KALITINI,,,,,,,,,,,
+NAROK,-1.005978163,35.44630551,FLOOD,3/4/2013,Narok south,10,,2,,,,,,,,
+NAROK,-1.005978163,35.44630551,FLOOD,4/3/2013,Ololunga Narok South,10,,2,,,,,,,,Need for an equipped search and resque
+NAROK,-1.005978163,35.44630551,FLOOD,7/6/2013,Ole Polos river,1,,,,,,,,,,The deceased body traced 500 metres away.
+KITUI,-0.985261207,37.94064281,DROUGHT,1/8/2009,"Kyome, Thaluni village",,,,,,,,,,,
+KITUI,-0.985261207,37.94064281,DROUGHT,1/5/2010,Migwani,,,,,,,,,,,
+KITUI,-0.985261207,37.94064281,DROUGHT,1/5/2010,NZAUNI,,,,,,,,,,,
+KITUI,-0.985261207,37.94064281,DROUGHT,1/5/2010,THITANI,,,,,,,,,,,
+KITUI,-0.985261207,37.94064281,DROUGHT,1/5/2010,NGUUTANI,,,,,,,,,,,
+KITUI,-0.985261207,37.94064281,DROUGHT,1/5/2010,KYOME,,,,,,,,,,,
+KIAMBU,-0.984128065,37.20334383,DROUGHT,9/10/2009,Kakuzi,,,,,,,,,,,
+KIAMBU,-0.982753903,36.84079276,DROUGHT,8/2/2009,Gatundu South,,,,,,,39794,,,,
+KIAMBU,-0.982753903,36.84079276,DROUGHT,4/3/2011,Gatundu North,,,,,,,23081,,,,
+KIAMBU,-0.982753903,36.84079276,DROUGHT,4/3/2011,,,,,,,,8338,,,,
+KIAMBU,-0.982753903,36.84079276,DROUGHT,1/3/2011,Kieni Huruma IDP camp,,,,,,,,,,,803 Households affected
+KIAMBU,-0.982753903,36.84079276,DROUGHT,1/3/2011,Mangu Integrated IDPs,,,,,,,,,,,359 Families affected
+KIAMBU,-0.982753903,36.84079276,EXTREME RAINS,6/30/2012,Gatundu,,,,,,,,,,,"Amount of food required maize 76000,beans 46000,rice 25340 and oil 90090."
+KIAMBU,-0.982753903,36.84079276,FLOOD,4/30/2013,Gatundu north,,,,,,,,,,,"food crops were swept, earth roads were made impassable, culverts destroyed, swamps were flooded, water projects were damaged, IDP camps and[...]"
+NAROK,-0.982478387,35.82108478,FLOOD,12/28/2009,Narok Suswa area,,,,,,,385,,,,drainage destroyed
+NAROK,-0.982478387,35.82108478,FLOOD,12/28/2009,,,,,,,,385,,,,
+NAROK,-0.982478387,35.82108478,FLOOD,12/28/2009,Narok Town,,,,,,,215,,,,
+NAROK,-0.982478387,35.82108478,FLOOD,12/28/2009,Narok Town,,,,,,,215,,,,drainage systems destroyed
+NAROK,-0.982478387,35.82108478,FLOOD,12/28/2009,,,,,,,,215,,,,
+NAROK,-0.982478387,35.82108478,FLOOD,4/13/2013,Nairage Ngare,,,,,,,100,,,,20 families camped at Sintakara primary school.
+NAROK,-0.982478387,35.82108478,FLOOD,3/4/2013,Naikara area,1,1,,,,,,,,,The two pupils were from Leshuta primary schoool.
+NAROK,-0.982478387,35.82108478,FLASH FLOOD,6/1/2010,Oloipito,,,,75,,,,,,,60 Households were displaced
+NAROK,-0.982478387,35.82108478,FLOOD,7/4/2010,Olasit Trading Center - Suswa Bridge,5,,,,,,,,,,A vehicle carrying 5 passengers was swept away killing all the occupants
+NAROK,-0.982478387,35.82108478,FLOOD,12/28/2009,Kajiado North,3,,,,,,,,,,drainage destroyed
+NAROK,-0.982478387,35.82108478,FLASH FLOOD,12/24/2009,Narok Town,1,,,,,,,,,,
+NAROK,-0.982478387,35.82108478,FLOOD,9/12/2009,,1,,,,,,,,,,property of unknown value destroyed
+NAROK,-0.982478387,35.82108478,FLOOD,12/24/2009,Nairobi - Kisii road,1,,,,,,,,,,
+NAROK,-0.982478387,35.82108478,FLOOD,7/4/2013,mulot,1,,,,,,,,,,body retrieved to Longisa district mortuary.
+NAROK,-0.982478387,35.82108478,DROUGHT,1/3/2011,Narok North,,,,,,,,,,,
+NAROK,-0.982478387,35.82108478,DROUGHT,1/8/2009,Narok South,,,,,,,,,,,
+MIGORI,-0.968971612,34.23950854,FLOOD,4/26/2006,Kabuto,4,,,,,,3000,107,,,
+MIGORI,-0.968971612,34.23950854,FLOOD,8/4/2013,Kuboya and Winching,1,,,,,,215,,,,There was need for food and non-food items. Some of the affected camped in relatives' homes while some camped at Korua secondary school
+MIGORI,-0.968971612,34.23950854,FLOOD,1/5/2009,"Onyodhi village - Bala, Lwanda Konyango Trading Centre",,,,177,,,,,,,
+MIGORI,-0.968971612,34.23950854,DROUGHT,1/3/2011,,,,,,,,,,,,
+MIGORI,-0.968971612,34.23950854,DROUGHT,1/3/2011,,,,,,,,,,,,
+TANA RIVER,-0.968450022,39.42713482,FLOOD,7/5/2013,Bura,,,,,,,4000,,,,"Relief food, medication and other non-food items were provided to the victims who camped in Morokani, Shikaad, Dalagu, Furaha and Mororo."
+TANA RIVER,-0.968450022,39.42713482,FLOOD,4/30/2013,Tana North District,,,,,,,584,,,,Relief was given as the victims waited for the situation to normalise.
+TANA RIVER,-0.968450022,39.42713482,FLOOD,4/13/2013,Tana River,,,,,,,225,,,,"The displaced people were integrated into the community. Main roads and feeder roads were affected, Hola Waldena bridge was broken."
+TANA RIVER,-0.968450022,39.42713482,FLOOD,3/21/2010,Holo Village - Hilima,,,,25,,,70,,,,
+TANA RIVER,-0.968450022,39.42713482,FLOOD,5/21/2010,Kiendeni Village,,,,30,,,,,,18,
+TANA RIVER,-0.968450022,39.42713482,FLOOD,1/3/2012,,,,,,,,,,,,
+TANA RIVER,-0.968450022,39.42713482,DROUGHT,1/4/2010,Bura,,,,,,,,,,,
+TANA RIVER,-0.968450022,39.42713482,FLOOD,3/21/2010,Chwele,,,,,,,,,,,
+TANA RIVER,-0.968450022,39.42713482,FLOOD,5/21/2010,Safeje,,,,,,,,,,,
+MACHAKOS,-0.946524021,37.65089408,DROUGHT,9/2/2011,,,,,,,,,,,,
+MACHAKOS,-0.946524021,37.65089408,DROUGHT,1/8/2009,Masinga,,,,,,,,,,,
+MACHAKOS,-0.946524021,37.65089408,DROUGHT,1/4/2010,MASINGA,,,,,,,,,,,
+KITUI,-0.924310518,38.06149502,DROUGHT,9/3/2011,,,,,,,,130000,,,,
+KITUI,-0.924310518,38.06149502,FLOOD,5/13/2010,,,,,,,,24,,,,The water level of river Tana around Mwingi raised marooning 24 people who were conducting farming activities on the islands in the area
+KITUI,-0.924310518,38.06149502,DROUGHT,1/8/2009,,,,,,,,,,,,
+KITUI,-0.924310518,38.06149502,DROUGHT,1/5/2010,MUMBUNI,,,,,,,,,,,
+KITUI,-0.924310518,38.06149502,DROUGHT,1/5/2010,NZELUNI,,,,,,,,,,,
+KITUI,-0.924310518,38.06149502,DROUGHT,1/5/2010,KAVUVWANI,,,,,,,,,,,
+KITUI,-0.924310518,38.06149502,DROUGHT,1/5/2010,KYETHANI,,,,,,,,,,,
+KITUI,-0.924310518,38.06149502,DROUGHT,1/5/2010,KIOMO,,,,,,,,,,,
+KITUI,-0.924310518,38.06149502,DROUGHT,1/5/2010,KIUSYANI,,,,,,,,,,,
+KITUI,-0.924310518,38.06149502,DROUGHT,1/5/2010,KASTEN,,,,,,,,,,,
+KITUI,-0.924310518,38.06149502,DROUGHT,9/3/2011,Mwingi East,,,,,,,,,,,
+KITUI,-0.924310518,38.06149502,DROUGHT,9/3/2011,Mwingi West,,,,,,,,,,,
+KITUI,-0.924310518,38.06149502,DROUGHT,1/8/2009,Mwingi East,,,,,,,,,,,
+KIAMBU,-0.914132949,36.81761041,FLOOD,4/30/2013,Ngoriba/Munyu,,,,,,,,,,75,"Crop fields and grazing grounds were submerged, drinking water sources roads and pit latrines were affected."
+KIAMBU,-0.910321607,36.68112779,FLOOD,4/30/2013,Lari Sub-County,,,,,,,5885,,,,"Houses were destroyed,roads washed away and crops swept away. Road rehabilitation was urgently needed due to clogging,culvert installation on feeder[...]"
+KIAMBU,-0.910321607,36.68112779,DROUGHT,4/3/2011,,,,,,,,4600,,,,
+KIAMBU,-0.910321607,36.68112779,FLOOD,9/5/2012,"Nyanduma location,Matathia location,",,,,,,,135,,,,bridge destroyed and a road
+KIAMBU,-0.910321607,36.68112779,MUDSLIDE,4/26/2013,Magina and Kijabe locations,3,,,,,,80,,,,"Three children aged 9,6 and 4 years were killed,16 families were displaced and camped at chiefs camp and given relief food and nonfood items."
+KIAMBU,-0.910321607,36.68112779,FOREST FIRE,3/21/2009,Kinale,,,,,,,,,,100,Indigenous forest burned down
+KISII,-0.901826001,34.66245343,LANDSLIDE,4/14/2013,"Bogichoncho, Nyasasa and Kabiero villages",,,,,,,1000,,,,"Crops and houses were destroyed, the affected families camped at Riamenya,Bogichoncho and Nyasasa primary schools."
+KISII,-0.901826001,34.66245343,EPIDEMIC,1/1/2009,Gucha,1,,,,,,1,,,,Incidences of cholera were reported as from January to June 2009
+KISII,-0.883603782,34.84166141,DROUGHT,4/26/2009,Bassi Borabu - Bokimweri,,,,,,,,,,,
+MURANG'A,-0.877816822,36.98958778,DROUGHT,3/4/2009,,,,,,,,1092,,,,
+MURANG'A,-0.877816822,36.98958778,MUDSLIDE,4/30/2013,kandara,,,,,,,,,,,"Two homesteads were damaged,crops washed away, occurrence of linear cracks,3 classrooms sank by about 40 cm, desposition of thick layer of red[...]"
+MIGORI,-0.8726228,34.54325741,FLOOD,4/3/2012,RAPOGI AREA,2,,,,,,,,,,
+SIAYA,-0.8726228,34.54325741,EPIDEMIC,1/1/2007,,,,,,,,,,,,
+SIAYA,-0.8726228,34.54325741,EPIDEMIC,1/6/1997,,,,,,,,,,,,
+SIAYA,-0.8726228,34.54325741,EPIDEMIC,1/11/1997,,,,,,,,,,,,
+SIAYA,-0.8726228,34.54325741,EPIDEMIC,3/31/2008,,,,,,,,,,,,NUMBERS TO BE CONFIRMED
+MURANG'A,-0.871667612,37.19075058,DROUGHT,8/3/2009,Kambiti location,,,,,,,8000,,,,
+MURANG'A,-0.871667612,37.19075058,FLOOD,4/30/2013,makuyu,,,,,,,496,,,,crops were damaged by floods and homes affected.
+MURANG'A,-0.871667612,37.19075058,FLOOD,4/4/2010,Thangira,1,,,2,,,,,,,Two houses were submerged in flood waters
+NAKURU,-0.85733368,36.35287178,FLOOD,1/1/2010,,3,,,509,,,509,,,,
+NAKURU,-0.85733368,36.35287178,FLOOD,1/1/2010,,3,,,,,,509,,,,
+NAKURU,-0.85733368,36.35287178,EPIDEMIC,1/1/2009,Naivasha,4,,,,,,5,,,,Incidences of cholera were reported as from January to June 2009
+NAKURU,-0.85733368,36.35287178,FOREST FIRE,3/21/2009,Eburu Forest,,,,,,,,,,800,Indigenous forest burned down
+NAKURU,-0.85733368,36.35287178,DROUGHT,1/3/2011,,,,,,,,,,,,
+NAKURU,-0.85733368,36.35287178,DROUGHT,1/8/2009,,,,,,,,,,,,
+NAKURU,-0.85733368,36.35287178,EPIDEMIC,9/4/2008,,,,,,,,,,,,
+KIAMBU,-0.838599723,36.86714494,DROUGHT,3/3/2009,,,,,,,,235361,,,,
+KIAMBU,-0.838599723,36.86714494,DROUGHT,4/3/2011,,,,,,,,50892,,,,
+KIAMBU,-0.838599723,36.86714494,DROUGHT,4/3/2011,Thika East,,,,,,,23362,,,,
+KIAMBU,-0.838599723,36.86714494,FLOOD,5/14/2002,,1,,,,,,,,,,
+KIAMBU,-0.838599723,36.86714494,DROUGHT,9/3/2011,,,,,,,,,,,,
+KIAMBU,-0.838599723,36.86714494,DROUGHT,1/4/2010,Gatanga,,,,,,,,,,,
+KIAMBU,-0.838599723,36.86714494,DROUGHT,1/8/2009,Thika West,,,,,,,,,,,
+KIAMBU,-0.838599723,36.86714494,DROUGHT,1/8/2009,Thika East,,,,,,,,,,,
+KIAMBU,-0.838599723,36.86714494,FLOOD,1/3/2012,,,,,,,,,,,,
+KIAMBU,-0.838599723,36.86714494,FLOOD,4/30/2013,Gatundu,,,,,,,,,,,Roads sections and bridges washed away.
+EMBU,-0.817848251,37.46802491,DROUGHT,1/8/2009,Karaba,,,,,,,,,,,
+EMBU,-0.817848251,37.46802491,DROUGHT,1/8/2009,Wachoro,,,,,,,,,,,
+EMBU,-0.817848251,37.46802491,DROUGHT,1/8/2009,Riakanau,,,,,,,,,,,
+MIGORI,-0.816703825,34.58963159,EPIDEMIC,1/1/2009,Rongo,2,,,,,,4,,,,Incidences of cholera were reported as from January to June 2009
+MURANG'A,-0.815891304,36.98737235,FLOOD,5/14/2002,,1,,,,,,,,,,
+NAROK,-0.808738022,35.49028587,FLOOD,7/4/2013,Mulot,1,,,,,,,,,,
+MIGORI,-0.807763364,34.17850424,FLOOD,5/14/2002,,1,,,,,,,,,,
+MIGORI,-0.807763364,34.17850424,DROUGHT,1/3/2011,,,,,,,,,,,,
+MIGORI,-0.807763364,34.17850424,FLOOD,1/3/2012,,,,,,,,,,,,
+MIGORI,-0.807763364,34.17850424,EPIDEMIC,3/31/2008,,,,,,,,,,,,Numbers to be confirmed
+KITUI,-0.805264644,38.55793323,DROUGHT,1/5/2010,UKASI,,,,,,,,,,,
+NYANDARUA,-0.774518836,36.62900856,EXTREME RAINS,6/30/2012,South,,,,,,,,,,,"A mount of food required beans 5oo,rice 5oo and oil 500."
+MURANG'A,-0.751858591,36.86800498,DROUGHT,3/4/2011,,,,,,,,,,,,
+MURANG'A,-0.751858591,36.86800498,FLOOD,4/30/2013,kigumo,,,,,,,,15,,0.75,"Fish ponds, food crops and tea crops were swept away. A number of roads were also damaged."
+MURANG'A,-0.737555204,36.98205783,DROUGHT,1/3/2011,,,,,,,,20175,,,,
+MURANG'A,-0.737555204,36.98205783,DROUGHT,4/3/2011,,,,,,,,20000,,,,
+MURANG'A,-0.737555204,36.98205783,MUDSLIDE,1/10/2009,Murarandia location,1,,,,,,,,,,
+KISII,-0.705991932,34.82410979,FLOOD,1/14/2010,Kisii South,,,,,,,120,,,,
+KISII,-0.705991932,34.82410979,FLOOD,8/18/2009,Riakworo High School,,,,,,,6,,,,
+KISII,-0.705991932,34.82410979,LANDSLIDE,5/18/2010,Nyamisieka and Chinche villages,,,,37,,,,,,6,
+KISII,-0.705991932,34.82410979,FLOOD,5/14/2002,,1,,,,,,,,,,
+KISII,-0.705991932,34.82410979,EPIDEMIC,3/31/2008,,,,,,,,,,,,Numbers to be confirmed
+MURANG'A,-0.69627556,37.14219506,DROUGHT,8/3/2009,,,,,,,,76049,,,,
+NYAMIRA,-0.693120736,35.02074175,EPIDEMIC,3/31/2008,,,,,,,,,,,,Numbers to be confirmed 
+MURANG'A,-0.691825513,36.96287956,DROUGHT,4/3/2011,,,,,,,,5600,,,,
+MURANG'A,-0.691825513,36.96287956,LANDSLIDE,1/10/2009,Kiruri location,,,,,,,,,,,
+EMBU,-0.682509152,37.64769177,DROUGHT,1/8/2009,Kiambere,,,,,,,,,,,
+HOMA BAY,-0.672433932,34.35993869,THUNDERSTORM,3/7/2011,Royam Village,1,1,,,,,,,,,
+HOMA BAY,-0.672433932,34.35993869,DROUGHT,1/3/2011,,,,,,,,,,,,
+KIRINYAGA,-0.659670962,37.36372604,FLOOD,4/30/2013,Mwea East,1,,,,,,10672,10672,,,"Sensitization was done through barazas, residents were moved to higher areas and the affected were provided with relief in form of maize, beans,[...]"
+KIRINYAGA,-0.659670962,37.36372604,FLOOD,11/15/2011,at Riagicheru sub location,1,,,,,,,,,,
+KISII,-0.658290258,34.69555016,DROUGHT,4/26/2009,"Iyabe, Bokeira - Kanyimbo Village",,,,,,,,,,,
+NYAMIRA,-0.649129082,34.94000426,DROUGHT,5/13/2009,"Rigoma, Borabu, Ekerenyo",,,,,,,24076,,,,
+NYAMIRA,-0.649129082,34.94000426,THUNDERSTORM,7/4/2013,Miruka location,1,,,,,,,,,,body removed to Nyamira district hospital mortuary.
+MURANG'A,-0.648520917,36.77203041,DROUGHT,8/3/2009,Muranga South,,,,,,,109000,,,,
+MURANG'A,-0.648520917,36.77203041,DROUGHT,8/3/2009,Muranga North,,,,,,,88000,,,,
+MURANG'A,-0.648520917,36.77203041,DROUGHT,4/3/2011,Muranga East,,,,,,,42274,,,,
+MURANG'A,-0.648520917,36.77203041,DROUGHT,1/3/2011,Murang'a South,,,,,,,32317,,,,
+MURANG'A,-0.648520917,36.77203041,DROUGHT,4/3/2011,Muranga South,,,,,,,32000,,,,
+MURANG'A,-0.648520917,36.77203041,FLOOD,5/14/2002,,6,4,,,,,,,,,
+MURANG'A,-0.648520917,36.77203041,FLOOD,3/11/2009,Muranga East and West,1,,,2,,,,,,,
+MURANG'A,-0.648520917,36.77203041,FLOOD,11/13/2008,Giko village,1,,,,,,,20,,,20 families relocated
+MURANG'A,-0.648520917,36.77203041,DROUGHT,9/3/2011,,,,,,,,,,,,
+MURANG'A,-0.648520917,36.77203041,DROUGHT,1/8/2009,Muranga East,,,,,,,,,,,
+MURANG'A,-0.648520917,36.77203041,LANDSLIDE,4/30/2013,Kiambuthia Sub-location,,,,,,,,,,,A landslide occured adjacent to Kiru Tea Factory. A wide crack and a depression developed on Kiria-ini -Kangema road posing danger to motorists.
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,1/8/2009,Nyandarua North,,,,,,,50000,,,,
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,1/8/2009,Nyandarua Central,,,,,,,44932,,,,
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,1/3/2011,Nyandarua North,,,,,,,44524,,,,
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,3/4/2011,Nyandarua North,,,,,,,35000,,,,
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,8/3/2009,Nyandarua North,,,,,,,26533,,,,13000 of the affected population is made up of IDPs
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,8/3/2009,Nyandarua South,,,,,,,22592,,,,the affected population is made up of IDPs - Internally displaced persons
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,1/3/2011,Kahutha Location,,,,,,,18996,,,,
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,4/3/2011,Nyandarua central,,,,,,,16660,,,,16660 families affected
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,1/3/2011,NYANDARUA SOUTH,,,,,,,15000,,,,
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,4/3/2011,Nyandarua South,,,,,,,15000,,,,
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,3/4/2011,Nyandarua West,,,,,,,6400,,,,
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,3/4/2011,Kinangop,,,,,,,4500,,,,
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,3/4/2011,Mirangine - Nyandarua North,,,,,,,3950,,,,
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,1/3/2011,Kiriita location,,,,,,,3831,,,,
+NYANDARUA,-0.639908835,36.69121948,FLOOD,3/1/2010,,,,,35,,,175,,,,
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,1/3/2011,,,,,,,,,,,,Losses Sheep - 23112 Goats - 20824 Poultry - 59152
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,9/3/2011,,,,,,,,,,,,
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,1/3/2011,,,,,,,,,,,,
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,1/8/2009,Kinangop,,,,,,,,,,,
+NYANDARUA,-0.639908835,36.69121948,DROUGHT,1/8/2009,Nyandarua South,,,,,,,,,,,
+MURANG'A,-0.638975023,36.9677687,DROUGHT,3/4/2011,,,,,,,,10527,,,,
+MURANG'A,-0.638975023,36.9677687,LANDSLIDE,7/11/2008,Gikoe village,1,,,1,,,11,,,,A juvenile was buried by soil mass in the house she was sleeping in.
+MURANG'A,-0.638975023,36.9677687,LANDSLIDE,1/5/2009,Gikoe village - Njumbi,1,,,5,,,,,,,"5 Households were affected, 20 families evacuated"
+MURANG'A,-0.638975023,36.9677687,FLOOD,4/30/2013,kAHURO,,,,,,,,,,,Houses a bridge and cow sheds were damaged. Toilets were submerged
+HOMA BAY,-0.59507578,34.20189514,DROUGHT,1/3/2011,,,,,,,,,,,,
+EMBU,-0.588397176,37.73450102,FLOOD,1/1/2010,Kiritiri-Karimari road,,,,,,,,,,,
+EMBU,-0.588397176,37.73450102,FLOOD,1/12/2009,Iriaitune-Kikumiro-Wango road,,,,,,,,,,,
+EMBU,-0.588397176,37.73450102,FLOOD,1/12/2009,Kauringwa-Karerema road,,,,,,,,,,,
+EMBU,-0.588397176,37.73450102,FLOOD,1/12/2009,Muchonoke-Mutus road,,,,,,,,,,,
+EMBU,-0.588397176,37.73450102,DROUGHT,1/8/2009,Mutitu,,,,,,,,,,,
+KITUI,-0.578178587,38.55303877,DROUGHT,4/26/2009,"Ikime, Ngomeni village",,,,,,,,,,,
+NYERI,-0.577948615,37.07631395,DROUGHT,10/3/2011,,,,,,,,18000,,,,
+NYERI,-0.577948615,37.07631395,LANDSLIDE,5/5/2010,,2,,,,,,100,,,,150 Households were evacuated
+NYERI,-0.577948615,37.07631395,DROUGHT,1/8/2009,,,,,,,,,,,,
+NYERI,-0.577948615,37.07631395,DROUGHT,8/3/2009,,,,,,,,,,,,
+HOMA BAY,-0.577404303,34.48232572,EPIDEMIC,1/1/2009,Homa Bay,3,,,,,,45,,,,Incidences of cholera were reported as from January to June 2009
+HOMA BAY,-0.577404303,34.48232572,FLOOD,6/5/2010,River Arujo,2,,,,,,,,,,
+HOMA BAY,-0.577404303,34.48232572,FLOOD,1/3/2012,,,,,,,,,,,,
+HOMA BAY,-0.577404303,34.48232572,EPIDEMIC,3/31/2008,,,,,,,,,,,,Numbers to be confirmed
+KISII,-0.564621438,34.81740702,DROUGHT,4/26/2009,"Mwamonari, Rioma - Manyakundi Village",,,,,,,,,,,
+NYANDARUA,-0.555957441,36.56170374,DROUGHT,1/3/2011,,,,,,,,,,,,
+KIRINYAGA,-0.550736477,37.21905657,DROUGHT,8/3/2009,,,,,,,,50000,,,,
+KIRINYAGA,-0.550736477,37.21905657,LANDSLIDE,3/5/2006,Kiangai Village,,,,1,,,7,,,,7 families were affected by the landslide
+NYERI,-0.550196994,36.90339644,DROUGHT,8/3/2009,,,,,,,,,,,,
+KITUI,-0.539187878,38.23681624,DROUGHT,9/3/2011,,,,,,,,,,,,
+KITUI,-0.539187878,38.23681624,DROUGHT,1/8/2009,,,,,,,,,,,,
+EMBU,-0.53351673,37.4915843,DROUGHT,1/3/2011,Embu East,,,,,,,46100,,,,
+EMBU,-0.531642146,37.59966657,DROUGHT,1/3/2011,Mbeere North,,,,,,,59048,,,,
+EMBU,-0.531642146,37.59966657,DROUGHT,1/3/2011,Mbeere South,,,,,,,49682,,,,
+EMBU,-0.531642146,37.59966657,FLOOD,5/14/2002,,6,,,,,,,,,,
+KIRINYAGA,-0.511982367,37.30372319,DROUGHT,8/3/2009,,,,,,,,164023,,,,
+KIRINYAGA,-0.511982367,37.30372319,DROUGHT,3/4/2011,Kirinyaga South,,,,,,,55031,,,,
+KIRINYAGA,-0.511982367,37.30372319,DROUGHT,4/3/2011,Kirinyaga East,,,,,,,24934,,,,
+KIRINYAGA,-0.511982367,37.30372319,DROUGHT,1/3/2011,,,,,,,,22671,,,,
+KIRINYAGA,-0.511982367,37.30372319,FLOOD,5/14/2002,Kerugoya,1,,,,,,,,,,
+KIRINYAGA,-0.511982367,37.30372319,LANDSLIDE,12/6/2012,"Kirinyaga, Wanguru, Togonye Village, Kambori Seasonal Stream",1,,,,,,,,,,
+KIRINYAGA,-0.511982367,37.30372319,DROUGHT,1/3/2012,Kirinyaga South,,,,,,,,,,,
+KIRINYAGA,-0.511982367,37.30372319,DROUGHT,4/3/2011,Kirinyaga North,,,,,,,,,,,
+KIRINYAGA,-0.511982367,37.30372319,DROUGHT,3/4/2011,Kirinyaga West,,,,,,,,,,,
+KIRINYAGA,-0.511982367,37.30372319,FLOOD,5/13/2012,River Thiba,,,,,,,,,,,bridge swept away
+KITUI,-0.509374552,38.02148437,FLOOD,1/1/2010,Mumoni,,,,,,,,,,,
+KITUI,-0.509374552,38.02148437,FLOOD,1/1/2010,Bailey Brigde,,,,,,,,,,,washout of River Katse
+KITUI,-0.509374552,38.02148437,FLOOD,1/1/2010,Kamuongo-Katooni road,,,,,,,,,,,
+KITUI,-0.509374552,38.02148437,FLOOD,1/1/2010,Kamuongo- Kalatine- Kiambere road,,,,,,,,,,,
+KITUI,-0.509374552,38.02148437,FLOOD,1/1/2010,Thua-Nguuku road,,,,,,,,,,,
+KITUI,-0.509374552,38.02148437,FLOOD,1/1/2010,Katse detour,,,,,,,,,,,
+KITUI,-0.509374552,38.02148437,DROUGHT,9/3/2011,,,,,,,,,,,,
+KITUI,-0.509374552,38.02148437,DROUGHT,1/8/2009,,,,,,,,,,,,
+NAKURU,-0.496574384,36.23514144,FLOOD,3/20/2011,Kiambogo trading centre,1,,,,,,,,,,
+NAKURU,-0.496574384,36.23514144,FLOOD,5/13/2012,NGONDI TRADING CENTRE,1,,,,,,,,,,
+NAKURU,-0.496574384,36.23514144,DROUGHT,1/3/2011,,,,,,,,,,,,
+NAKURU,-0.481334031,36.01692448,DROUGHT,4/25/2009,Pwani Village,,,,,,,,,,,
+NAKURU,-0.481334031,36.01692448,DROUGHT,4/25/2009,Kapyemit Village,,,,,,,,,,,
+SIAYA,-0.477669085,34.32483693,FLOOD,5/15/2002,,3,,,,,,,,,,
+SIAYA,-0.477669085,34.32483693,FLOOD,4/1/2010,Nyang'oma,,,,,,,,,,,4 roads and a bridge destroyed
+SIAYA,-0.477669085,34.32483693,DROUGHT,1/3/2011,,,,,,,,,,,,
+SIAYA,-0.477669085,34.32483693,FLOOD,7/9/2003,,,,,,,,,,,4000,
+HOMA BAY,-0.477669085,34.32483693,FLOOD,1/3/2012,,,,,,,,,,,,
+GARISSA,-0.461586819,39.75534704,FLOOD,4/18/2013,Garissa,,,,,,,32000,,10,,"65 farms were marooned by floods, 10 people were rescued by a helicopter."
+GARISSA,-0.461586819,39.75534704,EPIDEMIC,2/23/2010,Garissa,,,,,,,4,,,,
+GARISSA,-0.461586819,39.75534704,EPIDEMIC,1/1/2009,Garissa,1,,,,,,,,,,Incidences of cholera were reported as from January to June 2009
+GARISSA,-0.461586819,39.75534704,DROUGHT,9/3/2011,,,,,,,,,,,,
+GARISSA,-0.461586819,39.75534704,DROUGHT,1/8/2009,Garissa,,,,,,,,,,,
+NYERI,-0.451222501,36.93707257,DROUGHT,4/3/2011,,,,,,,,23496,,,,
+NYERI,-0.451222501,36.93707257,DROUGHT,1/8/2009,,,,,,,,,,,,
+NYERI,-0.451121702,36.75564013,DROUGHT,8/3/2010,,,,,,,,62304,,,,
+NYERI,-0.451121702,36.75564013,DROUGHT,1/3/2011,,,,,,,,16015,,,,
+NYERI,-0.451121702,36.75564013,DROUGHT,3/4/2011,Nyeri South,,,,,,,2000,,,,
+NYERI,-0.451121702,36.75564013,EPIDEMIC,8/14/2009,,,,,,,,1,,,,
+NYERI,-0.451121702,36.75564013,FLOOD,5/13/2012,,,,1,,,,,,,,"Division, Location"
+NYERI,-0.451121702,36.75564013,DROUGHT,1/8/2009,Nyeri South,,,,,,,,,,,
+NYERI,-0.451121702,36.75564013,DROUGHT,1/8/2009,Nyeri Central,,,,,,,,,,,
+NYERI,-0.445877647,37.11625732,DROUGHT,3/4/2011,Mathira East,,,,,,,25334,,,,
+NYERI,-0.445877647,37.11625732,DROUGHT,3/4/2011,Mathira West,,,,,,,16011,,,,
+NYERI,-0.445877647,37.11625732,LANDSLIDE,2/5/2010,Mathira,,,,7,,,,,,,
+NYERI,-0.445877647,37.11625732,DROUGHT,1/8/2009,Gatundu North,,,,,,,,,,,
+NYERI,-0.445877647,37.11625732,DROUGHT,1/8/2009,Gatundu,,,,,,,,,,,
+NYERI,-0.445877647,37.11625732,DROUGHT,8/3/2009,Karatina,,,,,,,,,,,
+TANA RIVER,-0.443968066,39.51769904,FLOOD,3/20/2013,sara location,,,3,1,,,5,,,,"Mr. Shillow, Ambia Isssack and Marrian Shillow were reported dead."
+TANA RIVER,-0.443968066,39.51769904,THUNDERSTORM,8/11/2008,,,,,,,,,,,,
+TANA RIVER,-0.443968066,39.51769904,DROUGHT,1/4/2010,MADOGO,,,,,,,,,,,
+TANA RIVER,-0.443968066,39.51769904,DROUGHT,1/4/2010,SALA,,,,,,,,,,,
+TANA RIVER,-0.443968066,39.51769904,DROUGHT,1/4/2010,Saka,,,,,,,,,,,
+GARISSA,-0.431733341,40.38594356,DROUGHT,9/3/2011,Fafi,,,,,,,,,,,
+GARISSA,-0.431733341,40.38594356,DROUGHT,1/8/2009,Fafi,,,,,,,,,,,
+GARISSA,-0.431733341,40.38594356,DROUGHT,1/4/2010,Fafi,,,,,,,,,,,
+TANA RIVER,-0.421694549,38.98876291,DROUGHT,1/8/2009,Tana River,,,,,,,80000,,,,
+TANA RIVER,-0.421694549,38.98876291,DROUGHT,1/8/2009,Tana Delta,,,,,,,66587,,,,
+TANA RIVER,-0.421694549,38.98876291,FLOOD,7/5/2013,"Tana Delta(Ndela, Mwina, Salama, Galili)",,,,,,,37100,,,,"Airlift, naval boat services were requested for to ferry food to the victims. Food and non-food items were donated."
+TANA RIVER,-0.421694549,38.98876291,DROUGHT,1/3/2011,Tana Delta,,,,,,,15350,,,,
+TANA RIVER,-0.421694549,38.98876291,DROUGHT,1/3/2011,,,,,,,,15350,,,,
+TANA RIVER,-0.421694549,38.98876291,DROUGHT,1/3/2011,Tana North,,,,,,,15350,,,,
+TANA RIVER,-0.421694549,38.98876291,FLOOD,3/26/2010,Tana River,,,,,,,11573,,,,
+TANA RIVER,-0.421694549,38.98876291,FLOOD,3/1/2010,Tana Delta,,,,,,,7000,,,,
+TANA RIVER,-0.421694549,38.98876291,FLOOD,3/1/2010,Tana North,,,,85,,,5000,,,,
+TANA RIVER,-0.421694549,38.98876291,FLOOD,7/5/2013,"Tana River(Makale, Matugugu and Kinakamba locations)",,,,,,,3500,,,,"Relief food(rice, beans and cooking oil) was provided.Some of the camps Rhoka primary school, Bugugu, Hewani, Masalani,Banjua, Duaja, Goji and[...]"
+TANA RIVER,-0.421694549,38.98876291,FLOOD,1/3/2012,,,,,,,,,,,,
+TANA RIVER,-0.421694549,38.98876291,DROUGHT,1/4/2010,Bangale,,,,,,,,,,,
+TANA RIVER,-0.421694549,38.98876291,DROUGHT,1/3/2011,Tana Delta District,,,,,,,,,,,
+TANA RIVER,-0.421694549,38.98876291,DROUGHT,1/3/2011,,,,,,,,,,,,
+TANA RIVER,-0.421694549,38.98876291,DROUGHT,9/4/2009,,,,,,,,,,,,
+TANA RIVER,-0.421694549,38.98876291,FLOOD,3/21/2010,Nanigi,,,,,,,,,,,
+NYERI,-0.416137094,36.96505115,DROUGHT,4/3/2011,,,,,,,,16321,,,,
+NYERI,-0.416137094,36.96505115,DROUGHT,9/3/2011,,,,,,,,,,,,
+NYANDARUA,-0.402735039,36.50844474,DROUGHT,1/3/2011,,,,,,,,5373,,,,
+NYANDARUA,-0.402735039,36.50844474,DROUGHT,3/4/2011,,,,,,,,5373,,,,
+NYANDARUA,-0.402735039,36.50844474,THUNDERSTORM,6/30/2011,Nauratia,1,,3,,,,,,,,
+NYANDARUA,-0.402735039,36.50844474,MUDSLIDE,4/22/2013,Mwingo,1,,,,,,,,,,"A wide acrage of maize, peas and potato crops was destroyed, affecting 81 families."
+NYANDARUA,-0.402735039,36.50844474,FOREST FIRE,3/22/2009,Geta,,,,,,,,,,250,Indigenous forest burned down
+NYANDARUA,-0.402735039,36.50844474,FOREST FIRE,3/22/2009,Aberdares in Wanjohi Area,,,,,,,,,,,Indigenous forest burned down
+NYANDARUA,-0.402735039,36.50844474,DROUGHT,1/3/2011,,,,,,,,,,,,
+NYANDARUA,-0.402735039,36.50844474,DROUGHT,1/8/2009,,,,,,,,,,,,
+HOMA BAY,-0.387554402,34.79432787,FLOOD,5/5/2010,Rachuonyo North,,,,4,,,2234,,2234,,Sondu Miriu River burst its banks
+HOMA BAY,-0.387554402,34.79432787,FLOOD,4/24/2006,Kobuya East,,,,,,,131,,,,
+HOMA BAY,-0.387554402,34.79432787,EPIDEMIC,1/1/2009,Rachuonyo,5,,,,,,35,,,,Incidences of cholera were reported as from January to June 2009
+HOMA BAY,-0.387554402,34.79432787,FLOOD,4/24/2006,Kobala,,,,,,,16,,,120,
+HOMA BAY,-0.387554402,34.79432787,FLOOD,4/25/2010,,,,,6,,,,,,,
+HOMA BAY,-0.387554402,34.79432787,FLOOD,12/27/2009,Rachuonyo,,,,,,,,,,,Infrastructure was destroyed
+HOMA BAY,-0.387554402,34.79432787,DROUGHT,4/26/2009,Kogweno Oriang - Kabollo Village,,,,,,,,,,,
+HOMA BAY,-0.387554402,34.79432787,DROUGHT,4/26/2009,Sabolo Village,,,,,,,,,,,
+HOMA BAY,-0.387554402,34.79432787,DROUGHT,4/26/2009,Obisa - Wire village,,,,,,,,,,,
+HOMA BAY,-0.387554402,34.79432787,FLOOD,5/24/2012,,,,,,,,,,,,
+NAKURU,-0.376065919,35.9374692,DROUGHT,1/8/2009,Industrial area village,,,,,,,,,,,
+NAKURU,-0.371345488,36.08357507,FLOOD,5/13/2013,Nakuru,,,,,,,75,,,,"Infrastructure was destroyed; Menengai hills road, Karunga-Mailisaba road, Nakuru-Nyahururu, Engashura interior Roads and 4 bridges. Ball gun[...]"
+NAKURU,-0.371345488,36.08357507,EPIDEMIC,1/1/2009,Nakuru,1,,,,,,5,,,,Incidences of cholera were reported as from January to June 2009
+NAKURU,-0.371345488,36.08357507,FLOOD,2/3/2010,Rhoda area,3,,,,,,,,,,
+NAKURU,-0.371345488,36.08357507,FLOOD,2/17/2011,Free area,1,,,,,,,,,,
+NAKURU,-0.371345488,36.08357507,DROUGHT,1/3/2011,,,,,,,,,,,,
+NAKURU,-0.355955598,35.53348277,DROUGHT,1/3/2011,,,,,,,,,,,,
+KERICHO,-0.301972577,35.30339673,EPIDEMIC,1/1/2009,Kericho,3,,,,,,5,,,,Incidences of cholera were reported as from January to June 2009
+KERICHO,-0.301972577,35.30339673,FLOOD,5/14/2002,,1,,,,,,,,,,
+KISUMU,-0.285337496,34.94779754,FLOOD,5/15/2010,Nyakach,,,,,,,20000,,,,
+KISUMU,-0.285337496,34.94779754,FLOOD,2/5/2010,Nyakwero and Nyawalo,,,,215,,,1290,,,,
+KISUMU,-0.285337496,34.94779754,FLOOD,4/13/2013,Nyakach,,,,,,,1000,1000,,,"3 primary schools submerged, some of the affected people were integrated in the community. Relief in form of beans, maize and firewood was offered"
+KISUMU,-0.285337496,34.94779754,FLOOD,11/5/2010,,,,,100,,,,,,,
+NYANDARUA,-0.280334227,36.33367296,FOREST FIRE,2/23/2005,Ndundori,,,,,,,,,,,
+KITUI,-0.241752487,38.34781838,DROUGHT,1/8/2009,Tseikuru,,,,,,,,,,,
+KITUI,-0.241752487,38.34781838,DROUGHT,9/3/2011,,,,,,,,,,,,
+NYERI,-0.240643877,36.81151691,DROUGHT,8/3/2010,,,,,,,,57400,,,,
+NYERI,-0.240643877,36.81151691,DROUGHT,1/3/2011,,,,,,,,20760,,,,
+NYERI,-0.240643877,36.81151691,DROUGHT,4/3/2011,,,,,,,,20760,,,,
+NYERI,-0.240643877,36.81151691,DROUGHT,9/3/2011,Mweiga,,,,,,,,,,,
+NYERI,-0.240643877,36.81151691,DROUGHT,9/10/2009,Nairutia,,,,,,,,,,,
+NYERI,-0.240643877,36.81151691,DROUGHT,9/10/2009,Mugunda,,,,,,,,,,,
+NYERI,-0.240643877,36.81151691,DROUGHT,9/10/2009,Ndungari,,,,,,,,,,,
+NYERI,-0.240643877,36.81151691,DROUGHT,9/10/2009,Gataragwa,,,,,,,,,,,
+NYERI,-0.240643877,36.81151691,DROUGHT,9/10/2009,Solio Ranch Settlement Scheme,,,,,,,,,,,
+NAKURU,-0.221156718,35.7586183,THUNDERSTORM,9/19/2011,Kiptagich area,3,,,1,,,3,,,,3 Juveniles thrown out of the grass thatched house
+NAKURU,-0.221156718,35.7586183,FOREST FIRE,3/21/2009,Nessuit,,,,,,,,,,200,Indigenous forest burned down
+NAKURU,-0.221156718,35.7586183,FOREST FIRE,3/21/2009,Logoman,,,,,,,,,,250,Indigenous forest burned down
+NAKURU,-0.221156718,35.7586183,FOREST FIRE,3/21/2009,Likia,,,,,,,,,,150,Indigenous forest burned down
+NAKURU,-0.221156718,35.7586183,FOREST FIRE,3/25/2009,Sururu Forest,,,,,,,,,,5000,Indigenous forest was on fire
+NAKURU,-0.221156718,35.7586183,FLOOD,4/1/2010,Chepalungu,,,,,,,,,,,Bomet - Koposwaro road destroyed
+NAKURU,-0.221156718,35.7586183,FOREST FIRE,2/23/2005,Molo,,,,,,,,,,,
+NAKURU,-0.221156718,35.7586183,FOREST FIRE,2/23/2005,Sururu,,,,,,,,,,,
+NAKURU,-0.221156718,35.7586183,DROUGHT,1/3/2011,,,,,,,,,,,,
+NAKURU,-0.221156718,35.7586183,DROUGHT,1/8/2009,Kasarani Village,,,,,,,,,,,
+KISUMU,-0.210201263,35.00051038,FLOOD,12/27/2009,Nyando,,,,47,,,1674,,,,One school was destroyed
+KISUMU,-0.210201263,35.00051038,EPIDEMIC,1/1/2009,Nyando,1,,,,,,3,,,,Incidences of cholera were reported as from January to June 2009
+KISUMU,-0.210201263,35.00051038,FLOOD,5/14/2002,,3,4,,,,,,,,,
+KISUMU,-0.210201263,35.00051038,FLOOD,6/12/2011,wawidhi,,,,,,,,,,200,"maize, legumes, cotton, rice affected "
+KISUMU,-0.210201263,35.00051038,FLOOD,1/14/2010,,,,,,,,,,,,14 homesteads displaced
+KISUMU,-0.206721178,34.84236144,FLOOD,1/14/2010,upper and lower Nyakach,,,,,,,300,,,,
+KISUMU,-0.206721178,34.84236144,FLOOD,1/3/2012,,,,,,,,,,,,
+KISUMU,-0.206721178,34.84236144,FLOOD,1/3/2012,,,,,,,,,,,,
+KISUMU,-0.206721178,34.84236144,EPIDEMIC,1/1/2007,,,,,,,,,,,,
+KISUMU,-0.206721178,34.84236144,EPIDEMIC,1/10/1997,,,,,,,,,,,,
+KISUMU,-0.206721178,34.84236144,EPIDEMIC,3/31/2008,,,,,,,,,,,,
+NYERI,-0.191521298,37.06749258,DROUGHT,1/3/2011,,,,,,,,45000,,,,
+NYERI,-0.191521298,37.06749258,DROUGHT,4/3/2011,,,,,,,,45000,,,,
+NYERI,-0.191521298,37.06749258,DROUGHT,1/8/2009,,,,,,,,,,,,
+KERICHO,-0.187967292,35.43146008,LANDSLIDE,12/31/2003,Kokwet,4,,,,,,,,,,
+NAKURU,-0.143202665,36.1296262,FLOOD,5/19/2012,Nakuru town,2,,,289,,,1455,,,,
+NAKURU,-0.143202665,36.1296262,EPIDEMIC,9/4/2008,,2,16,,,,,,,,,
+NAKURU,-0.143202665,36.1296262,FLOOD,5/14/2002,,1,,,,,,,,,,
+NAKURU,-0.143202665,36.1296262,FOREST FIRE,2/23/2005,Bahati,,,,,,,,,,,
+NAKURU,-0.143202665,36.1296262,DROUGHT,4/26/2009,Langas village,,,,,,,,,,,
+NAKURU,-0.143202665,36.1296262,DROUGHT,4/26/2009,Nyama Miti Village,,,,,,,,,,,
+NAKURU,-0.143202665,36.1296262,DROUGHT,1/3/2011,Nakuru North,,,,,,,,,,,
+NAKURU,-0.143202665,36.1296262,FOREST FIRE,2/21/2005,Eburu,,,,,,,,,,,
+NAKURU,-0.143202665,36.1296262,FOREST FIRE,2/21/2009,Burget Forest,,,,,,,,,,,
+NAKURU,-0.143202665,36.1296262,DROUGHT,1/8/2009,Nakuru North,,,,,,,,,,,
+NAKURU,-0.143202665,36.1296262,FLOOD,1/3/2012,,,,,,,,,,,,
+NAKURU,-0.143202665,36.1296262,FLOOD,5/17/2012,the Rd between Suswa-Mahi mahiu,,,,,,,,,,,
+KERICHO,-0.139718366,35.53899661,FLOOD,10/5/2013,londiani(Sorget and Tendeno divisions),1,,,,,,1020,,,,"A two year child drowned, roads destroyed and people displaced in Set-Kobor and Ewat villages."
+KERICHO,-0.139718366,35.53899661,FOREST FIRE,3/24/2009,Sorget Forest Compartment 9A,,,,,,,,,,10,
+KERICHO,-0.139718366,35.53899661,FOREST FIRE,3/25/2009,Masaita Forest,,,,,,,,,,,Indigenous trees were burned down
+KERICHO,-0.139718366,35.53899661,FOREST FIRE,2/23/2005,Londiani,,,,,,,,,,,
+SIAYA,-0.134600597,34.36180015,FLOOD,1/14/2010,Central Uyoma,3,,,,,,,,,,chilren drowned in a dam
+SIAYA,-0.134600597,34.36180015,DROUGHT,1/3/2011,,,,,,,,,,,,
+THARAKA - NITHI,-0.128040147,37.9341704,EPIDEMIC,6/3/2010,Tharaka,2,,,,,,6,,,,
+THARAKA - NITHI,-0.128040147,37.9341704,DROUGHT,1/8/2009,Tharaka,,,,,,,,,,,
+KISUMU,-0.124999027,35.17499564,DROUGHT,4/26/2009,Ochoria - Kipsamwe Village,,,,,,,,,,,
+KISUMU,-0.124999027,35.17499564,DROUGHT,4/26/2009,"Chemelili, Miwani East, Kibigori Village",,,,,,,,,,,
+MERU,-0.119893902,37.67441269,DROUGHT,1/8/2009,Meru South,,,,,,,82000,,,,
+MERU,-0.119893902,37.67441269,FLOOD,5/14/2002,,10,3,,,,,,,,,
+MERU,-0.119893902,37.67441269,FLOOD,5/14/2002,Tharaka,2,,,,,,,,,,
+MERU,-0.119893902,37.67441269,FLOOD,5/14/2002,Meru North,1,,,,,,,,,,
+MERU,-0.119893902,37.67441269,FLOOD,1/1/2010,Karangi Primary,,,,,,,,,,,
+MERU,-0.119893902,37.67441269,FLOOD,1/1/2010,Ndagani market,,,,,,,,,,,
+MERU,-0.119893902,37.67441269,FOREST FIRE,3/22/2009,Meru South - Chogoria/ Chuka,,,,,,,,,,30000,"Indigenous forest consisting of bamboo, moorland and other species burned down"
+MERU,-0.119893902,37.67441269,DROUGHT,1/8/2009,Marra - Meru South,,,,,,,,,,,
+THARAKA - NITHI,-0.105893792,38.1032879,DROUGHT,1/3/2011,,,,,,,,36539,,,,
+KISUMU,-0.094690421,34.64642546,FLOOD,7/9/2003,,,,,,,,200,,,,200 households affected
+KISUMU,-0.094690421,34.64642546,EPIDEMIC,1/1/2009,Kisumu East,4,,,,,,155,,,,Incidences of cholera were reported as from January to June 2009
+KISUMU,-0.094690421,34.64642546,FLOOD,12/27/2009,Kisumu,,,,12,,,60,,,26,26 Ha of maize and rice were destroyed
+KISUMU,-0.094690421,34.64642546,EPIDEMIC,1/1/2009,Kisumu West,1,,,,,,6,,,,Incidences of cholera were reported as from January to June 2009
+KISUMU,-0.094690421,34.64642546,FLOOD,1/14/2010,,,,,3,,,,100,,20,
+KISUMU,-0.094690421,34.64642546,DROUGHT,1/3/2011,Kisumu west,,,,,,,,,,,
+KISUMU,-0.094690421,34.64642546,DROUGHT,1/3/2011,Kisumu East,,,,,,,,,,,
+KISUMU,-0.094690421,34.64642546,FOREST FIRE,3/15/1997,Kisumu Forest Station,,,,,,,,,,,
+KISUMU,-0.093357075,34.97228845,FLOOD,10/21/2009,"Kigoche, Sande Magare",,,,,,,,,,,216 families were affected
+MERU,-0.093168687,37.7076565,FLOOD,6/25/2012,Nkubu-Mitunguu Rd,1,,,,,,,,,,
+NAKURU,-0.089828728,35.9361557,FLOOD,10/1/2010,Athinai,4,,,,,,150,,,100,
+NAKURU,-0.089828728,35.9361557,FLOOD,4/1/2010,Athinai road,4,,,,,,150,,,100,
+NAKURU,-0.089828728,35.9361557,DROUGHT,1/8/2009,,,,,,,,,,,,
+NYANDARUA,-0.075113949,36.34620107,DROUGHT,1/8/2009,Weru,,,,,,,10000,,,,
+NYANDARUA,-0.075113949,36.34620107,DROUGHT,8/3/2009,Gatimu,,,,,,,4000,,,,
+NYANDARUA,-0.055313577,36.53651961,DROUGHT,8/3/2010,Kahutha,,,,,,,10000,,,,
+NYANDARUA,-0.055313577,36.53651961,DROUGHT,8/3/2009,,,,,,,,3000,,,,
+BARINGO,-0.053838579,35.80656418,FOREST FIRE,3/21/2009,Esageri,,,,,,,,,,1000,Indigenous forest burned down
+SIAYA,-0.046718258,34.10482425,FLOOD,1/14/2010,,,,,,,,,,,12,
+NANDI,-0.045712226,35.3083727,EPIDEMIC,1/1/2009,Tinderet,1,,,,,,2,,,,Incidences of cholera were reported as from January to June 2009
+NANDI,-0.045712226,35.3083727,MUDSLIDE,1/5/2009,Tinderet,,,,,,,,,,,
+MERU,-0.025283946,37.682027,LANDSLIDE,11/11/2010,"Nkubu, Ngirine village",1,,,1,,,,,,,
+MERU,-0.025283946,37.682027,FLOOD,1/1/2010,Juakali plot,,,,,,,,,,,
+MERU,-0.016829363,37.44090312,FOREST FIRE,3/23/2009,Mbeo area of lower Imenti forest station,,,,,,,,,,20,Indigenous forest burned down
+MERU,-0.016829363,37.44090312,FOREST FIRE,2/26/2003,Mt. Kenya Forest,,,,,,,,,,1200,
+BARINGO,-0.016759816,35.7223953,THUNDERSTORM,6/29/2011,Chalaik Village,1,,,,,,,,,,
+BARINGO,-0.016759816,35.7223953,FOREST FIRE,3/21/2009,Maji Mazuri,,,,,,,,,,1000,Indigenous forest burned down
+BARINGO,-0.016759816,35.7223953,FOREST FIRE,3/25/2009,Chemorgok Forest,,,,,,,,,,,Indigenous forest burned down
+BARINGO,-0.016759816,35.7223953,FOREST FIRE,3/21/2009,Kiptuget,,,,,,,,,,,Indigenous forest burned down
+BARINGO,-0.016759816,35.7223953,FOREST FIRE,2/23/2005,Koibatek,,,,,,,,,,,
+BARINGO,-0.016759816,35.7223953,DROUGHT,1/8/2009,Koibatek,,,,,,,,,,,
+BARINGO,0.041065386,35.57997756,WINDSTORM,3/13/2013,Timboroa,,,,6,,,36,,,,"Roofs of 6 houses and a class were blown off,a transformer and a cattle were struck by lightning."
+NANDI,0.045291237,34.92167421,EPIDEMIC,1/1/2009,Nandi South,3,,,,,,35,,,,Incidences of cholera were reported as from January to June 2009
+NANDI,0.045291237,34.92167421,FLOOD,4/1/2010,Nandi South,,,,,,,,,,,"2 brigdes along Kibesim-Kapkwong road 2 roads Kibigori, Chemase, Chepswerta, Lamaiya roads"
+VIHIGA,0.066491717,34.64251154,DROUGHT,1/3/2011,,,,,,,,,,,,
+VIHIGA,0.066491717,34.64251154,DROUGHT,3/2/2012,,,,,,,,,,,,
+VIHIGA,0.066491717,34.64251154,EPIDEMIC,3/31/2008,,,,,,,,,,,,Numbers to be confirmed
+BUSIA,0.073267084,34.00334232,FLOOD,11/13/2008,"Lugari, Mukobola, Siginga, mundere",,,,3,,,40679,2295,,,"3 schools submerged, ground water submerged, and surface sources contaminated"
+BUSIA,0.073267084,34.00334232,FLOOD,8/20/2007,Bunyala Central,,,,,,,6800,,,,
+BUSIA,0.073267084,34.00334232,FLOOD,8/20/2007,Khajula,,,,,,,5800,,,,
+BUSIA,0.073267084,34.00334232,FLOOD,8/20/2007,Bunyala South,,,,,,,5400,,,,
+BUSIA,0.073267084,34.00334232,FLOOD,11/15/2008,Bunyala West,,,,,,,5000,,,70,
+BUSIA,0.073267084,34.00334232,FLOOD,11/15/2008,Bunyala North,,,,,,,4000,,,500,
+BUSIA,0.073267084,34.00334232,FLOOD,5/15/2013,Bunyala South,,,,,,,4000,800,,,"The 800 displaced families camped at Bunyala Technical Institute and Makunda Secondary School. SFarms were submerged , crop and harvest destroyed.[...]"
+BUSIA,0.073267084,34.00334232,FLOOD,1/11/2008,Khajula,,,,,,,3500,,,1200,
+BUSIA,0.073267084,34.00334232,FLOOD,8/21/2007,Osieko,,,,,,,2710,,,,
+BUSIA,0.073267084,34.00334232,FLOOD,8/21/2007,Rukala - Budalangi North,,,,,,,1344,,,,
+BUSIA,0.073267084,34.00334232,FLOOD,8/21/2007,Bubamba,,,,,,,384,,,,
+BUSIA,0.073267084,34.00334232,FLOOD,8/21/2007,Iyanga,,,,,,,380,,,,
+BUSIA,0.073267084,34.00334232,FLOOD,8/21/2007,Buhuma,,,,,,,280,,,,
+BUSIA,0.073267084,34.00334232,FLOOD,5/14/2002,,2,,,,,,,,,,
+BUSIA,0.073267084,34.00334232,DROUGHT,1/3/2011,Bunyala District,,,,,,,,,,,
+BUSIA,0.073267084,34.00334232,FLOOD,8/21/2007,Rugunga,,,,,,,,,,,
+BUSIA,0.073267084,34.00334232,FLOOD,11/12/2003,,,,,,,,,,,,
+BUSIA,0.073267084,34.00334232,FLOOD,1/5/2009,Budalangi,,,,,,,,,,,1000 families were affected
+BUSIA,0.073267084,34.00334232,FLOOD,1/3/2012,,,,,,,,,,,,
+SIAYA,0.080190579,34.25532076,FLOOD,7/9/2003,,,,,,,,21000,,,,
+SIAYA,0.080190579,34.25532076,FLOOD,12/27/2009,Siaya,5,,,101,,,500,,,,3 Class rooms were destroyed and 15 homes evacuated
+SIAYA,0.080190579,34.25532076,FLOOD,12/25/2009,,5,,,101,,,500,,15,,
+SIAYA,0.080190579,34.25532076,FLOOD,7/9/2003,,,,,27,,,365,,,500,365 families affected
+SIAYA,0.080190579,34.25532076,FLOOD,12/27/2010,,5,,,3,,,101,,,,
+SIAYA,0.080190579,34.25532076,EPIDEMIC,1/1/2009,Siaya,3,,,,,,78,,,,Incidences of cholera were reported as from January to June 2009
+GARISSA,0.083288677,39.93719775,DROUGHT,9/3/2011,,,,,,,,,,,,
+GARISSA,0.083288677,39.93719775,DROUGHT,4/26/2009,Hagadera Village,,,,,,,,,,,
+GARISSA,0.083288677,39.93719775,DROUGHT,9/28/2009,Alango Arba,,,,,,,,,,,
+SIAYA,0.087522857,34.13377037,FLOOD,1/5/2009,Usonga,,,,,,,400,,,,
+SIAYA,0.087522857,34.13377037,FLOOD,4/24/2006,Usonga,,,,,,,8,,,300,Sondu Miriu River's banks were overflown
+NAKURU,0.091596641,36.19157549,THUNDERSTORM,11/6/2011,Gitwamba village within Mihango sublocation,1,,,,,,,,,,
+MERU,0.098721236,37.56272592,DROUGHT,9/10/2009,Ntugi,,,,,,,,,,,
+MERU,0.103241366,37.91886954,DROUGHT,1/3/2011,,,,,,,,117935,,,,
+MERU,0.103241366,37.91886954,DROUGHT,1/8/2009,Tigania East,,,,,,,,,,,
+BARINGO,0.11061631,35.99781576,FLOOD,2/1/2010,,1,,,100,,,1168,,,,
+BARINGO,0.11061631,35.99781576,FLOOD,2/1/2009,Moi Ndambi area,,,,,,,1168,,,,
+BARINGO,0.11061631,35.99781576,FLOOD,10/1/2010,"Rosoga, Emining, Kiplombe hills",,,,,,,426,,,,"Bridges were destroyed, floods drained into 5 cattle dips therby diluting the dip wash"
+BARINGO,0.11061631,35.99781576,FLOOD,4/1/2010,,1,,,,,,100,,,,
+BARINGO,0.11061631,35.99781576,FLOOD,10/4/2013,Rosoga village,1,,,,,,,,,,"The victim was swept away by water, body retrieved and taken to Eldama Ravine district hospital Mortuary"
+BARINGO,0.11061631,35.99781576,FLOOD,4/1/2010,Waseges bridge,,,,,,,,,,,
+BARINGO,0.11061631,35.99781576,FLOOD,4/1/2010,Rosoga bridge,,,,,,,,,,,
+BARINGO,0.11061631,35.99781576,FLOOD,4/1/2010,Kabogor bridge,,,,,,,,,,,
+BARINGO,0.11061631,35.99781576,FLOOD,4/1/2010,Molok bridge,,,,,,,,,,,
+BARINGO,0.11061631,35.99781576,FLOOD,4/1/2010,Kipchobet bridge,,,,,,,,,,,
+BARINGO,0.11061631,35.99781576,FLOOD,4/1/2010,,,,,,,,,,,,
+BARINGO,0.11061631,35.99781576,DROUGHT,1/3/2011,,,,,,,,,,,,
+BARINGO,0.11061631,35.99781576,DROUGHT,1/8/2009,,,,,,,,,,,,
+GARISSA,0.119329214,39.15781573,DROUGHT,9/3/2011,,,,,,,,,,,,
+GARISSA,0.119329214,39.15781573,FLOOD,7/11/2008,Dujis,,,,,,,,,,,
+GARISSA,0.119329214,39.15781573,DROUGHT,1/4/2010,Dujis,,,,,,,,,,,
+GARISSA,0.119329214,39.15781573,DROUGHT,1/8/2009,Lagdera,,,,,,,,,,,
+GARISSA,0.119329214,39.15781573,FLOOD,7/11/2008,"Lagdera, Bura, Dadaab roads",,,,,,,,,,,
+GARISSA,0.119329214,39.15781573,EPIDEMIC,1/1/2007,,,,,,,,,,,,
+LAIKIPIA,0.121194548,36.34136253,DROUGHT,1/3/2011,Laikipia North,,,,,,,,,,,
+LAIKIPIA,0.121194548,36.34136253,FLOOD,8/30/2010,Kamukunji Dam,,,,,,,,,,,Water overflowed on the embankment since the culvert used as the spillway was chocked hence ripping off the downstream end
+LAIKIPIA,0.121194548,36.34136253,FLOOD,8/30/2010,Gatirima Dam,,,,,,,,,,,"Spillway channel is completely chocked and 3 culverts cannot accomodate the outflow, the dam is overflowing on the embankment which could break due[...]"
+LAIKIPIA,0.121194548,36.34136253,FLOOD,8/30/2010,Kanyuka Dam,,,,,,,,,,,"The dam's spillway is eroded making fee flow of water difficult. The embankment has become weak, most sections are worn out and the impoundment[...]"
+MERU,0.121526098,38.20828467,DROUGHT,9/10/2009,Meru National Park,,,,,,,,,,,
+MERU,0.133672809,37.98601429,DROUGHT,1/8/2009,,,,,,,,,,,,
+MERU,0.133672809,37.98601429,DROUGHT,8/4/2009,,,,,,,,,,,,
+MERU,0.13792286,37.31441689,FOREST FIRE,3/23/2009,Sirmon area of Ontulili,,,,,,,,,,100,Indigenous forest burned down
+MERU,0.13792286,37.31441689,FOREST FIRE,2/27/2005,"Mt. Kenya, Kangaita",,,,,,,,,,60,
+MERU,0.187039833,37.5939773,FLOOD,1/14/2010,Tumau,,,,,,,,,,,Timau-Ngare-Ndare Munyangalo roads 90% of bean crops in the district were destroyed
+MERU,0.187039833,37.5939773,DROUGHT,9/10/2009,Rwarera,,,,,,,,,,,
+KAKAMEGA,0.194178025,34.72411138,DROUGHT,5/13/2008,Kakamega North,,,,,,,98000,,,,
+KAKAMEGA,0.194178025,34.72411138,LANDSLIDE,11/8/2007,Khuvasali area,8,116,,,,,,,,,
+KAKAMEGA,0.194178025,34.72411138,FLOOD,5/14/2002,,1,,,,,,,,,,
+SIAYA,0.217253648,34.24955086,FLOOD,4/24/2006,,,,,,,,476,,,200,Sondu Miriu River's banks were overflown
+MERU,0.224367205,37.68858344,DROUGHT,1/3/2011,,,,,,,,61981,,,,
+MERU,0.224367205,37.68858344,DROUGHT,1/8/2009,"Tigania West - Buuri, Kaitu village",,,,,,,,,,,
+MERU,0.227394783,37.92068357,LANDSLIDE,12/31/2002,Maua,4,,,,,,,,,,
+KAKAMEGA,0.228251755,34.52088955,DROUGHT,1/8/2009,,,,,,,,,,,,
+KAKAMEGA,0.228251755,34.52088955,FLOOD,1/1/2005,,,,,,,,,,,,
+KAKAMEGA,0.228251755,34.52088955,EPIDEMIC,3/31/2008,,,,,,,,,,,,Numbers to be confirmed
+MERU,0.233721648,37.71767371,DROUGHT,2/3/2009,Maara,,,,,,,36457,,,,
+MERU,0.233721648,37.71767371,FLOOD,5/14/2002,,1,,,,,,,,,,
+MERU,0.233721648,37.71767371,DROUGHT,9/10/2009,Akithi,,,,,,,,,,,
+NANDI,0.236795213,35.01851381,THUNDERSTORM,10/7/2011,Kapkechui village,1,3,,,,,,,,,
+LAIKIPIA,0.243690128,37.03386879,FLOOD,4/1/2010,"Laikipia North, Mukogodo",1,,,,,,5,,,,
+LAIKIPIA,0.243690128,37.03386879,FLOOD,5/14/2002,Nanyuki,1,,,,,,,,,,
+LAIKIPIA,0.243690128,37.03386879,FOREST FIRE,3/24/2009,Lariak forest,,,,,,,,,,100,Indigenous forest burned down
+LAIKIPIA,0.243690128,37.03386879,FLOOD,4/1/2010,Nabor,,,,,,,,,,,
+LAIKIPIA,0.243690128,37.03386879,FOREST FIRE,3/25/2009,Shamanek,,,,,,,,,,,Indigenous forest burned down
+LAIKIPIA,0.243690128,37.03386879,FOREST FIRE,3/25/2009,South Marmanet Forest,,,,,,,,,,,
+LAIKIPIA,0.243690128,37.03386879,DROUGHT,1/3/2011,,,,,,,,,,,,
+LAIKIPIA,0.243690128,37.03386879,DROUGHT,1/3/2011,,,,,,,,,,,,
+LAIKIPIA,0.243690128,37.03386879,DROUGHT,1/3/2011,,,,,,,,,,,,
+LAIKIPIA,0.243690128,37.03386879,FLOOD,11/14/2008,Laikipia North,,,,,,,,,,,
+LAIKIPIA,0.243690128,37.03386879,DROUGHT,1/8/2009,Laikipia East,,,,,,,,,,,
+LAIKIPIA,0.243690128,37.03386879,DROUGHT,1/8/2009,Laikipia North,,,,,,,,,,,
+MERU,0.248176637,38.02373776,DROUGHT,4/26/2009,"Kiengu-Anchenge, Andu Vosio village",,,,,,,,,,,
+KAKAMEGA,0.287430743,34.75002316,EPIDEMIC,1/1/2009,Central Kakamega,2,,,,,,13,,,,Incidences of cholera were reported as from January to June 2009
+KAKAMEGA,0.287430743,34.75002316,THUNDERSTORM,6/26/2011,Shiunzu village,1,1,,,,,,,,,
+KAKAMEGA,0.29304838,34.51686091,DROUGHT,5/13/2009,,,,,,,,334000,,,,
+KAKAMEGA,0.29304838,34.51686091,FLOOD,2/21/2011,Shilamura area,1,,,,,,,,,,
+KAKAMEGA,0.29304838,34.51686091,THUNDERSTORM,3/7/2011,Maeni Sublocation,1,,,,,,,,,,
+KAKAMEGA,0.29304838,34.51686091,THUNDERSTORM,9/8/2012,Buchirinya village,1,,,,,,,,,,Body removed to St'Mary mission hospital
+MERU,0.316399644,38.05924179,DROUGHT,9/10/2009,Ndoleli,,,,,,,,,,,
+UASIN GISHU,0.331473048,35.43626874,THUNDERSTORM,10/8/2012,Kiborgok village,,1,,,,,,,,,The victim rushed to Kapsaret district nhospital and admitted in serious condition.
+UASIN GISHU,0.331473048,35.43626874,THUNDERSTORM,1/7/2011,"Kiptagat, Macheiwa village",8,,,,,,,,,,
+UASIN GISHU,0.331473048,35.43626874,DROUGHT,4/26/2009,"Chepkatet, Jasho Farm Village",,,,,,,,,,,
+UASIN GISHU,0.331473048,35.43626874,DROUGHT,4/26/2009,Munyaka Village,,,,,,,,,,,
+MERU,0.342267876,37.71340972,DROUGHT,1/3/2011,,,,,,,,,,,,
+MERU,0.342267876,37.71340972,DROUGHT,1/8/2009,"Buuri - Lailuba, Nailova village",,,,,,,,,,,
+MERU,0.342267876,37.71340972,DROUGHT,4/26/2009,Buuri - Kaitu village,,,,,,,,,,,
+MERU,0.342267876,37.71340972,DROUGHT,4/26/2009,Buuri - Lailuba Village,,,,,,,,,,,
+BUSIA,0.342968212,34.29095636,FLOOD,8/21/2007,"Elugulu, Bulwani",,,,,,,1750,,,,
+ELEGEYO-MARAKWET,0.357646857,35.59208491,EPIDEMIC,11/8/2009,Kabirsus Primary School,,,,,,,6,,,,
+ELEGEYO-MARAKWET,0.357646857,35.59208491,FLOOD,9/1/2013,KAPTARAKWA,8,4,,12,,,,,72,,57 children under 5 yrs were in camps
+ELEGEYO-MARAKWET,0.357646857,35.59208491,LANDSLIDE,12/31/2003,Kocholwo location,3,3,,,,,,,,,
+ELEGEYO-MARAKWET,0.357646857,35.59208491,DROUGHT,1/8/2009,Keiyo,,,,,,,,,,,
+BARINGO,0.368158371,35.75293052,LANDSLIDE,12/31/2002,Timboiywo area,,,,,,,,,,,
+BARINGO,0.368158371,35.75293052,LANDSLIDE,12/31/2003,Timboiywo area,,,,,,,,,,,
+BARINGO,0.368158371,35.75293052,LANDSLIDE,12/31/2004,Timboiywo area,,,,,,,,,,,
+BARINGO,0.368158371,35.75293052,LANDSLIDE,12/31/2005,Timboiywo area,,,,,,,,,,,
+BARINGO,0.368158371,35.75293052,LANDSLIDE,12/31/2006,Timboiywo area,,,,,,,,,,,
+BARINGO,0.368158371,35.75293052,LANDSLIDE,12/31/2008,Timboiywo area,,,,,,,,,,,
+MERU,0.37161144,37.81853648,DROUGHT,1/8/2009,,,,,,,,,,,,
+KAKAMEGA,0.383880051,34.46654791,FLOOD,6/12/2011,"Lucheka, Emurambe, Munanga",,,,,,,60,,,,"60 Families were affected, 20 of them have been displaced"
+LAIKIPIA,0.403053263,36.61345938,FOREST FIRE,3/25/2009,Rumuruti,,,,,,,,,,,Indigenous forest burned down
+LAIKIPIA,0.403053263,36.61345938,DROUGHT,1/8/2009,Rumuruti,,,,,,,,,,,
+LAIKIPIA,0.403053263,36.61345938,LANDSLIDE,8/30/2010,Marmanet Scheme Water Supply,,,,,,,,,,,"The landslide broke the raw water pipe at the scheme leading to lack of water supply for Marmanet, Kwa Wanjiku and Rumuruti Town areas"
+LAIKIPIA,0.417340105,37.12574604,FOREST FIRE,1/3/2004,Mukongondo Forest,,,,,,,,,,1000,Indigenous trees burned down
+KAKAMEGA,0.419052921,34.66288626,FLOOD,11/13/2008,Makunda,,,,,,,3200,,,500,
+KAKAMEGA,0.419052921,34.66288626,FLOOD,11/13/2008,Bunyala South,,,,,,,3000,,,250,
+ELEGEYO-MARAKWET,0.421159416,35.61421796,LANDSLIDE,8/1/2013,"KOCHOLWO,SIMIT,KAPSOGOM,TORO,TUMO,KIBARAGOI,SEGO",5,3,2,51,,,,131,,,
+BUSIA,0.432620865,34.11453866,FLOOD,11/5/2013,"Samia, Bwiri Nambuku",,,,,,,330,,,,"Tents, food, medicine, clean water, mobile toilets and household goods were required by the victims."
+BUSIA,0.432620865,34.11453866,EPIDEMIC,1/1/2009,Busia,1,,,,,,3,,,,Incidences of cholera were reported as from January to June 2009
+BUSIA,0.432620865,34.11453866,FLOOD,3/26/2011,Ekisumu Primary School,2,6,,,,,,,,,
+UASIN GISHU,0.447076301,35.23329466,FLOOD,2/14/2010,Eldoret East,,,,,,,,,,,
+UASIN GISHU,0.447076301,35.23329466,DROUGHT,1/3/2011,Eldoret South,,,,,,,,,,,
+UASIN GISHU,0.447076301,35.23329466,DROUGHT,4/26/2009,Ya Mumbi Village,,,,,,,,,,,
+KAKAMEGA,0.47049071,34.83310488,THUNDERSTORM,6/29/2011,Chochoro Location,1,,,,,,,,,,
+BARINGO,0.475753367,35.98492357,FLOOD,2/1/2010,,,,,196,,,2724,,,,
+BARINGO,0.475753367,35.98492357,FLOOD,2/1/2010,,,,,,,,2724,,,,
+BARINGO,0.475753367,35.98492357,FLOOD,10/1/2010,Eldume,,,,122,,,601,,,86.5,
+BARINGO,0.475753367,35.98492357,FLOOD,4/1/2010,,,,,,,,196,,,,
+BARINGO,0.475753367,35.98492357,FLOOD,10/1/2010,Ngambo,,,,67,,,67,,,,"67 households were washed away, Ngambo dispensary was submerged resulting to loss of medicine, 2 pit latrines were also destroyed"
+BARINGO,0.475753367,35.98492357,FLOOD,10/1/2010,Longewan/ Ngarua,,,,118,,,,,,53.5,
+BARINGO,0.475753367,35.98492357,FLOOD,10/1/2010,Loboi,,,,23,,,,,,20,
+BARINGO,0.475753367,35.98492357,FLOOD,4/1/2010,Marigat - East Pokot road,,,,,,,,,,,
+BARINGO,0.475753367,35.98492357,DROUGHT,1/3/2011,,,,,,,,,,,,
+BARINGO,0.475753367,35.98492357,DROUGHT,1/8/2009,,,,,,,,,,,,
+WEST POKOT,0.477731614,35.35626933,FLOOD,4/1/2010,,,,,,,,29,,,,
+WEST POKOT,0.477731614,35.35626933,DROUGHT,1/3/2011,,,,,,,,,,,,
+WEST POKOT,0.477731614,35.35626933,DROUGHT,1/3/2011,,,,,,,,,,,,
+WEST POKOT,0.477731614,35.35626933,THUNDERSTORM,7/30/2012,Tartar primary school,,,,,,,,,,,Pupils taken to kapenguria district hospital admitted in fair condition.
+ISIOLO,0.481853031,38.53732635,DROUGHT,1/3/2011,,,,,,,,35000,,,,
+ISIOLO,0.481853031,38.53732635,DROUGHT,1/8/2009,Garba Tulla,,,,,,,30000,,,,
+ISIOLO,0.481853031,38.53732635,FLOOD,6/4/2006,"Soricho, Garfassa, Malkadaka, Merti",,,,,,,3200,,,,Roads are impassable
+ISIOLO,0.481853031,38.53732635,EPIDEMIC,1/1/2009,Garba Tulla,4,,,,,,1,,,,Incidences of cholera were reported as from January to June 2009
+ISIOLO,0.481853031,38.53732635,FLOOD,4/3/2010,Garfara,,,,200,,,,,,,
+ISIOLO,0.481853031,38.53732635,FLOOD,1/12/2009,Kina-Garbatulla road,,,,,,,,,,,"culvert destructed, broken water drainage"
+ISIOLO,0.481853031,38.53732635,FLOOD,1/3/2010,Isiolo West,,,,,,,,,,,
+ISIOLO,0.481853031,38.53732635,FLOOD,11/13/2008,,,,,,,,,,,,
+ISIOLO,0.481853031,38.53732635,FLOOD,11/14/2008,,,,,,,,,,,,
+ISIOLO,0.481853031,38.53732635,FLASH FLOOD,4/20/2010,Nyambera,,,,,,,,,,,
+GARISSA,0.498529883,39.59164576,FLOOD,3/13/2013,Shanta-abak,,,,,,,300,,,,
+GARISSA,0.498529883,39.59164576,DROUGHT,1/4/2010,Gurufa,,,,,,,,,,,
+MERU,0.510412722,38.02625374,DROUGHT,9/10/2009,Mutuati,,,,,,,,,,,
+BUSIA,0.527535038,34.1625799,THUNDERSTORM,1/30/2013,Kolcholya village,1,4,,,,,,,,,The injured were taken to kocholya district hospital for treatment.
+ISIOLO,0.547115722,37.78850934,DROUGHT,1/8/2009,Isiolo,,,,,,,89700,,,,
+ISIOLO,0.547115722,37.78850934,DROUGHT,1/3/2011,,,,,,,,86773,,,,
+ISIOLO,0.547115722,37.78850934,FLASH FLOOD,10/27/2006,Central Division,4,2,,355,,,10000,,1775,,
+ISIOLO,0.547115722,37.78850934,EPIDEMIC,4/1/2010,Isiolo,,,,,,,99,,,,
+ISIOLO,0.547115722,37.78850934,EPIDEMIC,1/1/2009,Isiolo,12,,,,,,23,,,,Incidences of cholera were reported as from January to June 2009
+GARISSA,0.554069833,39.22166631,FLOOD,7/11/2008,,,,,,,,,,,,
+BUSIA,0.556219622,34.25938728,FLOOD,4/27/2010,Aremit and Akoreet Locations,,,,,,,12000,,,,
+BUNGOMA,0.567929666,34.4671831,EPIDEMIC,1/1/2009,Bungoma South,1,,,,,,7,,,,Incidences of cholera were reported as from January to June 2009
+BUNGOMA,0.567929666,34.4671831,FLOOD,5/14/2002,,1,,,,,,,,,,
+BUNGOMA,0.567929666,34.4671831,EPIDEMIC,3/31/2008,,,,,,,,,,,,Numbers to be confirmed
+UASIN GISHU,0.592798626,35.06412515,FOREST FIRE,2/26/2005,Turbo,,,,,,,,,,1000,
+BUSIA,0.641035408,34.29992847,FLOOD,1/4/2008,Teso,,,,,,,4200,,,,
+BUSIA,0.641035408,34.29992847,EPIDEMIC,3/31/2008,,,,,,,,1,,,,
+BUSIA,0.641035408,34.29992847,WINDSTORM,4/13/2013,Usajai,,,,,,,,,,,"classrooms at St. Mary's Osajai primary school were destroyed, unknown number of cows killed by lightning"
+BUSIA,0.641035408,34.29992847,FLOOD,1/1/2005,,,,,,,,,,,,
+BUNGOMA,0.657368733,34.6016497,DROUGHT,1/4/2009,Nalondo,,,,,,,7000,,,,
+BUNGOMA,0.657368733,34.6016497,EPIDEMIC,1/1/2009,Bungoma,1,,,,,,35,,,,Incidences of cholera were reported as from January to June 2009
+LAIKIPIA,0.670141303,36.54466769,DROUGHT,9/10/2009,Olmoran,,,,,,,,,,,
+KAKAMEGA,0.678178466,34.94975842,DROUGHT,5/13/2009,,,,,,,,38580,,,,
+KAKAMEGA,0.678178466,34.94975842,FOREST FIRE,2/26/2005,Nzoia,,,,,,,,,,,
+KAKAMEGA,0.678178466,34.94975842,FOREST FIRE,2/26/2005,Lugari,,,,,,,,,,40,
+BUSIA,0.709906985,34.37061623,FLOOD,4/13/2013,Amudai Village,2,,,,,,5,,,,"Faith Imanyala was seriously injured, rushed and admitted to Teso district hospital"
+BARINGO,0.716285408,36.00634823,FLOOD,8/5/2013,Ngetmoi and Emom locations,2,,,,,,20,,,,"An adult and a juvenile drowned, 4 households displaced, Kapkatit and Sangaru primary schools closed, Ngetmoi-Kibojos road, Tenges-Sangaru Road and[...]"
+BARINGO,0.716285408,36.00634823,FLOOD,5/14/2002,,10,,,,,,,,,,
+BARINGO,0.716285408,36.00634823,FLOOD,4/22/2013,Kimailel village,3,,,,,,,,,,"Rain in the upper parts led to flash floods in the lower parts which caught up with the threee children namely; Jane, Nelson and Fredrick."
+BARINGO,0.716285408,36.00634823,DROUGHT,1/3/2011,Baringo Central,,,,,,,,,,,
+BARINGO,0.716285408,36.00634823,DROUGHT,1/3/2011,Baringo North,,,,,,,,,,,
+BARINGO,0.716285408,36.00634823,DROUGHT,1/8/2009,Baringo North,,,,,,,,,,,
+UASIN GISHU,0.724674092,35.39109231,DROUGHT,4/25/2009,Kimumu Village,,,,,,,,,,,
+UASIN GISHU,0.733921609,35.24587379,DROUGHT,4/26/2009,Kambi Thomas Village,,,,,,,,,,,
+BUNGOMA,0.736277377,34.42661705,DROUGHT,1/4/2009,Malakasi,,,,,,,2200,,,,
+BUNGOMA,0.73991433,34.51770974,DROUGHT,1/4/2009,"Wapukha, Toloso, Kulisiru",,,,,,,2700,,,,
+BUNGOMA,0.756997381,34.60775741,DROUGHT,1/4/2009,"Lukhome, Chepsitat",,,,,,,1000,,,,
+BUNGOMA,0.825754527,34.47359398,DROUGHT,5/13/2009,Mt. Elgon,,,,,,,8000,,,,"8,000 families were affected by the drought"
+BUNGOMA,0.825754527,34.47359398,LANDSLIDE,11/5/2010,,3,4,,,,,21,,,,
+BUNGOMA,0.825754527,34.47359398,DROUGHT,4/26/2009,Ngachi - Kipsis Village,,,,,,,,,,,
+BUNGOMA,0.825754527,34.47359398,DROUGHT,1/3/2011,,,,,,,,,,,,
+BUNGOMA,0.842240988,34.67736355,THUNDERSTORM,6/20/2011,Kipkama area within Kaborua village,1,1,,,,,,,,,
+BUNGOMA,0.846962242,34.57145023,DROUGHT,4/26/2009,Chepyuk - Chemok Village,,,,,,,,,,,
+BUNGOMA,0.846962242,34.57145023,DROUGHT,4/26/2009,Kapkateny - Teremi Village,,,,,,,,,,,
+BUNGOMA,0.846962242,34.57145023,DROUGHT,4/25/2009,Chepyuk - Mpakani Village,,,,,,,,,,,
+BUNGOMA,0.846962242,34.57145023,DROUGHT,4/25/2009,Kapkateny - Kapsambu Village,,,,,,,,,,,
+ISIOLO,0.852720216,39.04544865,FLOOD,5/24/2005,,,,,,,,1320,,,,220 Households were affected
+ISIOLO,0.852720216,39.04544865,FLOOD,5/24/2005,Badana,,,,,,,420,,,,70 Households were affected
+ISIOLO,0.852720216,39.04544865,FLOOD,5/24/2005,Gubatu,,,,,,,420,,,,70 Households were affected
+ISIOLO,0.852720216,39.04544865,FLOOD,5/24/2005,Biliku Marara,,,,,,,240,,,,40 Households were affected
+ISIOLO,0.852720216,39.04544865,FLOOD,5/24/2005,Eresa Boru,,,,,,,200,,,,200 Households were affected
+WAJIR,0.857595595,39.81887379,DROUGHT,1/3/2011,,,,,,,,,,,,
+WAJIR,0.857595595,39.81887379,DROUGHT,1/8/2009,Abakole,,,,,,,,,,,
+TRANS NZOIA,0.89360735,34.89751718,FLOOD,2/19/2011,Nzoia Village,,,,,,,,,,,
+ELEGEYO-MARAKWET,0.949143776,35.49502751,FLOOD,5/14/2002,,1,,,,,,,,,,
+ELEGEYO-MARAKWET,0.949143776,35.49502751,DROUGHT,1/3/2011,Marakwet East,,,,,,,,,,,
+ELEGEYO-MARAKWET,0.949143776,35.49502751,DROUGHT,1/3/2011,Marakwet West,,,,,,,,,,,
+TRANS NZOIA,0.987222061,35.02077027,FLOOD,11/13/2008,,,,,,,,29570,,,1800,
+TRANS NZOIA,0.987222061,35.02077027,STORM,8/3/2010,Lake Victoria,5,,4,,,,,,,,
+TRANS NZOIA,0.987222061,35.02077027,FLOOD,3/9/2010,Namanjalala,,,,300,,,,,,,
+TRANS NZOIA,0.987222061,35.02077027,FLOOD,3/9/2010,Trans-Nzoia East - Saboti,1,,,,,,,,,,100 families/ households bordering Sabwani River were affected and evacuated to higher grounds and 1 person drowned in the floods.
+TRANS NZOIA,0.987222061,35.02077027,FLOOD,4/1/2010,Chepkatil river,,,,,,,,,,,
+TRANS NZOIA,0.987222061,35.02077027,FOREST FIRE,2/22/2005,Kabolet,,,,,,,,,,,
+TRANS NZOIA,0.987222061,35.02077027,FLOOD,5/23/2010,Namanjalala,,,,,,,,,,,
+TRANS NZOIA,0.987222061,35.02077027,FLOOD,5/23/2010,Laipo village,,,,,,,,,,,
+TRANS NZOIA,0.987222061,35.02077027,WINDSTORM,5/20/2012,Trans Nzoia in Kitale,,,,,,,,,,,
+TRANS NZOIA,0.987222061,35.02077027,FLOOD,10/3/2010,Namanjala location,,,,,,,,,,,
+TRANS NZOIA,1.148515109,34.768847,FLOOD,3/9/2010,Endebess,,,,150,,,,,,,
+TRANS NZOIA,1.149711342,34.98656525,FLOOD,1/5/2009,Namanjalala,,,,500,,,,,,,
+TRANS NZOIA,1.149711342,34.98656525,FLOOD,3/9/2010,Marinda,,,,128,,,,,,,.
+TRANS NZOIA,1.149711342,34.98656525,FLOOD,3/9/2010,Amuka,,,,50,,,,,,,
+TRANS NZOIA,1.149711342,34.98656525,FLOOD,3/9/2010,Soymining,,,,40,,,,,,,
+TRANS NZOIA,1.149711342,34.98656525,FLOOD,3/9/2010,Ndalala,,,,40,,,,,,,
+TRANS NZOIA,1.149711342,34.98656525,FLOOD,3/9/2010,Mifungu,,,,20,,,,,,,
+TRANS NZOIA,1.149711342,34.98656525,FLOOD,4/1/2010,Kitale-Swam road,,,,,,,,,,1000,
+ELEGEYO-MARAKWET,1.204049185,35.64818661,LANDSLIDE,5/26/2010,Kaben location,14,,,,,,,,,,several small slope failures along he streams upslope gradually developed into gigantic debris flow along the main river valleys. The debris flow[...]
+ELEGEYO-MARAKWET,1.204049185,35.64818661,LANDSLIDE,2/5/2010,,10,,,,,,,,,,
+ELEGEYO-MARAKWET,1.204049185,35.64818661,FLOOD,4/15/2013,Tot,2,,,,,,,,,,One body retrieved.
+SAMBURU,1.209680072,36.72566754,FLOOD,2/5/2010,Maralal,1,,,,,,,,,,
+SAMBURU,1.209680072,36.72566754,DROUGHT,9/3/2011,Maralal,,,,,,,,,,,
+WEST POKOT,1.215945187,35.33829229,FLOOD,3/28/2010,Wei Wei river,2,,,,,,,,,,
+WEST POKOT,1.215945187,35.33829229,FLOOD,3/28/2010,Tapach Division,,,,,,,,,,,"Several farm crops were swept away, 30 families were relocated to safer grounds"
+ISIOLO,1.434479167,38.70002046,DROUGHT,1/3/2011,,,,,,,,20431,,,,
+ISIOLO,1.434479167,38.70002046,FLOOD,5/24/2005,Merti Town,,,,,,,1200,,,,200 Households were affected
+ISIOLO,1.434479167,38.70002046,FLOOD,5/24/2005,Malkagalla,,,,,,,1020,,,,170 Households were affected
+ISIOLO,1.434479167,38.70002046,FLOOD,5/24/2005,Korbesa,,,,,,,900,,,,150 Households were affected
+ISIOLO,1.434479167,38.70002046,FLOOD,5/24/2005,Dacha Bassa,,,,,,,720,,,,120 Households were affected
+ISIOLO,1.434479167,38.70002046,FLOOD,4/24/2005,Mata - Arba,,,,,,,540,,,,90 Households affected
+ISIOLO,1.434479167,38.70002046,FLOOD,5/24/2005,Saleti,,,,,,,420,,,,70 Households were affected
+ISIOLO,1.434479167,38.70002046,FLOOD,5/24/2005,Biliku,,,,,,,300,,,,50 Households were affected
+ISIOLO,1.434479167,38.70002046,FLOOD,4/25/2005,Dololo Dakiye,,,,,,,240,,,,40 Households were affected
+ISIOLO,1.434479167,38.70002046,FLOOD,3/3/2010,,,,,,,,200,,,40,"Buffalo serena bridge, 200 families were affected"
+ISIOLO,1.434479167,38.70002046,FLOOD,1/3/2011,,,,,,,,,,,,
+WEST POKOT,1.451425405,35.02555589,FLOOD,10/1/2010,Kongelai,1,,,60,,,136,,,,"Roads damaged were Sigor-Lomut, Lomut-Ameter, Sigor-Muino, and 3 bridges, 160 Households affected"
+WEST POKOT,1.451425405,35.02555589,DROUGHT,1/8/2009,Kongelai,,,,,,,,,,,
+WAJIR,1.452217746,40.08405351,FLOOD,7/11/2008,,,,,,,,80000,400,,,
+WAJIR,1.452217746,40.08405351,DROUGHT,9/3/2011,Wajir East,,,,,,,,,,,
+WAJIR,1.452217746,40.08405351,DROUGHT,9/3/2011,Leheley,,,,,,,,,,,
+WAJIR,1.452217746,40.08405351,FLOOD,7/11/2008,Wajir,,,,,,,,,,,6000 wells and the main water supply contaminated
+TURKANA,1.458276084,36.1663,FLOOD,4/25/2010,"River Kakole, Silale Hills",,,,,,,,,,,Government officers were stranded and were later rescued by a helicopter
+WEST POKOT,1.487013544,35.64739871,FLOOD,11/14/2005,Ptirap,11,15,,,,,200,,,,
+WEST POKOT,1.487013544,35.64739871,LANDSLIDE,11/30/2008,Chepkokogh location,11,16,,,,,,,,,
+WEST POKOT,1.487013544,35.64739871,LANDSLIDE,11/13/2008,,8,,,,,,,,,,
+WEST POKOT,1.487013544,35.64739871,MUDSLIDE,1/5/2009,Annet,,,,,,,,,,,
+WEST POKOT,1.487013544,35.64739871,DROUGHT,1/8/2009,Sekerot,,,,,,,,,,,
+WEST POKOT,1.487013544,35.64739871,DROUGHT,1/8/2009,Cheptulel,,,,,,,,,,,
+WEST POKOT,1.487013544,35.64739871,DROUGHT,1/8/2009,Lomut,,,,,,,,,,,
+WAJIR,1.502746551,39.49596475,FLOOD,7/11/2008,,,,,,,,,,,,
+WEST POKOT,1.578848489,35.51917888,FLOOD,10/11/2008,,14,16,,,,,500,,,1,
+WEST POKOT,1.578848489,35.51917888,FLOOD,1/5/2009,Sigor,,,,367,,,,,,,
+WEST POKOT,1.578848489,35.51917888,DROUGHT,1/3/2011,Pokot East,,,,,,,,,,,
+WEST POKOT,1.578848489,35.51917888,DROUGHT,1/8/2009,Masol,,,,,,,,,,,
+WEST POKOT,1.578848489,35.51917888,DROUGHT,1/8/2009,Porkoyu,,,,,,,,,,,
+WEST POKOT,1.578848489,35.51917888,DROUGHT,1/8/2009,Wei Wei,,,,,,,,,,,
+WEST POKOT,1.578848489,35.51917888,DROUGHT,1/8/2009,Sekerr,,,,,,,,,,,
+WEST POKOT,1.59199377,35.2665366,DROUGHT,1/8/2009,Batei,,,,,,,,,,,
+WEST POKOT,1.59199377,35.2665366,DROUGHT,1/8/2009,Sook,,,,,,,,,,,
+WEST POKOT,1.59199377,35.2665366,DROUGHT,1/8/2009,Endugh,,,,,,,,,,,
+WEST POKOT,1.59199377,35.2665366,DROUGHT,1/8/2009,Nakwijit,,,,,,,,,,,
+WEST POKOT,1.59199377,35.2665366,DROUGHT,1/8/2009,Ptoyo,,,,,,,,,,,
+WEST POKOT,1.59199377,35.2665366,DROUGHT,1/8/2009,Tamugh,,,,,,,,,,,
+WEST POKOT,1.59199377,35.2665366,DROUGHT,1/8/2009,Chepkopegh,,,,,,,,,,,
+SAMBURU,1.658640078,36.69256768,DROUGHT,1/5/2009,Samburu Central,,,,,,,52000,,,,
+SAMBURU,1.658640078,36.69256768,FLOOD,5/15/2010,Samburu East,10,,,,,,50000,,,,Larata - wamba - Maralal road 200km destroyed Serolit junction - Tonyowari - Dome road 60km destroyed Wamba - Nerihilo - Baragoi road 206km[...]
+SAMBURU,1.658640078,36.69256768,DROUGHT,1/8/2009,Samburu East,,,,,,,45000,,,,
+SAMBURU,1.658640078,36.69256768,DROUGHT,1/8/2009,Samburu North,,,,,,,42000,,,,
+SAMBURU,1.658640078,36.69256768,FLOOD,4/3/2010,Ewaso Nyiro river,,,,,,,686,,,,"41 tourists were evacuated from their resorts to safer places while 45 families were rendered homeless, 600 staff of tourist lodges were aff[...]"
+SAMBURU,1.658640078,36.69256768,FLOOD,9/1/2010,,,,,,,,140,,,,
+SAMBURU,1.658640078,36.69256768,DROUGHT,9/3/2011,,,,,,,,,,,,
+SAMBURU,1.658640078,36.69256768,FLOOD,4/1/2010,Maralal - Baragoi road,,,,,,,,,,,
+SAMBURU,1.658640078,36.69256768,FLOOD,4/1/2010,Naibor road,,,,,,,,,,,
+SAMBURU,1.658640078,36.69256768,DROUGHT,9/3/2011,Samburu East,,,,,,,,,,,
+SAMBURU,1.658640078,36.69256768,FLOOD,11/14/2008,,,,,,,,,,,,
+MARSABIT,1.716815476,37.75096697,DROUGHT,1/3/2011,,,,,,,,35600,,,,
+MARSABIT,1.716815476,37.75096697,EPIDEMIC,1/1/2009,Laisamis,12,,,,,,1,,,,Incidences of cholera were reported as from January to June 2009
+MARSABIT,1.716815476,37.75096697,EPIDEMIC,9/27/2009,Laisamis,5,,,,,,1,,,,
+MARSABIT,1.716815476,37.75096697,DROUGHT,1/8/2009,Laisamis,,,,,,,,,,,
+WAJIR,1.878125201,39.48198607,DROUGHT,9/3/2011,Wajir West,,,,,,,,,,,
+WAJIR,2.006964859,40.53567033,FLOOD,2/14/2012,,,,,,,,,,,,
+WAJIR,2.006964859,40.53567033,FLOOD,7/11/2008,,,,,,,,,,,,
+WAJIR,2.006964859,40.53567033,FLOOD,7/11/2008,,,,,,,,,,,,
+SAMBURU,2.007718846,36.97267599,DROUGHT,1/3/2011,Rongai,,,,,,,,,,,
+TURKANA,2.070760644,35.53582207,FLOOD,6/1/2010,Nakwamoru Irrigation Scheme,,,,,,,,,,,
+TURKANA,2.230128729,36.1715999,FLOOD,9/3/2010,Turkana East,,,,,,,300,,,,More than 300 households moved to higher ground
+TURKANA,2.230128729,36.1715999,FLOOD,1/7/2010,Lopii,,,,874,,,,,,,
+TURKANA,2.230128729,36.1715999,FLOOD,1/7/2010,Elelea,,,,580,,,,,,,
+TURKANA,2.230128729,36.1715999,FLOOD,1/7/2010,Lotubae,,,,334,,,,,,,
+TURKANA,2.230128729,36.1715999,FLOOD,1/7/2010,Nakwakunyuk,,,,289,,,,,,,
+TURKANA,2.230128729,36.1715999,FLOOD,1/7/2010,Lodopua,,,,240,,,,,,,
+TURKANA,2.230128729,36.1715999,FLOOD,1/7/2010,Nachibil,,,,198,,,,,,,
+TURKANA,2.230128729,36.1715999,FLOOD,1/7/2010,Nabwelynayang,,,,187,,,,,,,
+TURKANA,2.230128729,36.1715999,FLOOD,1/7/2010,Emanman,,,,174,,,,,,,
+TURKANA,2.230128729,36.1715999,FLOOD,1/7/2010,Naoyatira,,,,156,,,,,,,
+TURKANA,2.28529216,35.52208003,FLOOD,1/5/2009,Katilu,,,,,,,,,,,
+WEST POKOT,2.301602378,35.08650174,LANDSLIDE,5/13/2013,"Chongis, Losa, Tapach, Tokwopogh and Kaptirpai",,,,,,,673,,,,"673 people were displaced, livestock were swept(117 sheep, 71 goats,38 cows) and 108 maize stores destroyed.Relief assistance was requested."
+WEST POKOT,2.301602378,35.08650174,FLOOD,12/31/2009,Nginyang,,,,,,,500,,,,Nginyang bridge was destroyed and transportation of relief food was paralysed
+WEST POKOT,2.301602378,35.08650174,FLOOD,12/31/2009,Nyinyang Bridge,,,,,,,500,,,,
+WEST POKOT,2.301602378,35.08650174,FLOOD,12/31/2009,,,,,,,,500,,,,
+WEST POKOT,2.301602378,35.08650174,FLOOD,4/1/2010,North Pokot,,,,,,,6,,,100,
+WEST POKOT,2.301602378,35.08650174,FLOOD,12/27/2009,,,,,60,,,,,,,Kenya - Ethiopia - Sudan roads were cut off
+WEST POKOT,2.301602378,35.08650174,FLOOD,12/27/2009,Kenya-Ethiopia-Sudan roads,,,,60,,,,,,,
+WEST POKOT,2.301602378,35.08650174,FLOOD,12/27/2010,,,,,60,,,,,,,
+WEST POKOT,2.301602378,35.08650174,FLOOD,5/17/2013,central pokot,8,,,,,,,,,,"Juliana, Elisa, Thomas, Tulilenya, Ruth, Kibet,Abraham and Lismsia were confirmed dead."
+WEST POKOT,2.301602378,35.08650174,FLOOD,12/27/2010,East Pokot,1,,,,,,,,,,
+WEST POKOT,2.301602378,35.08650174,FLOOD,12/27/2009,Chemolingot area,,,,,,,,,,,People in these areas relocated to higher grounds
+WEST POKOT,2.301602378,35.08650174,FLOOD,3/1/2010,Kacheliba- Alale road,,,,,,,,,,,
+WEST POKOT,2.301602378,35.08650174,FLOOD,4/1/2010,Konyau - Kasei road,,,,,,,,,,,
+WEST POKOT,2.301602378,35.08650174,FLOOD,4/1/2010,Konyau - Uganda road,,,,,,,,,,,
+WEST POKOT,2.301602378,35.08650174,FLOOD,4/1/2010,Kacheliba- Kanyerus road,,,,,,,,,,,
+WEST POKOT,2.301602378,35.08650174,FLOOD,4/1/2010,Alale -Nauyapons road,,,,,,,,,,,
+WEST POKOT,2.301602378,35.08650174,DROUGHT,1/3/2011,,,,,,,,,,,,
+WEST POKOT,2.301602378,35.08650174,DROUGHT,1/8/2009,Pokot Central,,,,,,,,,,,
+WEST POKOT,2.301602378,35.08650174,DROUGHT,1/8/2009,,,,,,,,,,,,
+WEST POKOT,2.301602378,35.08650174,DROUGHT,1/8/2009,East Pokot,,,,,,,,,,,
+WEST POKOT,2.301602378,35.08650174,EPIDEMIC,1/1/2007,,,,,,,,,,,,
+MARSABIT,2.369810698,37.95151854,DROUGHT,1/3/2011,,,,,,,,46134,,,,
+MARSABIT,2.369810698,37.95151854,FLOOD,3/30/2013,Marsabit,3,,1,,,,,,,,"Abdi Adan, Roba Korosa & Jane Jira confirmed dead"
+MARSABIT,2.369810698,37.95151854,DROUGHT,1/8/2009,Marsabit North,,,,,,,,,,,
+MARSABIT,2.369810698,37.95151854,FLOOD,7/3/2010,Burgabo,,,,,,,,,,,
+MARSABIT,2.369810698,37.95151854,FLOOD,7/3/2010,Tigo,,,,,,,,,,,
+MARSABIT,2.369810698,37.95151854,FLOOD,7/3/2010,Shegen,,,,,,,,,,,
+MARSABIT,2.369810698,37.95151854,FLOOD,7/3/2010,Chalbi,,,,,,,,,,,
+MARSABIT,2.386414834,38.00359009,FLOOD,4/20/2010,,2,,,120,,,,,,,
+WAJIR,2.427886763,39.44414499,DROUGHT,9/3/2011,,,,,,,,,,,,
+WAJIR,2.449337101,40.18009376,DROUGHT,9/3/2011,,,,,,,,,,,,
+TURKANA,2.539443674,35.84015124,FLOOD,12/27/2009,"Kakongu, Kalemngorok, Lokichar",4,,,15,,,,,,,"Irrigation schemes along River Turkwel were badly affected, 1000 households were in danger of being submerged if the rains continued, 346 households[...]"
+WAJIR,2.757441012,39.50949058,FLOOD,10/28/2006,,,,,,,,210,,,,"210 families were affected, Buna Trading Centre, Buna Primary School and sorrounding areas are completely submerged in water"
+WAJIR,2.757441012,39.50949058,EPIDEMIC,10/2/2010,Wajir East,,,,,,,7,,,,
+WAJIR,2.757441012,39.50949058,EPIDEMIC,1/2/2008,,,18,,,,,,,,,
+WAJIR,2.757441012,39.50949058,DROUGHT,9/3/2011,,,,,,,,,,,,
+WAJIR,2.757441012,39.50949058,DROUGHT,2/3/2009,,,,,,,,,,,,
+WAJIR,2.757441012,39.50949058,FLOOD,7/11/2008,Arbijahan,,,,,,,,,,,
+WAJIR,2.757441012,39.50949058,FLOOD,7/11/2008,Danaba,,,,,,,,,,,
+WAJIR,2.757441012,39.50949058,FLOOD,7/11/2008,Ogomti,,,,,,,,,,,
+WAJIR,2.757441012,39.50949058,FLOOD,7/11/2008,Mansa,,,,,,,,,,,
+WAJIR,2.757441012,39.50949058,DROUGHT,1/8/2009,Wajir East,,,,,,,,,,,
+WAJIR,2.757441012,39.50949058,DROUGHT,1/8/2009,Wajir West,,,,,,,,,,,
+WAJIR,2.757441012,39.50949058,DROUGHT,1/8/2009,Wajir South,,,,,,,,,,,
+WAJIR,2.757441012,39.50949058,EPIDEMIC,1/1/2007,,,,,,,,,,,,
+MARSABIT,2.785590736,37.00639203,DROUGHT,1/3/2011,,,,,,,,23499,,,,
+MARSABIT,2.788167109,37.97074917,FLOOD,9/3/2010,"Burgabo, Tigo, Bubisa, Shengeni and Chalbi",,,,420,,,,,,,
+MARSABIT,2.788167109,37.97074917,DROUGHT,1/8/2009,Bubisa,,,,,,,,,,,
+TURKANA,2.843509743,36.07273121,FLOOD,1/7/2010,Nadoto,,,,191,,,,,,,
+TURKANA,2.852083402,34.88181302,FLOOD,7/5/2013,Turkana central,,,,,,,410,,,,Food and non-food items were donated to victims who had camped in St. Kevin Secondary School and Riverside Academy among others. 
+TURKANA,2.852083402,34.88181302,FLOOD,3/1/2010,,2,,,,,,,,,36,
+TURKANA,2.852083402,34.88181302,DROUGHT,1/3/2011,,,,,,,,,,,,
+MANDERA,3.068411104,40.63626743,DROUGHT,4/26/2009,Wargadud village,,,,,,,,,,,
+MARSABIT,3.107299388,38.76128573,DROUGHT,1/3/2011,Sololo,,,,,,,26400,,,,
+MARSABIT,3.107299388,38.76128573,FLOOD,3/5/2010,"Mado, Adhi, Waye, Anona",,,,280,,,,,,,70 heavy vehicles were stranded
+MARSABIT,3.107299388,38.76128573,DROUGHT,1/3/2011,Sololo,,,,,,,,,,,
+MARSABIT,3.107299388,38.76128573,DROUGHT,1/8/2009,Sololo,,,,,,,,,,,
+MARSABIT,3.107299388,38.76128573,DROUGHT,4/26/2009,Dambala Fachana - Helu village,,,,,,,,,,,
+MARSABIT,3.107299388,38.76128573,FLOOD,4/27/2010,Sololo,,,,,,,,,,,
+MANDERA,3.112245395,41.14467562,DROUGHT,9/3/2011,,,,,,,,,,,,
+MANDERA,3.112245395,41.14467562,DROUGHT,1/8/2009,Mandera East,,,,,,,,,,,
+TURKANA,3.148692255,35.68342731,FLOOD,12/27/2009,Turkana East,5,,,,,,25000,,,,
+TURKANA,3.148692255,35.68342731,FLASH FLOOD,10/27/2006,Lodwar,2,,,105,,,5000,835,,,"Water levels were approximately 1 metre high, 3 primary schools were closed and a guest house was affected. 24 farms along the Turkwell river have[...]"
+TURKANA,3.148692255,35.68342731,FLOOD,10/5/2010,"Soweto, Napute and Napatete",4,,,,,,4000,,,,
+TURKANA,3.148692255,35.68342731,FLOOD,12/27/2009,Turkana Central,5,,,150,,,650,650,,,
+TURKANA,3.148692255,35.68342731,FLOOD,8/1/2010,,4,,,100,,,500,,,,"Great North road destroyed at Kakongu, Kalemngorok and Lokichar Irrigation schemes along River Turkwel"
+TURKANA,3.148692255,35.68342731,FLOOD,4/1/2010,,5,,,,,,150,,,,
+TURKANA,3.148692255,35.68342731,EPIDEMIC,8/8/2009,Turkana Central,33,,,,,,32,,,,
+TURKANA,3.148692255,35.68342731,EPIDEMIC,9/20/2009,Turkana North,6,,,,,,12,,,,
+TURKANA,3.148692255,35.68342731,EPIDEMIC,9/21/2009,Turkana South,15,,,,,,10,,,,
+TURKANA,3.148692255,35.68342731,FLOOD,2/24/2011,"Lodwar, Kanamkemer trading center",,1,,,,,,,,,
+TURKANA,3.148692255,35.68342731,FLOOD,12/27/2009,,5,,,150,,,,650,,,
+TURKANA,3.148692255,35.68342731,FLOOD,12/27/2009,Turkana South,4,,,15,,,,,,,
+TURKANA,3.148692255,35.68342731,FLOOD,12/27/2009,Turkana East,5,,,,,,,,,,"Two schools were destroyed and two health centres severely damaged, Five bridges were washed away"
+TURKANA,3.148692255,35.68342731,FLOOD,3/19/2010,Naviket seasonal river,3,,,,,,,,,,
+TURKANA,3.148692255,35.68342731,FLOOD,10/5/2010,Lodwar sub-location,3,,,,,,,,,,"villages affected : Nakwamekwi, Napete, Soweto, and Nabute remaining part of bridge extensively damaged"
+TURKANA,3.148692255,35.68342731,FLOOD,5/14/2002,,3,,,,,,,,,,
+TURKANA,3.148692255,35.68342731,DROUGHT,1/3/2011,,,,,,,,,,,,
+TURKANA,3.148692255,35.68342731,FLASH FLOOD,5/9/2011,Turkana,,,,,,,,,,,
+TURKANA,3.148692255,35.68342731,DROUGHT,1/3/2011,,,,,,,,,,,,
+TURKANA,3.148692255,35.68342731,DROUGHT,1/8/2009,Turkana South,,,,,,,,,,,
+TURKANA,3.148692255,35.68342731,DROUGHT,1/8/2009,Turkana North,,,,,,,,,,,
+TURKANA,3.148692255,35.68342731,FLOOD,11/14/2008,,,,,,,,,,,,
+TURKANA,3.148692255,35.68342731,EPIDEMIC,1/3/2007,,,,,,,,,,,,
+WAJIR,3.257731624,39.74131159,FLOOD,2/14/2012,,,,,,,,,,,,
+WAJIR,3.260084868,39.40582944,EPIDEMIC,1/1/2009,Bute,1,,,,,,2,,,,Incidences of cholera were reported as from January to June 2009
+WAJIR,3.260084868,39.40582944,DROUGHT,9/3/2011,,,,,,,,,,,,
+WAJIR,3.260084868,39.40582944,FLOOD,7/11/2008,,,,,,,,,,,,
+MANDERA,3.349720385,40.32791106,DROUGHT,9/3/2011,,,,,,,,,,,,
+MANDERA,3.349720385,40.32791106,DROUGHT,1/8/2009,Mandera West,,,,,,,,,,,
+TURKANA,3.359384558,35.81191202,DROUGHT,1/3/2011,,,,,,,,,,,,
+MARSABIT,3.398343693,39.02927685,DROUGHT,1/3/2011,,,,,,,,48324,,,,
+MARSABIT,3.398343693,39.02927685,DROUGHT,2/3/2009,,,,,,,,32327,,,,
+MARSABIT,3.398343693,39.02927685,FLOOD,10/27/2006,Moyale,,,,,,,9000,,,,The main road from Nairobi and Moyale was rendered impassable
+MARSABIT,3.398343693,39.02927685,FLOOD,9/3/2010,Dori village,,,,,,,66,,,,Heavy rains blew off roof tops at Anone Primary School
+MARSABIT,3.398343693,39.02927685,EPIDEMIC,3/16/2009,,3,,,,,,44,,,,Acute watery diarrhoea
+MARSABIT,3.398343693,39.02927685,EPIDEMIC,1/1/2009,Moyale,10,,,,,,19,,,,Incidences of cholera were reported as from January to June 2009
+MARSABIT,3.398343693,39.02927685,DROUGHT,1/8/2009,Moyale,,,,,,,,,,,
+MARSABIT,3.398343693,39.02927685,FLOOD,4/3/2010,Dori village,,,,,,,,66,,,
+MARSABIT,3.398343693,39.02927685,FLOOD,4/15/2010,Nana,,,,,,,,,,,
+MARSABIT,3.398343693,39.02927685,FLOOD,4/15/2010,Bor,,,,,,,,,,,
+MARSABIT,3.398343693,39.02927685,FLOOD,4/15/2010,Anona,,,,,,,,,,,
+MARSABIT,3.398343693,39.02927685,FLOOD,4/15/2010,Madoadi,,,,,,,,,,,
+MARSABIT,3.398343693,39.02927685,FLOOD,4/15/2010,Waye,,,,,,,,,,,
+MARSABIT,3.398343693,39.02927685,FLOOD,4/15/2010,Goda,,,,,,,,,,,
+MARSABIT,3.398343693,39.02927685,FLOOD,4/15/2010,Kinisa location,,,,,,,,,,,
+MARSABIT,3.398343693,39.02927685,FLOOD,4/27/2010,Kati,,,,,,,,,,,
+MARSABIT,3.398343693,39.02927685,FLOOD,4/20/2010,Sachana,,,,,,,,,,,
+MANDERA,3.507333039,41.40087781,FLOOD,2/16/2010,"Arabia, Bulla Jamhuria",,,,,,,869,,,,"110 toilets sunk, road networks were destroyed, dining hall & administration block at Arabia Girls Secondary both under construction were damaged, 2[...]"
+MANDERA,3.549413457,40.70141936,FLOOD,11/13/2008,Mandera East,,,,,,,2610,,,495.7,88km earth canals submerged 8.5km concrete submerged 9.2M worth farm inputs destroyed
+MANDERA,3.549413457,40.70141936,EPIDEMIC,1/16/2008,,11,325,,,,,,,,,
+MANDERA,3.549413457,40.70141936,DROUGHT,9/3/2011,Mandera East,,,,,,,,,,,
+MANDERA,3.549413457,40.70141936,DROUGHT,9/3/2011,Manderr North,,,,,,,,,,,
+MANDERA,3.549413457,40.70141936,DROUGHT,9/3/2011,,,,,,,,,,,,
+MANDERA,3.549413457,40.70141936,FLOOD,7/11/2008,Kalicha,,,,,,,,,,,
+MANDERA,3.549413457,40.70141936,FLOOD,7/11/2008,Qumbiso,,,,,,,,,,,
+MANDERA,3.549413457,40.70141936,FLOOD,7/11/2008,Sala,,,,,,,,,,,
+MANDERA,3.549413457,40.70141936,FLOOD,7/11/2008,Girrisa,,,,,,,,,,,
+MANDERA,3.549413457,40.70141936,FLOOD,7/11/2008,Shantole,,,,,,,,,,,
+MANDERA,3.549413457,40.70141936,FLOOD,7/11/2008,Yabicho,,,,,,,,,,,
+MANDERA,3.549413457,40.70141936,FLOOD,7/11/2008,Kalmalab,,,,,,,,,,,
+MANDERA,3.549413457,40.70141936,EPIDEMIC,1/1/2007,,,,,,,,,,,,
+MANDERA,3.572367115,39.94214932,DROUGHT,1/2/2009,Istro village,,,,,,,,,,,
+MARSABIT,3.698718094,37.01864157,DROUGHT,1/3/2011,,,,,,,,42000,,,,
+MARSABIT,3.698718094,37.01864157,DROUGHT,1/3/2011,Chalbi,,,,,,,20692,,,,
+MARSABIT,3.698718094,37.01864157,EPIDEMIC,5/11/2009,Chalbi,11,,,,,,5,,,,
+MANDERA,3.718956157,41.28245988,FLOOD,7/11/2008,,,,,,,,,,,,
+MANDERA,3.772235464,41.15808023,FLOOD,7/11/2008,,,,,,,,,,,,
+MANDERA,3.885639188,41.81483496,FLOOD,7/11/2008,,,,,,,,1200,,,1550,1200 families affected
+MANDERA,3.885639188,41.81483496,EPIDEMIC,1/2/2008,,1,105,,,,,,,,,
+MANDERA,3.885639188,41.81483496,PLAGUE,12/18/2007,Neboi,,,,,,,,,,,The swarm of locusts were actively feeding on vegetation
+MANDERA,3.885639188,41.81483496,DROUGHT,1/3/2011,,,,,,,,,,,,
+MANDERA,3.885639188,41.81483496,DROUGHT,1/8/2009,Barwako - Adiba village,,,,,,,,,,,
+MANDERA,3.885639188,41.81483496,DROUGHT,1/8/2009,Shashafey village,,,,,,,,,,,
+MANDERA,3.885639188,41.81483496,DROUGHT,4/26/2009,Bulla Mpya - Orehe village,,,,,,,,,,,
+MANDERA,3.885639188,41.81483496,DROUGHT,4/26/2009,Bulla Jamuhuria - Bulla Power Village,,,,,,,,,,,
+MANDERA,3.885639188,41.81483496,DROUGHT,4/26/2009,"Matisi, Bakolow, Marothile Village",,,,,,,,,,,
+MANDERA,3.885639188,41.81483496,DROUGHT,4/26/2009,"Mpya, Bulla Mpya Village",,,,,,,,,,,
+MANDERA,3.885639188,41.81483496,DROUGHT,4/26/2009,Border Point One - Bulla Jamuria Village,,,,,,,,,,,
+MANDERA,3.885639188,41.81483496,FLOOD,7/10/2006,,,,,,,,,,,,Some manyattas were washed away
+MANDERA,3.891945397,40.23673622,DROUGHT,9/3/2011,,,,,,,,,,,,
+MANDERA,3.891945397,40.23673622,DROUGHT,1/8/2009,Mandera North,,,,,,,,,,,
+MANDERA,3.896497693,40.94312537,FLOOD,7/11/2008,,,,,,,,,,,,
+TURKANA,3.994556208,35.78266313,DROUGHT,1/3/2011,Turkana East,,,,,,,,,,,
+TURKANA,4.475610393,34.52361253,DROUGHT,1/3/2011,Turkana West,,,,,,,,,,,
