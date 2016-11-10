@@ -1,4 +1,4 @@
-County,LAT,LON,Event,date,Place,Deaths ,Injured ,Missing ,Houses Destroyed ,Houses Damaged ,Victims ,Affected ,Relocated ,Evacuated ,Damages in crops Ha. ,Comments
+County,LAT,LON,Event,date,Place,Deathsâ€ ,Injuredâ€ ,Missingâ€ ,Houses Destroyedâ€ ,Houses Damagedâ€ ,Victimsâ€ ,Affectedâ€ ,Relocatedâ€ ,Evacuatedâ€ ,Damages in crops Ha.â€ ,Comments
 MANDERA,2.857428782,40.91477741,FLOOD,10/28/2009,,,,,300,2000,,10000,1500,,,
 TANA RIVER,-0.421694549,38.98876291,FLOOD,1/6/2008,Tana Delta,,,,,1874,,13500,,,6000,
 TURKANA,3.148692255,35.68342731,FLOOD,12/27/2009,,4,,,15,1000,,,346,,,"great north road destroyed especially at Kakongu, Kalemngorok and Lokichar, irrigation schemes along R. Turkwel badly affected"
