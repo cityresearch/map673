@@ -1,0 +1,147 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Map 673 Lesson 06 Template</title>
+
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background: whitesmoke;
+            font-family: Montserrat, sans-serif;
+        }
+        
+        .county {
+           // fill: steelblue;
+            stroke: white;
+        }
+        
+        .hover {
+            fill: yellow;
+        }
+        
+        .land {
+            fill: #d3d3d3;
+        }
+        
+        .emitter {
+            fill: yellow;
+            stroke: white;
+            opacity: 0.7;
+        }
+        
+        .slider {
+            width: 300px;
+            margin-left: 223px;
+        }
+        
+        #emission-value {
+            margin-left: 223px;
+        }
+        
+        h1,
+        h2 {
+            position: absolute;
+            left: 20px;
+            top: 10px;
+            font-size: 2em;
+            font-weight: 100;
+            color: #005DAA;
+        }
+        
+        h2 {
+            top: 60px;
+            font-size: 1.2em;
+        }
+        
+        #map {
+            width: 900px;
+            height: 600px;
+            margin: 10px auto;
+            border: 1px solid #d3d3d3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1> US Counties</h1>
+    <h2> </h2>
+    <div id="map"></div>
+    <input type="range" class="slider">
+    <div id="emission-value"></div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+
+
+    <script>
+        var width = 900
+            , height = 600;
+
+        var svg = d3.select("#map") // select the document's body
+            .append("svg") // create and append a new svg element to it
+            .attr("width", width) // give the svg width
+            .attr("height", height); // give the svg height
+
+        var projection = d3.geo.albersUsa()
+            .scale(1000)
+            .translate([width / 2, height / 2]);
+
+        var geoPath = d3.geo.path()
+            .projection(projection);
+
+        queue()
+            .defer(d3.json, "https://rgdonohue.cartodb.com/api/v2/sql?format=GeoJSON&q=SELECT * FROM uninsured_adults_county")
+            .defer(d3.json, 'na_land_clipped.json')
+            .await(makeMap); //this is a custom function named whatever we want
+
+        // previously function makeMap(error, counties, na, emitters) 
+        function makeMap(error, counties, na) {
+
+            console.log(counties);
+
+            svg.append("g")
+                .selectAll("path")
+                .data(na.features)
+                .enter()
+                .append("path")
+                .attr("d", geoPath)
+                .attr("class", "land");
+
+            // console.log(counties);
+            svg.append("g") // 'g' is svg group element
+                .selectAll("path")
+                //  .data(counties.features) - there are no 'features' in the topojson - topojson file has removed topological border redundancies 
+                //  .data(topojson.feature(counties, counties.objects.counties).features) // 'feature here is a toposjon 'method'
+                .data(counties.features)
+               
+                .enter()
+                .append("path")
+                .attr("d", geoPath) // 'd' is the screen coordinates for the shapes
+                .attr("class", "county")
+            .attr("fill", function(d){
+                return 'green';
+                
+            });
+        /*        .on("mouseover", function (d) {
+                    d3.select("h2").text(d.properties.NAME + ' county');
+                    //  d3.select(this).style('fill', 'yellow')
+                    d3.select(this).attr('class', 'county hover');
+                })
+                .on("mouseout", function (d) {
+                    d3.select("h2").text('');
+                    d3.select(this).attr('class', 'county');
+                });*/
+
+
+
+        }
+    </script>
+</body>
+
+</html>
