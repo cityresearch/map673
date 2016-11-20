@@ -15,7 +15,7 @@ Map objectives and user needs
 
 Data source
 ---------
-1. *your anticipated data source* **The data is provided by LVA. They still may have some additions and improvement, but I've worked with them to get enough data in which I can achieve the functionality described above. It definitely will need some restructuring. **
+1. *your anticipated data source* **The data is provided by LVA. They still may have some additions and improvement, but I've worked with them to get enough data in which I can achieve the functionality described above. It definitely will need some restructuring.**
 2. a small sample of the data (e.g., CSV, GeoJSON, Shapefile, or within a database)
 https://docs.google.com/spreadsheets/d/1LAmRyfVI55_VTuNE17l7TlFXfiL1qXZiFoez-WMOWNo/edit?usp=sharing
 
