@@ -4,7 +4,7 @@ It's time to start thinking deeply about your final map project for MAP673. Usin
 3.	your data source and (at least a sample of) the data required to meet the map's objectives
 Write thorough descriptions/answers to the following within some text-based format of your choice, and submit through your GitHub account.
 Topic and/or geographic phenomena your map will explore
-What are you mapping? *** I’m mapping ***
+What are you mapping? ***I’m mapping***
 
 Briefly describe the topic and the geography the map intends to represent. Also, provide a tentative title (and possibly a subtitle) for you map. Remember that good titles, while being provocative and potentially fun, also tell a user three things: 1. what is being mapped, 2. where it's being mapped, and 3. when the phenomena occurred.
 Map objectives and user needs
