@@ -55,7 +55,7 @@
         type: 'cartodb',
         sublayers: [
     {
-        sql: "SELECT * FROM uninsured_adults_county",
+        sql: "SELECT ST_Transform(the_geom, 2163) AS the_geom_webmercator, cartodb_id, uninsured FROM uninsured_adults_county",
         cartocss: $('#counties-styles').text()
     //    cartocss: cartoCSS
     }
