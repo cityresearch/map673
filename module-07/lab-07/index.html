@@ -11,30 +11,68 @@
     <style>
         html,
         body,
-        #map {
+        
+            #map {
             height: 100%;
             padding: 0;
             margin: 0;
         }
+     
+        
+   
+          h1 {
+              margin: 0;
+            padding: 8px 8px 8px 0px;
+            color: #f0f8f6;
+            font-weight: 500;
+            font-size: 1.8em;
+            text-align: left;
+        }
+    
+        
+            #title {
+            position: absolute;
+            top: 20px;
+            left: 5%;
+            width: 500px;
+            padding: 8px 15px 4px;
+            background: #484848;
+            border-radius: 3px;
+            color: whitesmoke;
+        }
+        
+       
     </style>
 </head>
 
 <body>
 
+  
+    
     <div id="map"></div>
 
+    <div id="title">
+        <h1>Estimated Number Foreign Born Population (Not U.S. Citizens) in Louisville</h1><p>by Census Tract</p><p>Data Source: 2010-2014 American Community Survey 5-Year Estimates</p>
+    </div>
+
+
+    
     <script src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/cartodb.js"></script>
     <script>
         var map = L.map('map', {
-            center: [38.2,-85.7],
-                zoom: 11
+            center: [38.2, -85.7]
+            , zoom: 11
         });
 
-
+        L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png', {
+            attribution: 'Stamen'
+        }).addTo(map);
+        
+        
         var cartoCSS = "#layer {" +
-            "polygon-fill: steelblue;" +
+            "polygon-fill: ramp([hd01_vd15], (#ffffb2, #fed976, #feb24c, #fd8d3c, #fc4e2a, #e31a1c, #b10026), jenks);" +
             "line-width: 1;" +
-            "line-color: #FFF;" +
+            "line-color: #d4cccc;" +
             "line-opacity: 0.5;" +
             "}";
 
