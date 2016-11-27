@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>673 Module 07 Carto Starter Template</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" href="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+
+    <style>
+        html,
+        body,
+        #map {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="map"></div>
+
+    <script src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/cartodb.js"></script>
+    <script>
+        var map = L.map('map', {
+            center: [38.2,-85.7],
+                zoom: 11
+        });
+
+
+        var cartoCSS = "#layer {" +
+            "polygon-fill: steelblue;" +
+            "line-width: 1;" +
+            "line-color: #FFF;" +
+            "line-opacity: 0.5;" +
+            "}";
+
+
+        var sourceObject = {
+            user_name: 'maptimelou'
+            , type: 'cartodb'
+            , sublayers: [
+                {
+                    sql: "SELECT * FROM fb_acs_2014"
+                    , cartocss: cartoCSS
+        }
+    ]
+        }
+
+        cartodb.createLayer(map, sourceObject).addTo(map);
+    </script>
+</body>
+
+</html>
