@@ -100,15 +100,12 @@
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
             border-radius: 5px;
             text-align: right;
+            width: 220px;
         }
         
         .info h3 {
             margin: 0;
         }
-        
-        
-       
-        
         
     </style>
 </head>
@@ -138,7 +135,6 @@
 
     <footer>
         <p>Map authored by Pat Smith</p>
-        <p>Additional information about the data and map goes here.</p>
     </footer>
     <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
@@ -155,9 +151,10 @@
 
         var options = {
                 center: [37.8, -85.8]
-                , zoom: 7.4
-                , minZoom: 7.4
-                , maxZoom: 7.4
+//                , zoom: 7.4
+//                , minZoom: 7.4
+//                , maxZoom: 7.4
+                , zoomSnap: .2
                 , dragging: false
                 , zoomControl: false
             }
@@ -201,6 +198,8 @@
                 }
                 
             }).addTo(map); // add the Leaflet GeoJson layer to the map
+            
+            map.fitBounds(dataLayer.getBounds());
 
             drawLegend(); // call function to draw the legend yo!
             drawMap(); // call function to draw the map
@@ -406,9 +405,6 @@
 
             $(".info").html(html);
         }
-
-        
-        
         
         function buildUI() {
 
